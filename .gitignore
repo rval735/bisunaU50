@@ -1,0 +1,17 @@
+.analytics
+.metadata
+IDE.log
+RemoteSystemsTempFiles
+BiSUNA-U50/Emulation-SW
+BiSUNA-U50/Emulation-HW
+BiSUNA-U50/Hardware
+BiSUNA-U50/.settings
+BiSUNA-U50_system/
+*.o
+*.log
+*.xlcbin
+*.html
+*.pb
+*.package_summary
+ip_cache
+guidance.pb
