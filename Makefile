@@ -78,7 +78,7 @@ BUILDVIVADO = BiGlobal.build/processStateG/
 
 ALL_MESSAGE_FILES = $(subst .xo,.mdb,$(ALL_KERNEL_OBJS))
 
-KERNEL = ${SRCPATH}/src/OCL/Kernels/ProcessStateGlobal.cl
+KERNEL = ${SRCPATH}/OCL/Kernels/ProcessStateGlobal.cl
 COMPFLD = resources/ConfFPGA
 COMPCFG = ${COMPFLD}/Compile-config.cfg
 DCONT = -DCONTINUOUS_PARAM
