@@ -89,7 +89,7 @@ leave a tip in any of the following addresses:
 - Tezos: tz1fdL7bFirVBvijUXbnrTo666hQVYkigUC3
 
 If you would like to reference this work, you can use the following bibtex entries, which are also in the [papers](papers/) folder:
-
+```
 @inproceedings{8953134,
 	Abstract = {With the explosive interest in the utilization of Neural Networks, several approaches have taken place to make them faster, more accurate or power efficient; one technique used to simplify inference models is the utilization of binary representations for weights, activations, inputs and outputs. This paper presents a novel approach to train from scratch Binary Neural Networks using neuroevolution as its base technique (gradient descent free), to then apply such results to standard Reinforcement Learning environments tested in the OpenAI Gym. The results and code can be found in https://github.com/rval735/BiSUNA.},
 	Author = {R. {Valencia} and C. {Sham} and O. {Sinnen}},
