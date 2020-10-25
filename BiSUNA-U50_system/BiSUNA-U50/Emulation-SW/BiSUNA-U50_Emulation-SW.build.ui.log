@@ -1,0 +1,709 @@
+2020-10-13T14:31:25.15072200255-14:31:25 **** Incremental Build of configuration Emulation-SW for project BiSUNA-U50 ****
+000-make -j8 incremental 
+000-/opt/xilinx/Vitis/2020.1/bin/v++ --target sw_emu --compile -I"../src/OCL/Kernels" --config common-config.cfg --config BiGlobal-processStateG-compile.cfg -I"/home/klugo/workspace/BiSUNA-U50/src/OCL/Kernels" -o"BiGlobal.build/processStateG.xo" "../src/OCL/Kernels/ProcessStateGlobal.cl"
+000-Option Map File Used: '/opt/xilinx/Vitis/2020.1/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+000-	Reports: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/reports/processStateG
+000-	Log files: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/logs/processStateG
+000-INFO: [v++ 60-1657] Initializing dispatch client.
+000-Running Dispatch Server on port:33259
+000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/processStateG.xo.compile_summary, at Tue Oct 13 14:31:48 2020
+000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 14:31:48 2020
+000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-INFO: [v++ 60-585] Compiling for software emulation target
+000-INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+000-INFO: [v++ 60-242] Creating kernel: 'processStateG'
+000-INFO: [v++ 60-594] Finished kernel compilation
+000-INFO: [v++ 60-586] Created BiGlobal.build/processStateG.xo
+000-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+000-    vitis_analyzer /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/processStateG.xo.compile_summary 
+000-INFO: [v++ 60-791] Total elapsed time: 0h 1m 29s
+000-INFO: [v++ 60-1653] Closing dispatch client.
+000-/opt/xilinx/Vitis/2020.1/bin/v++ --target sw_emu --link --config common-config.cfg --config BiGlobal-link.cfg -o"BiGlobal.xclbin" BiGlobal.build/processStateG.xo
+000-Option Map File Used: '/opt/xilinx/Vitis/2020.1/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+000-	Reports: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/reports/link
+000-	Log files: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/logs/link
+000-INFO: [v++ 60-1657] Initializing dispatch client.
+000-Running Dispatch Server on port:33609
+000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.xclbin.link_summary, at Tue Oct 13 14:33:33 2020
+000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 14:33:33 2020
+000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-INFO: [v++ 60-629] Linking for software emulation target
+000-INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+000-INFO: [v++ 60-586] Created BiGlobal.xclbin
+000-INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+000-	Steps Log File: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.build/logs/link/link.steps.log
+000-
+000-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+000-    vitis_analyzer /home/klugo/workspace/BiSUNA-U50/Emulation-SW/BiGlobal.xclbin.link_summary 
+000-INFO: [v++ 60-791] Total elapsed time: 0h 1m 29s
+000-INFO: [v++ 60-1653] Closing dispatch client.
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/Configuration/PConfig.o" "../src/Configuration/PConfig.cpp"
+000-In file included from ../src/Configuration/PConfig.hpp:29,
+000-                 from ../src/Configuration/PConfig.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000/BiSUNA-U50/src/Configuration/PConfig.cpp33-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/Configuration/PConfig.cpp:33:19: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   33 | pair<bool, ushortT> findElem(const char *toFind, const ushortT elemsSize, const char *elems[]);
+000-      |                   ^
+000/BiSUNA-U50/src/Configuration/PConfig.cpp503-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/Configuration/PConfig.cpp:503:19: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  503 | pair<bool, ushortT> findElem(const char *toFind, const ushortT elemsSize, const char *elems[])
+000-      |                   ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/Environments/MountainCar.o" "../src/Environments/MountainCar.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/Environments/ReinforcementEnvironment.hpp:29,
+000-                 from ../src/Environments/MountainCar.hpp:29,
+000-                 from ../src/Environments/MountainCar.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/Environments/ReinforcementEnvironment.o" "../src/Environments/ReinforcementEnvironment.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/Environments/ReinforcementEnvironment.hpp:29,
+000-                 from ../src/Environments/ReinforcementEnvironment.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/NN/NNetwork.o" "../src/NN/NNetwork.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNetwork.hpp:29,
+000-                 from ../src/NN/NNetwork.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetwork.cpp:31:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:31,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetwork.cpp:31:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetwork.cpp:31:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:85: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                                                                     ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetwork.cpp:31:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp85-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:85:135: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   85 |     static void noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID = NULL);
+000-      |                                                                                                                                       ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp86-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:86:82: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   86 |     static void spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst = NULL);
+000-      |                                                                                  ^
+000-../src/NN/NNetwork.cpp: In lambda function:
+000/BiSUNA-U50/src/NN/NNetwork.cpp113-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetwork.cpp:113:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  113 |                     vector<ParameterType> obs(env->observation, env->observation + numberObsVars);
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetwork.cpp114-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetwork.cpp:114:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  114 |                     vector<ParameterType> action = UNMFunctions::step(reward, obs, cell);
+000-      |                                         ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/NN/NNetworkExtra.o" "../src/NN/NNetworkExtra.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkStruct.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkModule.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.cpp:26:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:31,
+000-                 from ../src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.cpp:26:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000-In file included from ../src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:85: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                                                                     ^
+000-In file included from ../src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkExtra.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp85-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:85:135: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   85 |     static void noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID = NULL);
+000-      |                                                                                                                                       ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp86-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:86:82: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   86 |     static void spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst = NULL);
+000-      |                                                                                  ^
+000-../src/NN/NNetworkExtra.cpp: In static member function ‘static void NNExFunction::readNetworkState(std::ifstream&, NNetworkState*)’:
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp138-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:138:60: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  138 |     ushortT ioElemSize = sizeof(pair<ushortT, ParameterType>);
+000-      |                                                            ^
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp138-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:138:60: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp154-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:154:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  154 |     unordered_map<ushortT, ParameterType> ioMap;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp154-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:154:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp157-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:157:36: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  157 |         pair<ushortT, ParameterType> elem;
+000-      |                                    ^
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp157-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:157:36: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-../src/NN/NNetworkExtra.cpp: In static member function ‘static void NNExFunction::removeOrphans(UNMCell*)’:
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp312-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:312:16: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  312 |     set<ushortT> nIDs;
+000-      |                ^
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp329-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:329:19: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  329 |     vector<ushortT> removedNeurons;
+000-      |                   ^
+000-../src/NN/NNetworkExtra.cpp: In static member function ‘static void NNExFunction::printGraph(const char*, NNetworkModule*)’:
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp442-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:442:50: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  442 |     auto addRank = [](string name, vector<ushortT> ids) {
+000-      |                                                  ^
+000-../src/NN/NNetworkExtra.cpp: In lambda function:
+000/BiSUNA-U50/src/NN/NNetworkExtra.cpp454-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkExtra.cpp:454:23: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  454 |         vector<ushortT> res;
+000-      |                       ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/NN/NNetworkModule.o" "../src/NN/NNetworkModule.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNetworkStruct.hpp:29,
+000-                 from ../src/NN/NNetworkModule.hpp:29,
+000-                 from ../src/NN/NNetworkModule.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/NN/NNetworkOCL.o" "../src/NN/NNetworkOCL.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNetworkOCL.hpp:29,
+000-                 from ../src/NN/NNetworkOCL.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkOCL.hpp:31,
+000-                 from ../src/NN/NNetworkOCL.cpp:26:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:31,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkOCL.hpp:31,
+000-                 from ../src/NN/NNetworkOCL.cpp:26:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkOCL.hpp:31,
+000-                 from ../src/NN/NNetworkOCL.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:85: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                                                                     ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkExtra.hpp:30,
+000-                 from ../src/NN/NNetworkOCL.hpp:31,
+000-                 from ../src/NN/NNetworkOCL.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp85-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:85:135: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   85 |     static void noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID = NULL);
+000-      |                                                                                                                                       ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp86-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:86:82: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   86 |     static void spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst = NULL);
+000-      |                                                                                  ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/NN/NNetworkState.o" "../src/NN/NNetworkState.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNetworkStruct.hpp:29,
+000-                 from ../src/NN/NNetworkModule.hpp:29,
+000-                 from ../src/NN/NNetworkState.hpp:29,
+000-                 from ../src/NN/NNetworkState.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from ../src/NN/NNetworkState.cpp:26:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000/BiSUNA-U50/src/NN/NNetworkState.cpp90-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:90:65: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   90 | void NNSFunction::processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt)
+000-      |                                                                 ^
+000/BiSUNA-U50/src/NN/NNetworkState.cpp108-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:108:21: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  108 | vector<ParameterType> NNSFunction::processOutputNeurons(NNetworkState *netSt)
+000-      |                     ^
+000-../src/NN/NNetworkState.cpp: In static member function ‘static std::vector<short unsigned int> NNSFunction::processOutputNeurons(NNetworkState*)’:
+000/BiSUNA-U50/src/NN/NNetworkState.cpp113-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:113:25: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  113 |     vector<ParameterType> output;
+000-      |                         ^
+000-../src/NN/NNetworkState.cpp: In static member function ‘static void NNSFunction::processCPrimerNeurons(NNetworkState*)’:
+000/BiSUNA-U50/src/NN/NNetworkState.cpp136-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:136:19: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  136 |     vector<ushortT> primersRef;
+000-      |                   ^
+000-../src/NN/NNetworkState.cpp: In static member function ‘static void NNSFunction::processControlNeurons(NNetworkState*)’:
+000/BiSUNA-U50/src/NN/NNetworkState.cpp163-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:163:22: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  163 |         stack<ushortT> activeNeurons;
+000-      |                      ^
+000/BiSUNA-U50/src/NN/NNetworkState.cpp164-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:164:22: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  164 |         stack<ushortT> activeNeuronsCopy;
+000-      |                      ^
+000-../src/NN/NNetworkState.cpp: In static member function ‘static void NNSFunction::processRemainingNeurons(NNetworkState*)’:
+000/BiSUNA-U50/src/NN/NNetworkState.cpp250-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:250:17: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  250 |     list<ushortT> remainingNeuronsList;
+000-      |                 ^
+000/BiSUNA-U50/src/NN/NNetworkState.cpp271-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:271:22: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  271 |         stack<ushortT> activeNeurons;
+000-      |                      ^
+000-../src/NN/NNetworkState.cpp: At global scope:
+000/BiSUNA-U50/src/NN/NNetworkState.cpp319-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:319:21: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  319 | vector<ParameterType> NNSFunction::process(const vector<ParameterType> &input, NNetworkState *netSt)
+000-      |                     ^
+000/BiSUNA-U50/src/NN/NNetworkState.cpp319-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:319:70: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  319 | vector<ParameterType> NNSFunction::process(const vector<ParameterType> &input, NNetworkState *netSt)
+000-      |                                                                      ^
+000-../src/NN/NNetworkState.cpp: In static member function ‘static std::vector<short unsigned int> NNSFunction::process(const std::vector<short unsigned int>&, NNetworkState*)’:
+000/BiSUNA-U50/src/NN/NNetworkState.cpp334-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/NN/NNetworkState.cpp:334:25: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  334 |     vector<ParameterType> output = processOutputNeurons(netSt);
+000-      |                         ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/NN/NNoveltyMap.o" "../src/NN/NNoveltyMap.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNoveltyMap.hpp:29,
+000-                 from ../src/NN/NNoveltyMap.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from ../src/NN/NNoveltyMap.cpp:26:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-../src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000/BiSUNA-U50/src/NN/NNoveltyMap.cpp29-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-../src/NN/NNoveltyMap.cpp:29:45: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   29 | NNoveltyMap::NNoveltyMap(const vector<ulongT> &input)
+000-      |                                             ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/OCL/OCLBridge.o" "../src/OCL/OCLBridge.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkStruct.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkModule.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLBridge.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLBridge.cpp:26:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:31,
+000-                 from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLBridge.cpp:26:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000-In file included from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLBridge.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:85: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                                                                     ^
+000-In file included from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLBridge.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp85-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:85:135: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   85 |     static void noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID = NULL);
+000-      |                                                                                                                                       ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp86-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:86:82: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   86 |     static void spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst = NULL);
+000-      |                                                                                  ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/OCL/OCLContainer.o" "../src/OCL/OCLContainer.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkStruct.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkModule.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:31,
+000-                 from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000-In file included from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:80:85: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                                                                     ^
+000-In file included from ../src/OCL/OCLBridge.hpp:31,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp85-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:85:135: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   85 |     static void noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID = NULL);
+000-      |                                                                                                                                       ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp86-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp:86:82: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   86 |     static void spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst = NULL);
+000-      |                                                                                  ^
+000-../src/OCL/OCLContainer.cpp: In member function ‘void OCLContainer::loadParametersKrnState(uint, int, int)’:
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp254-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:254:33: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  254 |     cl::LocalSpaceArg arg = cl::__local(maxNeurons * sizeof(CLNeuron) * localWorkers);
+000-      |                                 ^~~~~~~
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp254-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:254:85: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  254 |     cl::LocalSpaceArg arg = cl::__local(maxNeurons * sizeof(CLNeuron) * localWorkers);
+000-      |                                                                                     ^
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp257-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:257:15: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  257 |     arg = cl::__local(maxConns * sizeof(CLConnection) * localWorkers);
+000-      |               ^~~~~~~
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp257-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:257:69: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  257 |     arg = cl::__local(maxConns * sizeof(CLConnection) * localWorkers);
+000-      |                                                                     ^
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp260-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:260:15: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  260 |     arg = cl::__local(INPUT_SIZE * sizeof(ParameterType) * localWorkers);
+000-      |               ^~~~~~~
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp260-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:260:72: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  260 |     arg = cl::__local(INPUT_SIZE * sizeof(ParameterType) * localWorkers);
+000-      |                                                                        ^
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp263-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:263:15: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  263 |     arg = cl::__local(OUTPUT_SIZE * sizeof(ParameterType) * localWorkers);
+000-      |               ^~~~~~~
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000/BiSUNA-U50/src/OCL/OCLContainer.cpp263-1-1‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]1-../src/OCL/OCLContainer.cpp:263:73: warning: ‘cl::LocalSpaceArg cl::__local(size_t)’ is deprecated [-Wdeprecated-declarations]
+000-  263 |     arg = cl::__local(OUTPUT_SIZE * sizeof(ParameterType) * localWorkers);
+000-      |                                                                         ^
+000-In file included from ../src/OCL/OpenCLUtils.hpp:46,
+000-                 from ../src/OCL/OCLBridge.hpp:33,
+000-                 from ../src/OCL/OCLContainer.hpp:29,
+000-                 from ../src/OCL/OCLContainer.cpp:26:
+000/BiSUNA-U50/Emulation-SW4823-1-1declared here0-/usr/include/CL/cl.hpp:4823:1: note: declared here
+000- 4823 | __local(::size_t size)
+000-      | ^~~~~~~
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/OCL/OpenCLUtils.o" "../src/OCL/OpenCLUtils.cpp"
+000-In file included from ../src/OCL/OpenCLUtils.hpp:33,
+000-                 from ../src/OCL/OpenCLUtils.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-../src/OCL/OpenCLUtils.cpp: In static member function ‘static void OpenCLUtils::displayKernelInfo(cl::Kernel, cl::Device)’:
+000/BiSUNA-U50/src/OCL/OpenCLUtils.cpp157-1-1format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘cl_ulong’ {aka ‘long unsigned int’} [-Wformat=]1-../src/OCL/OpenCLUtils.cpp:157:49: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘cl_ulong’ {aka ‘long unsigned int’} [-Wformat=]
+000-  157 |     printf("  CL_KERNEL_LOCAL_MEM_SIZE:\t\t\t%lld\n", localUsage);
+000-      |                                              ~~~^     ~~~~~~~~~~
+000-      |                                                 |     |
+000-      |                                                 |     cl_ulong {aka long unsigned int}
+000-      |                                                 long long int
+000-      |                                              %ld
+000/BiSUNA-U50/src/OCL/OpenCLUtils.cpp160-1-1format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘cl_ulong’ {aka ‘long unsigned int’} [-Wformat=]1-../src/OCL/OpenCLUtils.cpp:160:49: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘cl_ulong’ {aka ‘long unsigned int’} [-Wformat=]
+000-  160 |     printf("  CL_KERNEL_PRIVATE_MEM_SIZE:\t\t%lld\n", privUsage);
+000-      |                                              ~~~^     ~~~~~~~~~
+000-      |                                                 |     |
+000-      |                                                 |     cl_ulong {aka long unsigned int}
+000-      |                                                 long long int
+000-      |                                              %ld
+000-../src/OCL/OpenCLUtils.cpp: In static member function ‘static cl::Program OpenCLUtils::readBinProgram(const string&, std::vector<std::__cxx11::basic_string<char> >, cl::Context, cl::Device)’:
+000/BiSUNA-U50/src/OCL/OpenCLUtils.cpp176-1-1ignoring attributes on template argument ‘cl_int’ {aka ‘int’} [-Wignored-attributes]1-../src/OCL/OpenCLUtils.cpp:176:18: warning: ignoring attributes on template argument ‘cl_int’ {aka ‘int’} [-Wignored-attributes]
+000-  176 |     vector<cl_int> binSt;
+000-      |                  ^
+000-../src/OCL/OpenCLUtils.cpp: In static member function ‘static cl_ulong OpenCLUtils::printProfiling(const char*, cl::Event)’:
+000/BiSUNA-U50/src/OCL/OpenCLUtils.cpp471-1-1format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 3 has type ‘cl_ulong’ {aka ‘long unsigned int’} [-Wformat=]1-../src/OCL/OpenCLUtils.cpp:471:34: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 3 has type ‘cl_ulong’ {aka ‘long unsigned int’} [-Wformat=]
+000-  471 |         printf("Profiling %s: %llu ns \n", name, diffTime);
+000-      |                               ~~~^               ~~~~~~~~
+000-      |                                  |               |
+000-      |                                  |               cl_ulong {aka long unsigned int}
+000-      |                                  long long unsigned int
+000-      |                               %lu
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/RLAgent/UnifiedNeuralModel.o" "../src/RLAgent/UnifiedNeuralModel.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkStruct.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkModule.hpp:29,
+000-                 from /home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:29,
+000-                 from ../src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/RLAgent/UnifiedNeuralModel.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-In file included from ../src/RLAgent/UnifiedNeuralModel.hpp:30,
+000-                 from ../src/RLAgent/UnifiedNeuralModel.cpp:26:
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   40 |     unordered_map<ushortT, ParameterType> ioVal;
+000-      |                                         ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp40-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:40:41: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000/BiSUNA-U50/src/NN/NNetworkState.hpp47-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:47:63: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   47 |     static void processInputNeurons(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                               ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp48-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:48:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   48 |     static vector<ParameterType> processOutputNeurons(NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                ^
+000/BiSUNA-U50/src/NN/NNetworkState.hpp53-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNetworkState.hpp:53:68: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   53 |     static vector<ParameterType> process(const vector<ParameterType> &input, NNetworkState *netSt);
+000-      |                                                                    ^
+000-In file included from ../src/RLAgent/UnifiedNeuralModel.hpp:31,
+000-                 from ../src/RLAgent/UnifiedNeuralModel.cpp:26:
+000/BiSUNA-U50/src/NN/NNoveltyMap.hpp56-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/NN/NNoveltyMap.hpp:56:36: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   56 |     NNoveltyMap(const vector<ulongT> &input = {});
+000-      |                                    ^
+000-In file included from ../src/RLAgent/UnifiedNeuralModel.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.hpp:80:32: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp80-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.hpp:80:85: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   80 |     static vector<ParameterType> step(const float reward, const vector<ParameterType> observation, UNMCell *cell);
+000-      |                                                                                     ^
+000-In file included from ../src/RLAgent/UnifiedNeuralModel.cpp:26:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp85-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.hpp:85:135: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   85 |     static void noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID = NULL);
+000-      |                                                                                                                                       ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.hpp86-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.hpp:86:82: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   86 |     static void spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst = NULL);
+000-      |                                                                                  ^
+000-../src/RLAgent/UnifiedNeuralModel.cpp: In constructor ‘UnifiedNeuralModel::UnifiedNeuralModel(ushortT, UNMConfig)’:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp74-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:74:25: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   74 |     unordered_set<ulongT> spectrum;
+000-      |                         ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp91-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:91:18: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-   91 |     vector<ulongT> specs;
+000-      |                  ^
+000-../src/RLAgent/UnifiedNeuralModel.cpp: At global scope:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp261-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:261:138: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  261 | void UNMFunctions::noveltyPopulationModification(const ushortT stepMut, const NNoveltyMap &nmap, vector<UNMCell *> &cells, vector<ushortT> *prevID)
+000-      |                                                                                                                                          ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp313-1-1ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:313:85: warning: ignoring attributes on template argument ‘ushortT’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  313 | void UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel *model, vector<ushortT> *lst)
+000-      |                                                                                     ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp335-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:335:21: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  335 | vector<ParameterType> UNMFunctions::step(const float reward, const vector<ParameterType> observation, UNMCell *cell)
+000-      |                     ^
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp335-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:335:88: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  335 | vector<ParameterType> UNMFunctions::step(const float reward, const vector<ParameterType> observation, UNMCell *cell)
+000-      |                                                                                        ^
+000-../src/RLAgent/UnifiedNeuralModel.cpp: In static member function ‘static std::vector<short unsigned int> UNMFunctions::step(float, std::vector<short unsigned int>, UNMCell*)’:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp337-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:337:25: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-  337 |     vector<ParameterType> output = NNSFunction::process(observation, cell->netSt);
+000-      |                         ^
+000-../src/RLAgent/UnifiedNeuralModel.cpp: In static member function ‘static void UNMFunctions::loadAgent(const char*, UnifiedNeuralModel*)’:
+000/BiSUNA-U50/src/RLAgent/UnifiedNeuralModel.cpp373-1-1ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]1-../src/RLAgent/UnifiedNeuralModel.cpp:373:18: warning: ignoring attributes on template argument ‘ulongT’ {aka ‘long unsigned int’} [-Wignored-attributes]
+000-  373 |     vector<ulongT> specs(model->config.unmMapSize, w);
+000-      |                  ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/RandomUtils.o" "../src/RandomUtils.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNetworkStruct.hpp:29,
+000-                 from ../src/RandomUtils.hpp:29,
+000-                 from ../src/RandomUtils.cpp:26:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-../src/RandomUtils.cpp: In function ‘T randomRange(std::mt19937*, T, T, bool)’:
+000/BiSUNA-U50/src/RandomUtils.cpp87-1-1‘if constexpr’ only available with ‘-std=c++17’ or ‘-std=gnu++17’1-../src/RandomUtils.cpp:87:8: warning: ‘if constexpr’ only available with ‘-std=c++17’ or ‘-std=gnu++17’
+000-   87 |     if constexpr (std::is_integral<T>::value) {
+000-      |        ^~~~~~~~~
+000/BiSUNA-U50/src/RandomUtils.cpp91-1-1‘if constexpr’ only available with ‘-std=c++17’ or ‘-std=gnu++17’1-../src/RandomUtils.cpp:91:13: warning: ‘if constexpr’ only available with ‘-std=c++17’ or ‘-std=gnu++17’
+000-   91 |     else if constexpr (std::is_floating_point<T>::value) {
+000-      |             ^~~~~~~~~
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/host.o" "../src/host.cpp"
+000-In file included from /home/klugo/workspace/BiSUNA-U50/src/Configuration/PConfig.hpp:29,
+000-                 from ../src/NN/NNetwork.hpp:29,
+000-                 from ../src/host.cpp:30:
+000/BiSUNA-U50/src/Parameters.hpp93-1-1ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]1-/home/klugo/workspace/BiSUNA-U50/src/Parameters.hpp:93:45: warning: ignoring attributes on template argument ‘ParameterType’ {aka ‘short unsigned int’} [-Wignored-attributes]
+000-   93 | using ParameterVector = vector<ParameterType>;
+000-      |                                             ^
+000-g++ -std=c++1y -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/opt/xilinx/Vivado/2020.1/include/ -I"/home/klugo/workspace/BiSUNA-U50/src" -O0 -g -Wall -c -fmessage-length=0 -o "src/xcl2/xcl2.o" "../src/xcl2/xcl2.cpp"
+000-g++ -o "BiSUNA-U50" src/Configuration/PConfig.o src/Environments/MountainCar.o src/Environments/ReinforcementEnvironment.o src/NN/NNetwork.o src/NN/NNetworkExtra.o src/NN/NNetworkModule.o src/NN/NNetworkOCL.o src/NN/NNetworkState.o src/NN/NNoveltyMap.o src/OCL/OCLBridge.o src/OCL/OCLContainer.o src/OCL/OpenCLUtils.o src/RLAgent/UnifiedNeuralModel.o src/RandomUtils.o src/host.o src/xcl2/xcl2.o -lxilinxopencl -lpthread -lrt -lstdc++ -lmpfr -lgmp -lhlsmc++-GCC46 -lIp_floating_point_v7_0_bitacc_cmodel -lIp_xfft_v9_1_bitacc_cmodel -lIp_fir_compiler_v7_2_bitacc_cmodel -lIp_dds_compiler_v6_0_bitacc_cmodel -L/opt/xilinx/xrt/lib/ -L/opt/xilinx/Vivado/2020.1/lnx64/tools/fpo_v7_0 -L/opt/xilinx/Vivado/2020.1/lnx64/lib/csim -L/opt/xilinx/Vivado/2020.1/lnx64/tools/dds_v6_0 -L/opt/xilinx/Vivado/2020.1/lnx64/tools/fir_v7_0 -L/opt/xilinx/Vivado/2020.1/lnx64/tools/fft_v9_1 -Wl,-rpath-link,/opt/xilinx/xrt/lib -Wl,-rpath,/opt/xilinx/Vivado/2020.1/lnx64/lib/csim -Wl,-rpath,/opt/xilinx/Vivado/2020.1/lnx64/tools/fpo_v7_0 -Wl,-rpath,/opt/xilinx/Vivado/2020.1/lnx64/tools/fft_v9_1 -Wl,-rpath,/opt/xilinx/Vivado/2020.1/lnx64/tools/fir_v7_0 -Wl,-rpath,/opt/xilinx/Vivado/2020.1/lnx64/tools/dds_v6_0
+000-/opt/xilinx/Vitis/2020.1/bin/v++ --package --config package.cfg BiGlobal.xclbin
+000-Option Map File Used: '/opt/xilinx/Vitis/2020.1/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+000-	Reports: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/package.build/reports/package
+000-	Log files: /home/klugo/workspace/BiSUNA-U50/Emulation-SW/package.build/logs/package
+000-INFO: [v++ 60-1657] Initializing dispatch client.
+000-Running Dispatch Server on port:39733
+000-INFO: [v++ 60-1548] Creating build summary session with primary output ./v++.package_summary, at Tue Oct 13 14:37:32 2020
+000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 14:37:32 2020
+000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-INFO: [v++ 60-2256] Packaging for software emulation
+000-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+000-    vitis_analyzer ./v++.package_summary 
+000-INFO: [v++ 60-791] Total elapsed time: 0h 0m 12s
+000-INFO: [v++ 60-1653] Closing dispatch client.
+000-/opt/xilinx/Vitis/2020.1/bin/emconfigutil --od . --nd 1  --platform xilinx_u50_gen3x16_xdma_201920_3
+000-
+000-****** configutil v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [ConfigUtil 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [ConfigUtil 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-emulation configuration file `emconfig.json` is created in . directory 
+00255-
+14:37:41 Build Finished (took 6m:16s.209ms)
+

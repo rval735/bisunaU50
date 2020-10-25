@@ -1,0 +1,809 @@
+11:22:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+11:22:24 INFO  : Registering command handlers for Vitis TCF services
+11:22:28 INFO  : XSCT server has started successfully.
+11:22:28 INFO  : plnx-install-location is set to ''
+11:22:28 INFO  : Successfully done setting XSCT server connection channel  
+11:22:28 INFO  : Platform repository initialization has completed.
+11:22:29 INFO  : Successfully done setting workspace for the tool. 
+11:22:29 INFO  : Successfully done query RDI_DATADIR 
+11:44:24 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+11:44:24 INFO  : Registering command handlers for Vitis TCF services
+11:44:46 INFO  : XSCT server has started successfully.
+11:44:47 INFO  : plnx-install-location is set to ''
+11:44:47 INFO  : Successfully done setting XSCT server connection channel  
+11:44:47 INFO  : Successfully done query RDI_DATADIR 
+11:44:47 INFO  : Successfully done setting workspace for the tool. 
+11:44:52 INFO  : Platform repository initialization has completed.
+12:18:15 ERROR : (XSDB Server)Terminated
+
+12:22:42 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+12:22:45 INFO  : Platform repository initialization has completed.
+12:22:45 INFO  : Registering command handlers for Vitis TCF services
+12:22:47 INFO  : XSCT server has started successfully.
+12:22:47 INFO  : Successfully done setting XSCT server connection channel  
+12:22:47 INFO  : plnx-install-location is set to ''
+12:22:47 INFO  : Successfully done setting workspace for the tool. 
+12:22:47 INFO  : Successfully done query RDI_DATADIR 
+12:29:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../vector_addition.xclbin
+15:13:29 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+15:13:37 INFO  : Platform repository initialization has completed.
+15:13:37 INFO  : Registering command handlers for Vitis TCF services
+15:13:47 INFO  : XSCT server has started successfully.
+15:13:47 INFO  : Successfully done setting XSCT server connection channel  
+15:13:47 INFO  : plnx-install-location is set to ''
+15:13:48 INFO  : Successfully done setting workspace for the tool. 
+15:13:48 INFO  : Successfully done query RDI_DATADIR 
+16:12:07 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+16:12:12 INFO  : Platform repository initialization has completed.
+16:12:12 INFO  : Registering command handlers for Vitis TCF services
+16:12:12 INFO  : XSCT server has started successfully.
+16:12:13 INFO  : plnx-install-location is set to ''
+16:12:13 INFO  : Successfully done setting XSCT server connection channel  
+16:12:13 INFO  : Successfully done query RDI_DATADIR 
+16:12:13 INFO  : Successfully done setting workspace for the tool. 
+17:30:59 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+17:31:03 INFO  : Platform repository initialization has completed.
+17:31:03 INFO  : Registering command handlers for Vitis TCF services
+17:31:07 INFO  : XSCT server has started successfully.
+17:31:07 INFO  : plnx-install-location is set to ''
+17:31:07 INFO  : Successfully done setting XSCT server connection channel  
+17:31:07 INFO  : Successfully done query RDI_DATADIR 
+17:31:07 INFO  : Successfully done setting workspace for the tool. 
+17:34:51 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+17:35:04 INFO  : Platform repository initialization has completed.
+17:35:05 INFO  : Registering command handlers for Vitis TCF services
+17:35:12 INFO  : XSCT server has started successfully.
+17:35:12 INFO  : plnx-install-location is set to ''
+17:35:12 INFO  : Successfully done setting XSCT server connection channel  
+17:35:12 INFO  : Successfully done query RDI_DATADIR 
+17:35:12 INFO  : Successfully done setting workspace for the tool. 
+00:09:12 ERROR : (XSDB Server)Terminated
+
+16:54:16 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+16:54:17 INFO  : Platform repository initialization has completed.
+16:54:19 INFO  : XSCT server has started successfully.
+16:54:19 INFO  : plnx-install-location is set to ''
+16:54:19 INFO  : Successfully done setting XSCT server connection channel  
+16:54:19 INFO  : Successfully done setting workspace for the tool. 
+16:54:20 INFO  : Successfully done query RDI_DATADIR 
+16:54:20 INFO  : Registering command handlers for Vitis TCF services
+20:19:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+20:32:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+20:32:28 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+20:42:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+20:56:35 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+20:56:40 INFO  : Platform repository initialization has completed.
+20:56:53 INFO  : XSCT server has started successfully.
+20:56:53 INFO  : Successfully done setting XSCT server connection channel  
+20:56:53 INFO  : plnx-install-location is set to ''
+20:56:53 INFO  : Successfully done setting workspace for the tool. 
+20:56:55 INFO  : Successfully done query RDI_DATADIR 
+20:56:57 INFO  : Registering command handlers for Vitis TCF services
+21:02:30 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+21:15:25 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+21:18:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+21:18:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiSUNA.xclbin
+21:19:42 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 
+22:59:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:04:44 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:09:47 INFO  : XRT server has started successfully on port '4354'
+23:15:42 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:15:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:20:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:24:04 ERROR : Failed to run the application using 'BiSUNA-U50-Default'.
+23:30:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:31:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:25:40 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+16:25:45 INFO  : Platform repository initialization has completed.
+16:25:46 INFO  : XSCT server has started successfully.
+16:25:46 INFO  : plnx-install-location is set to ''
+16:25:46 INFO  : Successfully done setting XSCT server connection channel  
+16:25:47 INFO  : Registering command handlers for Vitis TCF services
+16:25:51 INFO  : Successfully done setting workspace for the tool. 
+16:25:51 INFO  : Successfully done query RDI_DATADIR 
+16:32:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:53:23 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:54:50 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:57:13 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:10:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:18:09 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:26:21 INFO  : XRT server has started successfully on port '4352'
+22:10:36 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+22:10:40 INFO  : Platform repository initialization has completed.
+22:10:42 INFO  : Registering command handlers for Vitis TCF services
+22:10:42 INFO  : XSCT server has started successfully.
+22:10:42 INFO  : Successfully done setting XSCT server connection channel  
+22:10:42 INFO  : Successfully done setting workspace for the tool. 
+22:10:43 INFO  : plnx-install-location is set to ''
+22:10:43 INFO  : Successfully done query RDI_DATADIR 
+22:11:03 INFO  : XRT server has started successfully on port '4355'
+23:04:53 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+23:05:03 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+23:07:06 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+23:55:32 ERROR : (XSDB Server)Terminated
+
+09:37:28 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+09:37:31 INFO  : Platform repository initialization has completed.
+09:37:31 INFO  : Registering command handlers for Vitis TCF services
+09:37:32 INFO  : XSCT server has started successfully.
+09:37:32 INFO  : Successfully done setting XSCT server connection channel  
+09:37:32 INFO  : plnx-install-location is set to ''
+09:37:32 INFO  : Successfully done setting workspace for the tool. 
+09:37:32 INFO  : Successfully done query RDI_DATADIR 
+09:42:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:27:51 INFO  : XRT server has started successfully on port '4352'
+10:35:12 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+10:35:18 INFO  : Platform repository initialization has completed.
+10:35:30 INFO  : XSCT server has started successfully.
+10:35:30 INFO  : Successfully done setting XSCT server connection channel  
+10:35:30 INFO  : plnx-install-location is set to ''
+10:35:30 INFO  : Successfully done setting workspace for the tool. 
+10:35:33 INFO  : Successfully done query RDI_DATADIR 
+10:35:36 INFO  : Registering command handlers for Vitis TCF services
+10:44:25 INFO  : XRT server has started successfully on port '4353'
+12:54:36 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+15:37:32 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:37:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:38:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:39:01 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:39:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:45:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:47:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:50:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:55:34 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+15:58:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:58:26 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:58:30 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:12:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:12:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:12:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:12:43 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:13:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:13:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:14:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:53:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:53:42 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:53:51 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:53:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:53:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:05:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:30:20 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:30:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:31:03 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:41:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:42:01 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:42:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:42:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:54:30 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:13:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+19:59:43 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:01:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:02:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:02:27 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:02:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:05:13 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:09:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:53:36 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:27:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:29:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:30:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:30:17 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:30:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:31:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:57:32 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:00:13 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:00:20 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:00:29 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:00:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:04:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:04:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:04:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:08:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:33:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:34:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:34:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:34:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:35:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:35:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:35:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:36:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:36:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:37:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:06:18 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:06:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:06:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:06:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:07:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:42:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+00:44:33 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+01:12:44 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+01:25:56 ERROR : (XSDB Server)Terminated
+
+07:41:27 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+07:41:30 INFO  : Platform repository initialization has completed.
+07:41:30 INFO  : Registering command handlers for Vitis TCF services
+07:41:31 INFO  : XSCT server has started successfully.
+07:41:31 INFO  : Successfully done setting XSCT server connection channel  
+07:41:32 INFO  : Successfully done setting workspace for the tool. 
+07:41:32 INFO  : plnx-install-location is set to ''
+07:41:32 INFO  : Successfully done query RDI_DATADIR 
+07:49:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+07:50:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+07:54:24 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+07:57:40 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+09:50:17 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:12:58 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:15:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:17:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:33:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:57:50 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:23:58 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+22:24:01 INFO  : Platform repository initialization has completed.
+22:24:01 INFO  : Registering command handlers for Vitis TCF services
+22:24:02 INFO  : XSCT server has started successfully.
+22:24:02 INFO  : Successfully done setting XSCT server connection channel  
+22:24:03 INFO  : plnx-install-location is set to ''
+22:24:03 INFO  : Successfully done setting workspace for the tool. 
+22:24:03 INFO  : Successfully done query RDI_DATADIR 
+23:09:40 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+23:09:43 INFO  : Platform repository initialization has completed.
+23:09:44 INFO  : Registering command handlers for Vitis TCF services
+23:09:46 INFO  : XSCT server has started successfully.
+23:09:46 INFO  : Successfully done setting XSCT server connection channel  
+23:09:46 INFO  : plnx-install-location is set to ''
+23:09:46 INFO  : Successfully done query RDI_DATADIR 
+23:09:46 INFO  : Successfully done setting workspace for the tool. 
+00:21:47 ERROR : Failed to run the application using 'BiSUNA-U50-Default'.
+00:46:20 ERROR : Failed to run the application using 'BiSUNA-U50-Default'.
+00:48:24 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+00:48:28 INFO  : Platform repository initialization has completed.
+00:48:28 INFO  : Registering command handlers for Vitis TCF services
+00:48:30 INFO  : XSCT server has started successfully.
+00:48:30 INFO  : Successfully done setting XSCT server connection channel  
+00:48:30 INFO  : plnx-install-location is set to ''
+00:48:30 INFO  : Successfully done setting workspace for the tool. 
+00:48:30 INFO  : Successfully done query RDI_DATADIR 
+01:08:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+01:27:09 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:44:27 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+10:44:30 INFO  : XSCT server has started successfully.
+10:44:30 INFO  : Successfully done setting XSCT server connection channel  
+10:44:30 INFO  : plnx-install-location is set to ''
+10:44:30 INFO  : Successfully done setting workspace for the tool. 
+10:44:33 INFO  : Platform repository initialization has completed.
+10:44:34 INFO  : Registering command handlers for Vitis TCF services
+10:44:34 INFO  : Successfully done query RDI_DATADIR 
+13:28:12 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:30:20 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:49:59 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:54:21 INFO  : XRT server has started successfully on port '4351'
+14:22:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:23:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:23:13 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:23:20 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:23:44 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:42:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:42:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:42:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:44:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:45:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:06:29 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:26:32 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:36:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:46:36 ERROR : Failed to run the application using 'BiSUNA-U50-Default'.
+16:00:22 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:03:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:03:27 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:07:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:21:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:23:47 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:33:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:55:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:06:44 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:11:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:14:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:16:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:17:18 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:46:50 ERROR : Failed to run the application using 'BiSUNA-U50-Default'.
+17:48:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:27:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:09:25 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:13:32 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:00:23 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+00:18:00 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+09:42:54 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+09:42:57 INFO  : XSCT server has started successfully.
+09:42:57 INFO  : Successfully done setting XSCT server connection channel  
+09:42:57 INFO  : plnx-install-location is set to ''
+09:42:57 INFO  : Successfully done setting workspace for the tool. 
+09:43:00 INFO  : Platform repository initialization has completed.
+09:43:00 INFO  : Registering command handlers for Vitis TCF services
+09:43:01 INFO  : Successfully done query RDI_DATADIR 
+09:45:18 INFO  : XRT server has started successfully on port '4355'
+10:43:12 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+12:55:56 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+12:56:16 INFO  : Platform repository initialization has completed.
+12:56:16 INFO  : Registering command handlers for Vitis TCF services
+12:56:21 INFO  : XSCT server has started successfully.
+12:56:21 INFO  : plnx-install-location is set to ''
+12:56:22 INFO  : Successfully done setting XSCT server connection channel  
+12:56:22 INFO  : Successfully done setting workspace for the tool. 
+12:56:22 INFO  : Successfully done query RDI_DATADIR 
+13:16:05 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+13:16:19 INFO  : Platform repository initialization has completed.
+13:16:19 INFO  : Registering command handlers for Vitis TCF services
+13:16:26 INFO  : XSCT server has started successfully.
+13:16:26 INFO  : Successfully done setting XSCT server connection channel  
+13:16:26 INFO  : plnx-install-location is set to ''
+13:16:28 INFO  : Successfully done setting workspace for the tool. 
+13:16:28 INFO  : Successfully done query RDI_DATADIR 
+13:33:17 INFO  : XRT server has started successfully on port '4353'
+13:37:23 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:37:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:41:28 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:53:59 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:01:59 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:12:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:13:06 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:22:25 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:26:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:34:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:12:40 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:41:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:56:09 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:34:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:54:28 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:55:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:59:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:03:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:13:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:20:10 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+22:56:03 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+22:56:05 INFO  : Platform repository initialization has completed.
+22:56:08 INFO  : XSCT server has started successfully.
+22:56:08 INFO  : Successfully done setting XSCT server connection channel  
+22:56:08 INFO  : plnx-install-location is set to ''
+22:56:08 INFO  : Successfully done setting workspace for the tool. 
+22:56:09 INFO  : Successfully done query RDI_DATADIR 
+22:56:09 INFO  : Registering command handlers for Vitis TCF services
+22:56:29 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+22:56:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:01:54 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+09:13:49 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+09:13:52 INFO  : Platform repository initialization has completed.
+09:13:52 INFO  : Registering command handlers for Vitis TCF services
+09:13:53 INFO  : XSCT server has started successfully.
+09:13:53 INFO  : plnx-install-location is set to ''
+09:13:54 INFO  : Successfully done setting XSCT server connection channel  
+09:13:54 INFO  : Successfully done query RDI_DATADIR 
+09:13:54 INFO  : Successfully done setting workspace for the tool. 
+09:52:11 INFO  : XRT server has started successfully on port '4355'
+13:46:53 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:18:32 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+11:43:44 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+14:53:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:56:36 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:39:29 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+15:39:33 INFO  : Platform repository initialization has completed.
+15:39:33 INFO  : Registering command handlers for Vitis TCF services
+15:39:35 INFO  : XSCT server has started successfully.
+15:39:35 INFO  : Successfully done setting XSCT server connection channel  
+15:39:36 INFO  : plnx-install-location is set to ''
+15:39:36 INFO  : Successfully done setting workspace for the tool. 
+15:39:36 INFO  : Successfully done query RDI_DATADIR 
+15:47:53 INFO  : XRT server has started successfully on port '4351'
+15:49:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:49:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:19:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:22:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:25:00 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+20:06:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:21:24 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:50:30 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:58:36 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:22:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:26:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:43:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:46:06 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:01:42 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:14:04 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+23:14:05 INFO  : Platform repository initialization has completed.
+23:14:07 INFO  : XSCT server has started successfully.
+23:14:07 INFO  : Successfully done setting XSCT server connection channel  
+23:14:07 INFO  : plnx-install-location is set to ''
+23:14:07 INFO  : Successfully done setting workspace for the tool. 
+23:14:08 INFO  : Successfully done query RDI_DATADIR 
+23:14:09 INFO  : Registering command handlers for Vitis TCF services
+23:17:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:52:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:25:58 INFO  : Launching XSCT server: xsct -n  -interactive /home/lma792/workspace/temp_xsdb_launch_script.tcl
+12:25:59 INFO  : Platform repository initialization has completed.
+12:26:00 INFO  : XSCT server has started successfully.
+12:26:00 INFO  : Successfully done setting XSCT server connection channel  
+12:26:00 INFO  : plnx-install-location is set to ''
+12:26:00 INFO  : Successfully done setting workspace for the tool. 
+12:26:01 INFO  : Registering command handlers for Vitis TCF services
+12:26:01 INFO  : Successfully done query RDI_DATADIR 
+12:33:14 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:33:33 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:35:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:36:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:37:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:38:30 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:39:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:44:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:44:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:45:04 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:45:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:09:57 INFO  : Launching XSCT server: xsct -n  -interactive /home/lma792/workspace/temp_xsdb_launch_script.tcl
+13:09:59 INFO  : Platform repository initialization has completed.
+13:09:59 INFO  : Registering command handlers for Vitis TCF services
+13:10:00 INFO  : XSCT server has started successfully.
+13:10:00 INFO  : Successfully done setting XSCT server connection channel  
+13:10:00 INFO  : plnx-install-location is set to ''
+13:10:00 INFO  : Successfully done query RDI_DATADIR 
+13:10:00 INFO  : Successfully done setting workspace for the tool. 
+13:13:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:14:25 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:14:56 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+13:15:03 INFO  : XRT server has started successfully on port '4355'
+13:15:03 INFO  : File '/home/lma792/workspace/BiSUNA-U50/Emulation-HW/BiSUNA-U50' doesn't have executable permissions and will be updated automatically.
+13:15:03 INFO  : Executable permissions of program file '/home/lma792/workspace/BiSUNA-U50/Emulation-HW/BiSUNA-U50' has been updated.
+13:16:17 INFO  : Launching XSCT server: xsct -n  -interactive /home/lma792/workspace/temp_xsdb_launch_script.tcl
+13:16:18 INFO  : Platform repository initialization has completed.
+13:16:19 INFO  : XSCT server has started successfully.
+13:16:19 INFO  : plnx-install-location is set to ''
+13:16:19 INFO  : Successfully done setting XSCT server connection channel  
+13:16:19 INFO  : Successfully done setting workspace for the tool. 
+13:16:20 INFO  : Successfully done query RDI_DATADIR 
+13:16:20 INFO  : Registering command handlers for Vitis TCF services
+13:16:24 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:16:26 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+13:45:05 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:47:04 INFO  : Saving repository preferences.
+13:47:04 INFO  : plnx-install-location is set to ''
+13:47:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:48:40 INFO  : Launching XSCT server: xsct -n  -interactive /home/lma792/workspace/temp_xsdb_launch_script.tcl
+13:48:41 INFO  : Platform repository initialization has completed.
+13:48:42 INFO  : XSCT server has started successfully.
+13:48:42 INFO  : Successfully done setting XSCT server connection channel  
+13:48:42 INFO  : plnx-install-location is set to ''
+13:48:42 INFO  : Successfully done setting workspace for the tool. 
+13:48:43 INFO  : Successfully done query RDI_DATADIR 
+13:48:43 INFO  : Registering command handlers for Vitis TCF services
+13:48:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:49:29 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:49:43 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+14:03:14 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:03:58 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:20:22 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+15:59:09 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:57:21 INFO  : Launching XSCT server: xsct -n  -interactive /home/lma792/workspace/temp_xsdb_launch_script.tcl
+12:57:21 INFO  : Platform repository initialization has completed.
+12:57:23 INFO  : XSCT server has started successfully.
+12:57:23 INFO  : plnx-install-location is set to ''
+12:57:23 INFO  : Successfully done setting XSCT server connection channel  
+12:57:23 INFO  : Successfully done setting workspace for the tool. 
+12:57:23 INFO  : Successfully done query RDI_DATADIR 
+12:57:23 INFO  : Registering command handlers for Vitis TCF services
+13:01:46 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+13:08:09 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:09:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:10:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:11:41 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+13:21:10 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:32:19 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:07:46 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:15:59 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:22:29 INFO  : XRT server has started successfully on port '4354'
+14:24:51 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:54:03 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:53:41 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+15:56:14 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+16:05:18 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+16:13:56 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+16:34:28 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:49:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:54:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:56:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:57:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:58:24 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+17:11:09 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:44:09 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+18:46:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:46:29 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:46:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:47:09 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+14:03:32 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:58:49 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:38:08 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+15:42:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:42:24 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:43:06 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:44:58 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:48:33 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+15:48:45 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+16:00:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:10:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:12:19 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:13:15 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+17:24:36 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+17:26:59 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:27:18 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:30:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:32:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:38:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:39:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:49:59 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:52:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:56:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:58:43 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:07:32 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:21:36 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:22:52 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+18:35:33 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+17:38:42 INFO  : Launching XSCT server: xsct -n  -interactive /home/lma792/workspace/temp_xsdb_launch_script.tcl
+17:38:43 INFO  : Platform repository initialization has completed.
+17:38:43 INFO  : Registering command handlers for Vitis TCF services
+17:38:44 INFO  : XSCT server has started successfully.
+17:38:44 INFO  : Successfully done setting XSCT server connection channel  
+17:38:44 INFO  : plnx-install-location is set to ''
+17:38:44 INFO  : Successfully done setting workspace for the tool. 
+17:38:44 INFO  : Successfully done query RDI_DATADIR 
+17:46:09 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:47:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:55:45 INFO  : XRT server has started successfully on port '4352'
+18:33:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:35:06 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:41:24 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:42:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:47:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+18:48:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+11:46:57 ERROR : Failed to debug the application using 'BiSUNA-U50-Default'.
+12:39:06 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:49:03 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:49:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:56:01 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:57:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:01:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:07:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:08:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:09:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:11:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:11:24 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:12:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:18:00 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:18:44 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:19:14 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:24:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:29:23 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:32:12 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:41:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:42:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:44:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:46:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:46:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:49:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:52:26 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:53:51 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:56:50 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+14:12:16 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:00:05 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+11:24:11 INFO  : Launching XSCT server: xsct -n  -interactive /media/lma792/d1a8fdae-1690-4226-8ad3-56174ca447f0/lma792/workspace/temp_xsdb_launch_script.tcl
+11:24:12 INFO  : Platform repository initialization has completed.
+11:24:13 INFO  : XSCT server has started successfully.
+11:24:13 INFO  : Successfully done setting XSCT server connection channel  
+11:24:13 INFO  : plnx-install-location is set to ''
+11:24:13 INFO  : Successfully done setting workspace for the tool. 
+11:24:14 INFO  : Successfully done query RDI_DATADIR 
+11:24:14 INFO  : Registering command handlers for Vitis TCF services
+11:26:22 INFO  : Launching executable: Hardware/BiSUNA-U50 ../BiGlobal.xclbin
+11:27:20 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+11:49:40 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiGlobal.xclbin
+11:51:18 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiGlobal.xclbin
+11:52:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiGlobal.xclbin
+11:53:27 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiGlobal.xclbin
+11:53:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiGlobal.xclbin
+12:03:30 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ../BiGlobal.xclbin
+12:07:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:08:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:08:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:15:41 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+12:15:59 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:51:20 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:51:36 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+12:51:42 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:52:21 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:52:42 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+12:52:47 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:53:05 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:53:27 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:53:50 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:54:34 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+13:04:06 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+13:04:27 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:11:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:11:28 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:11:44 INFO  : XRT server has started successfully on port '4352'
+13:32:40 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:42:23 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:42:35 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+14:50:16 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:54:52 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:04:15 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:32:54 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:35:35 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:17:05 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:19:41 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:41:36 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+12:07:22 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:07:55 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:08:52 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:12:04 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+12:20:24 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+14:14:39 INFO  : Launching executable: Hardware/BiSUNA-U50 ${BiSUNAConfigPath}
+14:35:18 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+14:56:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:56:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:00:32 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:02:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:04:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:06:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:13:20 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:22:04 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+15:22:16 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+16:20:37 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+16:20:41 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+12:30:52 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+12:47:13 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+12:47:19 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+13:24:03 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:00:50 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:07:42 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:11:08 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+15:12:36 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:30:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:31:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:31:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:32:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:32:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:33:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:37:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:38:11 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:38:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:45:44 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:47:00 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:49:19 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:51:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:52:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:54:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:56:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:57:19 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:57:36 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:59:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:01:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:01:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:49:57 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+10:52:45 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+11:08:34 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+11:33:22 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+11:54:30 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:23:30 INFO  : Launching XSCT server: xsct -n  -interactive /media/lma792/d1a8fdae-1690-4226-8ad3-56174ca447f0/lma792/workspace/temp_xsdb_launch_script.tcl
+12:23:31 INFO  : Platform repository initialization has completed.
+12:23:32 INFO  : XSCT server has started successfully.
+12:23:32 INFO  : Successfully done setting XSCT server connection channel  
+12:23:32 INFO  : plnx-install-location is set to ''
+12:23:32 INFO  : Successfully done setting workspace for the tool. 
+12:23:33 INFO  : Successfully done query RDI_DATADIR 
+12:23:33 INFO  : Registering command handlers for Vitis TCF services
+12:30:33 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:08:12 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:09:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:17:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:18:51 INFO  : XRT server has started successfully on port '4351'
+13:20:49 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:23:42 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+13:31:26 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:40:45 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:40:47 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:43:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+13:46:09 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:00:46 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:09:29 ERROR : Failed to run the application using 'BiSUNA-Exe'.
+14:17:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:18:28 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:20:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:22:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:25:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:27:05 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:28:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:28:54 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:30:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:32:01 ERROR : Failed to run the application using 'BiSUNA-Exe'.
+14:33:12 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:39:15 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:42:55 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:44:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:51:43 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:12:34 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:16:39 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:17:00 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:18:45 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:19:08 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:22:43 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:34:19 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:40:56 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:44:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:47:09 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:53:14 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:56:41 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:02:02 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:09:48 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:15:03 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:15:23 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:17:37 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:08:33 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+17:08:53 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+11:42:22 INFO  : Launching XSCT server: xsct -n  -interactive /media/lma792/d1a8fdae-1690-4226-8ad3-56174ca447f0/lma792/workspace/temp_xsdb_launch_script.tcl
+11:42:23 INFO  : Platform repository initialization has completed.
+11:42:24 INFO  : Registering command handlers for Vitis TCF services
+11:42:24 INFO  : XSCT server has started successfully.
+11:42:24 INFO  : plnx-install-location is set to ''
+11:42:24 INFO  : Successfully done setting XSCT server connection channel  
+11:42:24 INFO  : Successfully done setting workspace for the tool. 
+11:42:24 INFO  : Successfully done query RDI_DATADIR 
+14:07:10 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:07:33 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:15:46 INFO  : XRT server has started successfully on port '4351'
+11:18:07 INFO  : Launching XSCT server: xsct -n  -interactive /media/JonDrive/lma792/workspace/temp_xsdb_launch_script.tcl
+11:18:09 INFO  : Platform repository initialization has completed.
+11:18:09 INFO  : Registering command handlers for Vitis TCF services
+11:18:10 INFO  : XSCT server has started successfully.
+11:18:10 INFO  : plnx-install-location is set to ''
+11:18:10 INFO  : Successfully done setting XSCT server connection channel  
+11:18:10 INFO  : Successfully done query RDI_DATADIR 
+11:18:10 INFO  : Successfully done setting workspace for the tool. 
+11:21:45 INFO  : XRT server has started successfully on port '4355'
+11:56:43 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:16:30 ERROR : Failed to run the application using 'BiSUNA-Exe'.
+12:17:31 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:18:13 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:39:04 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:40:52 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+12:45:38 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:14:07 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:14:40 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:15:51 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:20:22 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:23:35 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:23:59 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:24:06 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:24:16 INFO  : Launching executable: Emulation-SW/BiSUNA-U50 ${BiSUNAConfigPath}
+14:52:18 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+14:59:26 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+15:30:28 INFO  : Build configuration of system project is automatically updated to 'Emulation-SW'.
+13:11:54 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+13:11:58 INFO  : Platform repository initialization has completed.
+13:11:58 INFO  : Registering command handlers for Vitis TCF services
+13:11:59 INFO  : XSCT server has started successfully.
+13:11:59 INFO  : Successfully done setting XSCT server connection channel  
+13:11:59 INFO  : plnx-install-location is set to ''
+13:12:00 INFO  : Successfully done setting workspace for the tool. 
+13:12:00 INFO  : Successfully done query RDI_DATADIR 
+13:27:16 ERROR : Failed to run the application using 'CCT-Default'.
+14:38:14 INFO  : XRT server has started successfully on port '4354'
+14:45:23 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+20:04:11 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:14:41 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+21:50:03 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+22:35:49 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:01:55 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+23:52:14 INFO  : Launching executable: Emulation-HW/BiSUNA-U50 ${BiSUNAConfigPath}
+16:21:27 INFO  : Launching XSCT server: xsct -n  -interactive /home/klugo/workspace/temp_xsdb_launch_script.tcl
+16:21:30 INFO  : XSCT server has started successfully.
+16:21:30 INFO  : plnx-install-location is set to ''
+16:21:30 INFO  : Successfully done setting XSCT server connection channel  
+16:21:30 INFO  : Successfully done setting workspace for the tool. 
+16:21:34 INFO  : Platform repository initialization has completed.
+16:21:34 INFO  : Registering command handlers for Vitis TCF services
+16:21:34 INFO  : Successfully done query RDI_DATADIR 

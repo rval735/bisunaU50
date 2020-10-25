@@ -1,0 +1,82 @@
+<ENTRY>
+{
+ "thisFile": "/home/klugo/workspace/BiSUNA-U50/Emulation-SW/v++.package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Oct 13 14:37:22 2020",
+ "timestampMillis": "1602553042665",
+ "buildStep": {
+  "cmdId": "cce8527a-0333-4e54-99af-95161b18c911",
+  "name": "v++",
+  "logFile": "/home/klugo/workspace/BiSUNA-U50/Emulation-SW/package.build/package/package.steps.log",
+  "commandLine": "/opt/xilinx/Vitis/2020.1/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --package --config package.cfg BiGlobal.xclbin ",
+  "args": [
+   "--package",
+   "--config",
+   "package.cfg",
+   "BiGlobal.xclbin"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/klugo/workspace/BiSUNA-U50/Emulation-SW/package.cfg",
+    "content": "target=sw_emu\ntemp_dir=package.build\nplatform=xilinx_u50_gen3x16_xdma_201920_3\n\n[package]\nout_dir=./package\n"
+   }
+  ],
+  "cwd": "/home/klugo/workspace/BiSUNA-U50/Emulation-SW"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Oct 13 14:37:22 2020",
+ "timestampMillis": "1602553042667",
+ "status": {
+  "cmdId": "cce8527a-0333-4e54-99af-95161b18c911",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Oct 13 14:37:35 2020",
+ "timestampMillis": "1602553055557",
+ "report": {
+  "path": "/home/klugo/workspace/BiSUNA-U50/Emulation-SW/guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Oct 13 14:37:35 2020",
+ "timestampMillis": "1602553055558",
+ "report": {
+  "path": "/home/klugo/workspace/BiSUNA-U50/Emulation-SW/guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Oct 13 14:37:35 2020",
+ "timestampMillis": "1602553055559",
+ "status": {
+  "cmdId": "cce8527a-0333-4e54-99af-95161b18c911",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

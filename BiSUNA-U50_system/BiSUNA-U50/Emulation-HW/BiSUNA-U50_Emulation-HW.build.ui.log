@@ -1,0 +1,134 @@
+2020-10-13T16:06:13.94283200255-16:06:13 **** Incremental Build of configuration Emulation-HW for project BiSUNA-U50 ****
+000-make -j8 incremental 
+000-/opt/xilinx/Vitis/2020.1/bin/v++ --target hw_emu --compile -I"../src/OCL/Kernels" --config common-config.cfg --config BiGlobal-processStateG-compile.cfg --profile_kernel data:all:all:all -o"BiGlobal.build/processStateG.xo" "../src/OCL/Kernels/ProcessStateGlobal.cl"
+000-Option Map File Used: '/opt/xilinx/Vitis/2020.1/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+000-	Reports: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/reports/processStateG
+000-	Log files: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/logs/processStateG
+000-INFO: [v++ 60-1657] Initializing dispatch client.
+000-Running Dispatch Server on port:33783
+000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/processStateG.xo.compile_summary, at Tue Oct 13 16:06:26 2020
+000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 16:06:26 2020
+000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-INFO: [v++ 60-585] Compiling for hardware emulation target
+000-INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+000-INFO: [v++ 60-242] Creating kernel: 'processStateG'
+000-
+000-===>The following messages were generated while  performing high-level synthesis for kernel: processStateG Log file: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/processStateG/processStateG/vitis_hls.log :
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1'.
+000-WARNING: [v++ 200-885] Unable to schedule bus request on port 'gmem' (/home/klugo/workspace/BiSUNA-U50/src/OCL/Kernels/ProcessStateGlobal.cl:330) due to limited memory ports. Please consider using a memory core with more ports or partitioning the array.
+000-Resolution: For help on HLS 200-885 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-885.html
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 8, Depth = 225.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 73.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 4'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 3'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 73.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 3.1'.
+000-WARNING: [v++ 200-885] Unable to schedule bus request on port 'gmem' (/home/klugo/workspace/BiSUNA-U50/src/OCL/Kernels/ProcessStateGlobal.cl:508) due to limited memory ports. Please consider using a memory core with more ports or partitioning the array.
+000-Resolution: For help on HLS 200-885 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-885.html
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 5, Depth = 153.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 3.2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 73.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 73.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.3.1'.
+000-WARNING: [v++ 200-885] Unable to schedule bus request on port 'gmem' (/home/klugo/workspace/BiSUNA-U50/src/OCL/Kernels/ProcessStateGlobal.cl:508) due to limited memory ports. Please consider using a memory core with more ports or partitioning the array.
+000-Resolution: For help on HLS 200-885 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-885.html
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 5, Depth = 153.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.3.2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 73.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 71.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.3'.
+000-WARNING: [v++ 200-885] Unable to schedule bus request on port 'gmem' (/home/klugo/workspace/BiSUNA-U50/src/OCL/Kernels/ProcessStateGlobal.cl:666) due to limited memory ports. Please consider using a memory core with more ports or partitioning the array.
+000-Resolution: For help on HLS 200-885 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-885.html
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 3, Depth = 76.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.4.2'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 73.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.6'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 142, Depth = 143.
+000-INFO: [v++ 204-61] Pipelining loop 'Loop 1.7'.
+000-INFO: [v++ 200-1470] Pipelining result : Target II = 1, Final II = 142, Depth = 144.
+000-INFO: [v++ 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+000-INFO: [v++ 200-789] **** Estimated Fmax: 380.81 MHz
+000-INFO: [v++ 60-594] Finished kernel compilation
+000-INFO: [v++ 60-244] Generating system estimate report...
+000-INFO: [v++ 60-1092] Generated system estimate report: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/reports/processStateG/system_estimate_processStateG.xtxt
+000-Add Instance processControlNeurons_1 grp_processControlNeurons_1_fu_668 668
+000-Add Instance execute_1 grp_execute_1_fu_489 489
+000-Add Instance processCPrimerNeurons_1 grp_processCPrimerNeurons_1_fu_679 679
+000-Add Instance execute_1 grp_execute_1_fu_429 429
+000-Add Instance execute_1 grp_execute_1_fu_690 690
+000-INFO: [v++ 60-586] Created BiGlobal.build/processStateG.xo
+000-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+000-    vitis_analyzer /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/processStateG.xo.compile_summary 
+000-INFO: [v++ 60-791] Total elapsed time: 0h 1m 26s
+000-INFO: [v++ 60-1653] Closing dispatch client.
+000-/opt/xilinx/Vitis/2020.1/bin/v++ --target hw_emu --link --config common-config.cfg --config BiGlobal-link.cfg --profile_kernel data:all:all:all -o"BiGlobal.xclbin" BiGlobal.build/processStateG.xo
+000-Option Map File Used: '/opt/xilinx/Vitis/2020.1/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+000-	Reports: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/reports/link
+000-	Log files: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/logs/link
+000-INFO: [v++ 60-1657] Initializing dispatch client.
+000-Running Dispatch Server on port:42513
+000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.xclbin.link_summary, at Tue Oct 13 16:07:58 2020
+000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 16:07:58 2020
+000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-INFO: [v++ 60-629] Linking for hardware emulation target
+000-INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+000-INFO: [v++ 60-1332] Run 'run_link' status: Not started
+000-INFO: [v++ 60-1443] [16:08:05] Run run_link: Step system_link: Started
+000-INFO: [v++ 60-1453] Command Line: system_link --xo /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/processStateG.xo -keep --config /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm --target emu --output_dir /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/int --temp_dir /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link
+000-INFO: [v++ 60-1454] Run Directory: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/run_link
+000-INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 16:08:11 2020
+000-INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/processStateG.xo
+000-INFO: [SYSTEM_LINK 82-53] Creating IP database /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+000-INFO: [SYSTEM_LINK 82-38] [16:08:12] build_xd_ip_db started: /opt/xilinx/Vitis/2020.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/emu/emu.hpfm -clkid 0 -ip /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/iprepo/xilinx_com_hls_processStateG_1_0,processStateG -o /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+000-INFO: [SYSTEM_LINK 82-37] [16:08:32] build_xd_ip_db finished successfully
+000-Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.645 ; gain = 0.000 ; free physical = 1786 ; free virtual = 10876
+000-INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+000-INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/cfgraph/cfgen_cfgraph.xml
+000-INFO: [SYSTEM_LINK 82-38] [16:08:33] cfgen started: /opt/xilinx/Vitis/2020.1/bin/cfgen  -nk processStateG:1:processStateG_1 -slr processStateG_1:SLR0 -sp processStateG_1.input:PLRAM[0] -sp processStateG_1.output:PLRAM[1] -sp processStateG_1.cells:HBM[0] -dmclkid 0 -r /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/cfgraph/cfgen_cfgraph.xml
+000-INFO: [CFGEN 83-0] Kernel Specs: 
+000-INFO: [CFGEN 83-0]   kernel: processStateG, num: 1  {processStateG_1}
+000-INFO: [CFGEN 83-0] Port Specs: 
+000-INFO: [CFGEN 83-0]   kernel: processStateG_1, k_port: input, sptag: PLRAM[0]
+000-INFO: [CFGEN 83-0]   kernel: processStateG_1, k_port: output, sptag: PLRAM[1]
+000-INFO: [CFGEN 83-0]   kernel: processStateG_1, k_port: cells, sptag: HBM[0]
+000-INFO: [CFGEN 83-0] SLR Specs: 
+000-INFO: [CFGEN 83-0]   instance: processStateG_1, SLR: SLR0
+000-ERROR: [CFGEN 83-2292] --sp tag applied to an invalid port or argument name: input
+000-ERROR: [CFGEN 83-2292] --sp tag applied to an invalid port or argument name: output
+000-ERROR: [CFGEN 83-2298] Exiting due to previous error
+000-ERROR: [SYSTEM_LINK 82-36] [16:08:44] cfgen failed
+000-Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1432.645 ; gain = 0.000 ; free physical = 1798 ; free virtual = 10880
+000-ERROR: [SYSTEM_LINK 82-62] Error generating design file for /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/cfgraph/cfgen_cfgraph.xml, command: /opt/xilinx/Vitis/2020.1/bin/cfgen  -nk processStateG:1:processStateG_1 -slr processStateG_1:SLR0 -sp processStateG_1.input:PLRAM[0] -sp processStateG_1.output:PLRAM[1] -sp processStateG_1.cells:HBM[0] -dmclkid 0 -r /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/klugo/workspace/BiSUNA-U50/Emulation-HW/BiGlobal.build/link/sys_link/cfgraph/cfgen_cfgraph.xml
+000-ERROR: [SYSTEM_LINK 82-96] Error applying explicit connections to the system connectivity graph
+000-ERROR: [SYSTEM_LINK 82-79] Unable to create system connectivity graph
+000-INFO: [v++ 60-1442] [16:08:44] Run run_link: Step system_link: Failed
+000-Time (s): cpu = 00:00:45 ; elapsed = 00:00:38 . Memory (MB): peak = 1339.840 ; gain = 0.000 ; free physical = 1824 ; free virtual = 10906
+000-ERROR: [v++ 60-661] v++ link run 'run_link' failed
+000-ERROR: [v++ 60-626] Kernel link failed to complete
+000-ERROR: [v++ 60-703] Failed to finish linking
+000-INFO: [v++ 60-1653] Closing dispatch client.
+000/BiSUNA-U50/Emulation-HW/makefile118-1-1recipe for target 'BiGlobal.xclbin' failed2-makefile:118: recipe for target 'BiGlobal.xclbin' failed
+000/BiSUNA-U50/Emulation-HW0-1-1make: *** [BiGlobal.xclbin] Error 12-make: *** [BiGlobal.xclbin] Error 1
+00255-
+16:08:44 Build Finished (took 2m:30s.331ms)
+

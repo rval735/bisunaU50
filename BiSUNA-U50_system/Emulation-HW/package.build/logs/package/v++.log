@@ -1,0 +1,13 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+	Reports: /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/package.build/reports/package
+	Log files: /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/package.build/logs/package
+INFO: [v++ 60-1657] Initializing dispatch client.
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/BiGlobal.xclbin.package_summary, at Tue Oct 13 23:50:06 2020
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 23:50:06 2020
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/package.build/reports/package/v++_package_BiGlobal_guidance.html', at Tue Oct 13 23:50:08 2020
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+INFO: [v++ 60-2256] Packaging for hardware emulation
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/BiGlobal.xclbin.package_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 14s

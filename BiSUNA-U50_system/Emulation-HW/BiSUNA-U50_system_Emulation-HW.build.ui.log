@@ -1,0 +1,28 @@
+2020-10-13T23:49:53.79171700255-23:49:53 **** Incremental Build of configuration Emulation-HW for project BiSUNA-U50_system ****
+000-make all 
+000-/opt/xilinx/Vitis/2020.1/bin/v++ --package --config package.cfg ../../BiSUNA-U50/Emulation-HW/BiGlobal.xclbin -o BiGlobal.xclbin
+000-Option Map File Used: '/opt/xilinx/Vitis/2020.1/data/vitis/vpp/optMap.xml'
+000-
+000-****** v++ v2020.1.1 (64-bit)
+000-  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+000-
+000-INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+000-	Reports: /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/package.build/reports/package
+000-	Log files: /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/package.build/logs/package
+000-INFO: [v++ 60-1657] Initializing dispatch client.
+000-Running Dispatch Server on port:44889
+000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/BiGlobal.xclbin.package_summary, at Tue Oct 13 23:50:06 2020
+000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Oct 13 23:50:06 2020
+000-Running Rule Check Server on port:37857
+000-INFO: [v++ 60-1315] Creating rulecheck session with output '/home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/package.build/reports/package/v++_package_BiGlobal_guidance.html', at Tue Oct 13 23:50:08 2020
+000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+000-INFO: [v++ 60-2256] Packaging for hardware emulation
+000-INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+000-    vitis_analyzer /home/klugo/workspace/BiSUNA-U50_system/Emulation-HW/BiGlobal.xclbin.package_summary 
+000-INFO: [v++ 60-791] Total elapsed time: 0h 0m 14s
+000-INFO: [v++ 60-1653] Closing dispatch client.
+00255-
+23:50:11 Build Finished (took 17s.797ms)
+

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+
+        <cconfiguration id="com.xilinx.accelerated.config.sw_emu.2042998382">
+
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xilinx.accelerated.config.sw_emu.2042998382" moduleId="org.eclipse.cdt.core.settings" name="Emulation-SW">
+
+                <externalSettings/>
+
+                <extensions>
+
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="com.xilinx.accelerated.managedbuild.VppErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                </extensions>
+
+            </storageModule>
+
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+
+                <configuration buildArtefactType="com.xilinx.accelerated.buildArtefactType.hostExe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.xilinx.accelerated.buildArtefactType.hostExe" description="" id="com.xilinx.accelerated.config.sw_emu.2042998382" name="Emulation-SW" parent="com.xilinx.accelerated.config.sw_emu">
+
+                    <folderInfo id="com.xilinx.accelerated.config.sw_emu.2042998382." name="/" resourcePath="">
+
+                        <toolChain id="com.xilinx.accelerated.toolchain.sw_emu.debug.1083272213" name="Xilinx Accelerated Toolchain (x86_64)" superClass="com.xilinx.accelerated.toolchain.sw_emu.debug">
+
+                            <option id="com.xilinx.accelerated.toolchain.sw_emu.debug.option.kernel_debug.2061369632" name="Enable debugging by default for kernel code" superClass="com.xilinx.accelerated.toolchain.sw_emu.debug.option.kernel_debug" useByScannerDiscovery="false"/>
+
+                            <targetPlatform id="com.xilinx.accelerated.config.sw_emu.2042998382..74812461" name=""/>
+
+                            <builder buildPath="${workspace_loc:/BiSUNA-U50}/Emulation-SW" enableAutoBuild="true" id="com.xilinx.accelerated.make_builder.1472662977" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Xilinx V++ Builder" superClass="com.xilinx.accelerated.make_builder"/>
+
+                            <tool id="com.xilinx.accelerated.toolchain.hw_compiler.1683359593" name="V++ Kernel Compiler" superClass="com.xilinx.accelerated.toolchain.hw_compiler">
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_compiler.include_paths.1886356056" name="Include paths (-I)" superClass="com.xilinx.accelerated.toolchain.hw_compiler.include_paths" useByScannerDiscovery="false" valueType="includePath">
+
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/OCL/Kernels}&quot;"/>
+
+                                </option>
+
+                                <inputType id="com.xilinx.accelerated.toolchain.hw_compiler.input.cl.739385691" name="OpenCL files" superClass="com.xilinx.accelerated.toolchain.hw_compiler.input.cl"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.toolchain.hw_linker.568317825" name="V++ Kernel Linker" superClass="com.xilinx.accelerated.toolchain.hw_linker">
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_linker.ip_cache.161555677" name="IP Cache" superClass="com.xilinx.accelerated.toolchain.hw_linker.ip_cache" useByScannerDiscovery="false" value="workspace/ip_cache" valueType="string"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.emconfigutil.918505872" name="emconfigutil" superClass="com.xilinx.accelerated.emconfigutil"/>
+
+                            <tool id="com.xilinx.accelerated.toolchain.gcc_compiler.sw_emu.debug.1321855285" name="GCC Host Compiler (x86_64)" superClass="com.xilinx.accelerated.toolchain.gcc_compiler.sw_emu.debug">
+
+                                <option id="com.xilinx.accelerated.cpp.compiler.include.paths.159613429" name="Include paths (-I)" superClass="com.xilinx.accelerated.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+
+                                    <listOptionValue builtIn="false" value="${env_var:XILINX_XRT}/include/"/>
+
+                                    <listOptionValue builtIn="false" value="${env_var:XILINX_VIVADO_HLS}/include/"/>
+
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+
+                                </option>
+
+                                <option id="gnu.cpp.compiler.option.other.other.1135070894" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0" valueType="string"/>
+
+                                <option id="com.xilinx.accelerated.cpp.compiler.option.dialect.std.1660645417" name="Language standard" superClass="com.xilinx.accelerated.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++1y" valueType="enumerated"/>
+
+                                <option id="gnu.cpp.compiler.option.debugging.gprof.2001689779" name="Generate gprof information (-pg)" superClass="gnu.cpp.compiler.option.debugging.gprof" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+
+                                <option id="gnu.cpp.compiler.option.debugging.other.441092545" name="Other debugging flags" superClass="gnu.cpp.compiler.option.debugging.other" useByScannerDiscovery="false" value="" valueType="string"/>
+
+                                <inputType id="com.xilinx.accelerated.managedbuild.input.cpp.1228167501" superClass="com.xilinx.accelerated.managedbuild.input.cpp"/>
+
+                                <inputType id="com.xilinx.accelerated.managedbuild.input.c.837688463" superClass="com.xilinx.accelerated.managedbuild.input.c"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.toolchain.gcc_linker.hw.574657254" name="GCC Host Linker (x86_64)" superClass="com.xilinx.accelerated.toolchain.gcc_linker.hw">
+
+                                <option id="gnu.cpp.link.option.userobjs.1467417694" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false"/>
+
+                                <option id="gnu.cpp.link.option.other.1180022005" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other" useByScannerDiscovery="false"/>
+
+                                <option id="com.xilinx.accelerated.cpp.linker.option.flags.x86.792174504_64" name="Miscellaneous options" superClass="com.xilinx.accelerated.cpp.linker.option.flags.x86_64" useByScannerDiscovery="false" valueType="stringList">
+
+                                    <listOptionValue builtIn="false" value="-Wl,-rpath-link,$(XILINX_XRT)/lib"/>
+
+                                    <listOptionValue builtIn="false" value="-Wl,-rpath,$(XILINX_VIVADO)/lnx64/lib/csim"/>
+
+                                    <listOptionValue builtIn="false" value="-Wl,-rpath,$(XILINX_VIVADO)/lnx64/tools/fpo_v7_0"/>
+
+                                    <listOptionValue builtIn="false" value="-Wl,-rpath,$(XILINX_VIVADO)/lnx64/tools/fft_v9_1"/>
+
+                                    <listOptionValue builtIn="false" value="-Wl,-rpath,$(XILINX_VIVADO)/lnx64/tools/fir_v7_0"/>
+
+                                    <listOptionValue builtIn="false" value="-Wl,-rpath,$(XILINX_VIVADO)/lnx64/tools/dds_v6_0"/>
+
+                                </option>
+
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1979336677" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+
+                                </inputType>
+
+                            </tool>
+
+                        </toolChain>
+
+                    </folderInfo>
+
+                    <sourceEntries>
+
+                        <entry excluding="_ide" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+
+                    </sourceEntries>
+
+                </configuration>
+
+            </storageModule>
+
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+
+            <storageModule moduleId="ilg.gnuarmeclipse.managedbuild.packs"/>
+
+        </cconfiguration>
+
+        <cconfiguration id="com.xilinx.accelerated.config.hw_emu.38635360">
+
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xilinx.accelerated.config.hw_emu.38635360" moduleId="org.eclipse.cdt.core.settings" name="Emulation-HW">
+
+                <externalSettings/>
+
+                <extensions>
+
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="com.xilinx.accelerated.managedbuild.VppErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                </extensions>
+
+            </storageModule>
+
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+
+                <configuration buildArtefactType="com.xilinx.accelerated.buildArtefactType.hostExe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.xilinx.accelerated.buildArtefactType.hostExe" description="" id="com.xilinx.accelerated.config.hw_emu.38635360" name="Emulation-HW" parent="com.xilinx.accelerated.config.hw_emu">
+
+                    <folderInfo id="com.xilinx.accelerated.config.hw_emu.38635360." name="/" resourcePath="">
+
+                        <toolChain id="com.xilinx.accelerated.toolchain.hw_emu.debug.2083402629" name="Xilinx Accelerated Toolchain (x86_64)" superClass="com.xilinx.accelerated.toolchain.hw_emu.debug">
+
+                            <option id="com.xilinx.accelerated.toolchain.hw_emu.debug.option.kernel_debug.1004454066" name="Enable debugging by default for kernel code" superClass="com.xilinx.accelerated.toolchain.hw_emu.debug.option.kernel_debug" useByScannerDiscovery="false"/>
+
+                            <targetPlatform id="com.xilinx.accelerated.config.hw_emu.38635360..181417799" name=""/>
+
+                            <builder buildPath="${workspace_loc:/BiSUNA-U50}/Emulation-HW" enableAutoBuild="true" id="com.xilinx.accelerated.make_builder.209203700" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Xilinx V++ Builder" superClass="com.xilinx.accelerated.make_builder"/>
+
+                            <tool id="com.xilinx.accelerated.toolchain.hw_compiler.1973013131" name="V++ Kernel Compiler" superClass="com.xilinx.accelerated.toolchain.hw_compiler">
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_compiler.include_paths.1273582946" name="Include paths (-I)" superClass="com.xilinx.accelerated.toolchain.hw_compiler.include_paths" useByScannerDiscovery="false" valueType="includePath">
+
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libs/common/includes/OCL/Kernels}&quot;"/>
+
+                                </option>
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_compiler.other_flags.823195829" name="Other flags" superClass="com.xilinx.accelerated.toolchain.hw_compiler.other_flags" useByScannerDiscovery="false" valueType="stringList">
+
+                                    <listOptionValue builtIn="false" value="--profile_kernel data:all:all:all"/>
+
+                                </option>
+
+                                <inputType id="com.xilinx.accelerated.toolchain.hw_compiler.input.cl.1055682411" name="OpenCL files" superClass="com.xilinx.accelerated.toolchain.hw_compiler.input.cl"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.toolchain.hw_linker.1246767781" name="V++ Kernel Linker" superClass="com.xilinx.accelerated.toolchain.hw_linker">
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_linker.ip_cache.1781770701" name="IP Cache" superClass="com.xilinx.accelerated.toolchain.hw_linker.ip_cache" useByScannerDiscovery="false" value="workspace/ip_cache" valueType="string"/>
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_linker.other_flags.723524970" name="Other flags" superClass="com.xilinx.accelerated.toolchain.hw_linker.other_flags" useByScannerDiscovery="false" valueType="stringList">
+
+                                    <listOptionValue builtIn="false" value="--profile_kernel data:all:all:all"/>
+
+                                </option>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.emconfigutil.278933265" name="emconfigutil" superClass="com.xilinx.accelerated.emconfigutil"/>
+
+                            <tool id="com.xilinx.accelerated.toolchain.gcc_compiler.hw_emu.debug.1377640665" name="GCC Host Compiler (x86_64)" superClass="com.xilinx.accelerated.toolchain.gcc_compiler.hw_emu.debug">
+
+                                <option id="com.xilinx.accelerated.cpp.compiler.include.paths.150591215" name="Include paths (-I)" superClass="com.xilinx.accelerated.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+
+                                    <listOptionValue builtIn="false" value="${env_var:XILINX_XRT}/include/"/>
+
+                                    <listOptionValue builtIn="false" value="${env_var:XILINX_VIVADO_HLS}/include/"/>
+
+                                </option>
+
+                                <option id="com.xilinx.accelerated.cpp.compiler.option.dialect.std.545164328" name="Language standard" superClass="com.xilinx.accelerated.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++1y" valueType="enumerated"/>
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_emu.debug.gcc_compiler.option.debug.1543252119" name="Debug Level" superClass="com.xilinx.accelerated.toolchain.hw_emu.debug.gcc_compiler.option.debug" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+
+                                <option id="gnu.cpp.compiler.option.other.other.736164549" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -DBREAKEARLY" valueType="string"/>
+
+                                <option id="gnu.cpp.compiler.option.debugging.prof.1050625108" name="Generate prof information (-p)" superClass="gnu.cpp.compiler.option.debugging.prof" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+
+                                <inputType id="com.xilinx.accelerated.managedbuild.input.cpp.794003381" superClass="com.xilinx.accelerated.managedbuild.input.cpp"/>
+
+                                <inputType id="com.xilinx.accelerated.managedbuild.input.c.521440623" superClass="com.xilinx.accelerated.managedbuild.input.c"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.toolchain.gcc_linker.hw.262990498" name="GCC Host Linker (x86_64)" superClass="com.xilinx.accelerated.toolchain.gcc_linker.hw">
+
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.445834504" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+
+                                </inputType>
+
+                            </tool>
+
+                        </toolChain>
+
+                    </folderInfo>
+
+                    <sourceEntries>
+
+                        <entry excluding="_ide" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+
+                    </sourceEntries>
+
+                </configuration>
+
+            </storageModule>
+
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+
+            <storageModule moduleId="ilg.gnuarmeclipse.managedbuild.packs"/>
+
+        </cconfiguration>
+
+        <cconfiguration id="com.xilinx.accelerated.config.hw.1976400162">
+
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xilinx.accelerated.config.hw.1976400162" moduleId="org.eclipse.cdt.core.settings" name="Hardware">
+
+                <externalSettings/>
+
+                <extensions>
+
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="com.xilinx.accelerated.managedbuild.VppErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+
+                </extensions>
+
+            </storageModule>
+
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+
+                <configuration artifactName="${ProjName}" buildArtefactType="com.xilinx.accelerated.buildArtefactType.hostExe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.xilinx.accelerated.buildArtefactType.hostExe" cleanCommand="rm -rf" description="" id="com.xilinx.accelerated.config.hw.1976400162" name="Hardware" parent="com.xilinx.accelerated.config.hw">
+
+                    <folderInfo id="com.xilinx.accelerated.config.hw.1976400162." name="/" resourcePath="">
+
+                        <toolChain id="com.xilinx.accelerated.toolchain.hw.735117812" name="Xilinx Accelerated Toolchain (x86_64)" superClass="com.xilinx.accelerated.toolchain.hw">
+
+                            <targetPlatform id="com.xilinx.accelerated.config.hw.1976400162..1823184805" name=""/>
+
+                            <builder buildPath="${workspace_loc:/BiSUNA-U50}/Hardware" enableAutoBuild="true" id="com.xilinx.accelerated.make_builder.1391990461" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Xilinx V++ Builder" superClass="com.xilinx.accelerated.make_builder"/>
+
+                            <tool id="com.xilinx.accelerated.toolchain.hw_compiler.772656384" name="V++ Kernel Compiler" superClass="com.xilinx.accelerated.toolchain.hw_compiler">
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_compiler.include_paths.2135790564" name="Include paths (-I)" superClass="com.xilinx.accelerated.toolchain.hw_compiler.include_paths" useByScannerDiscovery="false" valueType="includePath">
+
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/OCL/Kernels}&quot;"/>
+
+                                </option>
+
+                                <inputType id="com.xilinx.accelerated.toolchain.hw_compiler.input.cl.765133860" name="OpenCL files" superClass="com.xilinx.accelerated.toolchain.hw_compiler.input.cl"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.toolchain.hw_linker.936194815" name="V++ Kernel Linker" superClass="com.xilinx.accelerated.toolchain.hw_linker">
+
+                                <option id="com.xilinx.accelerated.toolchain.hw_linker.ip_cache.1436857067" name="IP Cache" superClass="com.xilinx.accelerated.toolchain.hw_linker.ip_cache" value="workspace/ip_cache" valueType="string"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.emconfigutil.369054099" name="emconfigutil" superClass="com.xilinx.accelerated.emconfigutil"/>
+
+                            <tool id="com.xilinx.accelerated.toolchain.gcc_compiler.hw.836386803" name="GCC Host Compiler (x86_64)" superClass="com.xilinx.accelerated.toolchain.gcc_compiler.hw">
+
+                                <option id="com.xilinx.accelerated.cpp.compiler.include.paths.501098536" name="Include paths (-I)" superClass="com.xilinx.accelerated.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+
+                                    <listOptionValue builtIn="false" value="${env_var:XILINX_XRT}/include/"/>
+
+                                    <listOptionValue builtIn="false" value="${env_var:XILINX_VIVADO_HLS}/include/"/>
+
+                                </option>
+
+                                <option id="com.xilinx.accelerated.cpp.compiler.option.dialect.std.1502052163" name="Language standard" superClass="com.xilinx.accelerated.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++1y" valueType="enumerated"/>
+
+                                <inputType id="com.xilinx.accelerated.managedbuild.input.cpp.693250678" superClass="com.xilinx.accelerated.managedbuild.input.cpp"/>
+
+                                <inputType id="com.xilinx.accelerated.managedbuild.input.c.1230005610" superClass="com.xilinx.accelerated.managedbuild.input.c"/>
+
+                            </tool>
+
+                            <tool id="com.xilinx.accelerated.toolchain.gcc_linker.hw.1288324139" name="GCC Host Linker (x86_64)" superClass="com.xilinx.accelerated.toolchain.gcc_linker.hw">
+
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.632899120" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+
+                                </inputType>
+
+                            </tool>
+
+                        </toolChain>
+
+                    </folderInfo>
+
+                    <sourceEntries>
+
+                        <entry excluding="_ide" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+
+                    </sourceEntries>
+
+                </configuration>
+
+            </storageModule>
+
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+
+        </cconfiguration>
+
+    </storageModule>
+
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+
+        <project id="BiSUNA-U50.com.xilinx.accelerated.project.1293844939" name="Xilinx Accelerated Project (x86_64)" projectType="com.xilinx.accelerated.project"/>
+
+    </storageModule>
+
+    <storageModule moduleId="refreshScope" versionNumber="2">
+
+        <configuration configurationName="Emulation-HW">
+
+            <resource resourceType="PROJECT" workspacePath="/BiSUNA-U50"/>
+
+        </configuration>
+
+        <configuration configurationName="Emulation-SW">
+
+            <resource resourceType="PROJECT" workspacePath="/BiSUNA-U50"/>
+
+        </configuration>
+
+        <configuration configurationName="Hardware">
+
+            <resource resourceType="PROJECT" workspacePath="/BiSUNA-U50"/>
+
+        </configuration>
+
+    </storageModule>
+
+    <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+
+    <storageModule moduleId="scannerConfiguration">
+
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+
+        <scannerConfigBuildInfo instanceId="com.xilinx.accelerated.config.hw_emu.38635360;com.xilinx.accelerated.config.hw_emu.38635360.;com.xilinx.accelerated.toolchain.gcc_compiler.hw_emu.debug.1377640665;com.xilinx.accelerated.managedbuild.input.cpp.794003381">
+
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+
+        </scannerConfigBuildInfo>
+
+        <scannerConfigBuildInfo instanceId="com.xilinx.accelerated.config.hw_emu.38635360;com.xilinx.accelerated.config.hw_emu.38635360.;com.xilinx.accelerated.toolchain.gcc_compiler.hw_emu.debug.1377640665;com.xilinx.accelerated.managedbuild.input.c.521440623">
+
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+
+        </scannerConfigBuildInfo>
+
+        <scannerConfigBuildInfo instanceId="com.xilinx.accelerated.config.sw_emu.2042998382;com.xilinx.accelerated.config.sw_emu.2042998382.;com.xilinx.accelerated.toolchain.gcc_compiler.sw_emu.debug.1321855285;com.xilinx.accelerated.managedbuild.input.cpp.1228167501">
+
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+
+        </scannerConfigBuildInfo>
+
+        <scannerConfigBuildInfo instanceId="com.xilinx.accelerated.config.sw_emu.2042998382;com.xilinx.accelerated.config.sw_emu.2042998382.;com.xilinx.accelerated.toolchain.gcc_compiler.sw_emu.debug.1321855285;com.xilinx.accelerated.managedbuild.input.c.837688463">
+
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+
+        </scannerConfigBuildInfo>
+
+    </storageModule>
+
+</cproject>

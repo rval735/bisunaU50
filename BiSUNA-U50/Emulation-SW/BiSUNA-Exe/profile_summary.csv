@@ -1,0 +1,155 @@
+Profile Summary
+Generated on: 2020-10-13 14:38:16
+Msec since Epoch: 1602553096843
+Profiled application: BiSUNA-U50
+Target platform: 
+Tool version: 2020.1
+XRT build version: 2.6.655
+Build version branch: 2020.1
+Build version hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build version date: 2020-05-22 12:05:03 
+Target devices: xilinx_u50_gen3x16_xdma_201920_3-0
+Flow mode: Software Emulation
+
+OpenCL API Calls
+API Name,Number Of Calls,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+clFinish,2002,784.11,0.009377,0.391663,34.1479,
+clEnqueueTask,4004,430.662,0.034164,0.107558,0.343372,
+clEnqueueMigrateMemObjects,4006,176.428,0.01632,0.044041,0.225061,
+clReleaseMemObject,8033,145.395,0.003276,0.0180997,5.68846,
+clRetainMemObject,8029,70.7144,0.003105,0.00880737,0.096881,
+clRetainKernel,4006,38.5214,0.003176,0.00961592,0.215282,
+clReleaseEvent,4004,37.735,0.003416,0.00942433,0.094636,
+clReleaseKernel,4008,37.4711,0.003306,0.00934908,0.687826,
+clCreateProgramWithBinary,1,36.2221,36.2221,36.2221,36.2221,
+clCreateBuffer,4,2.9675,0.009026,0.741874,2.91366,
+clCreateKernel,2,2.81564,1.25654,1.40782,1.5591,
+clEnqueueMapBuffer,5,0.841543,0.024766,0.168309,0.666716,
+clSetKernelArg,10,0.50287,0.008015,0.050287,0.234739,
+clCreateCommandQueue,1,0.16603,0.16603,0.16603,0.16603,
+clGetDeviceInfo,24,0.128849,0.003867,0.00536871,0.011201,
+clReleaseContext,6,0.077474,0.007934,0.0129123,0.02134,
+clGetPlatformIDs,2,0.060163,0.004599,0.0300815,0.055564,
+clGetPlatformInfo,14,0.058841,0.003857,0.00420293,0.00502,
+clRetainContext,5,0.055464,0.004979,0.0110928,0.024025,
+clReleaseCommandQueue,5,0.050715,0.008877,0.010143,0.012523,
+clCreateContext,2,0.046477,0.023023,0.0232385,0.023454,
+clRetainCommandQueue,5,0.045104,0.008345,0.0090208,0.010129,
+clReleaseProgram,2,0.023815,0.01067,0.0119075,0.013145,
+clRetainProgram,2,0.021632,0.008587,0.010816,0.013045,
+clGetDeviceIDs,2,0.010279,0.004197,0.0051395,0.006082,
+clGetContextInfo,2,0.009699,0.004419,0.0048495,0.00528,
+
+
+Kernel Execution
+Kernel,Number Of Enqueues,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+processStateG,2002,1167.02,0.247964,0.582929,16.6627,
+processStateG,2002,1154.42,0.27279,0.576635,11.7711,
+
+
+Compute Unit Utilization
+Device,Compute Unit,Kernel,Global Work Size,Local Work Size,Number Of Calls,Dataflow Execution,Max Overlapping Executions,Dataflow Acceleration,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),Clock Frequency (MHz),
+xilinx_u50_gen3x16_xdma_201920_3-0,processStateG_1,processStateG,1:1:1,1:1:1,3331,No,0,1.000000x,986.55,0.03746,0.296172,12.6146,300,
+xilinx_u50_gen3x16_xdma_201920_3-0,processStateG_2,processStateG,1:1:1,1:1:1,673,No,0,1.000000x,232.334,0.183784,0.345222,2.69478,300,
+
+
+Data Transfer: Host to Global Memory
+Context:Number of Devices,Transfer Type,Number Of Buffer Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Buffer Size (KB),Total Time (ms),Average Time (ms),
+
+
+Data Transfer: Kernels to Global Memory
+Device,Compute Unit/Port Name,Kernel Arguments,Memory Resources,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Size (KB),Average Latency (ns),
+
+
+Top Data Transfer: Kernels to Global Memory
+Device,Compute Unit,Number of Transfers,Average Bytes per Transfer,Transfer Efficiency (%),Total Data Transfer (MB),Total Write (MB),Total Read (MB),Total Transfer Rate (MB/s),
+
+
+Top Kernel Execution
+Kernel Instance Address,Kernel,Context ID,Command Queue ID,Device,Start Time (ms),Duration (ms),Global Work Size,Local Work Size,
+93824995481664,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,466.502,16.6627,1:1:1,1:1:1,
+93824995481664,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,890.936,12.8372,1:1:1,1:1:1,
+93824995481664,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,1654.51,11.8788,1:1:1,1:1:1,
+93824995486672,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,1654.69,11.7711,1:1:1,1:1:1,
+93824995481664,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,768.957,4.88932,1:1:1,1:1:1,
+93824995486672,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,769.108,4.79015,1:1:1,1:1:1,
+93824995481664,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,935.35,4.26047,1:1:1,1:1:1,
+93824995486672,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,935.459,4.21205,1:1:1,1:1:1,
+93824995486672,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,1039.72,2.92722,1:1:1,1:1:1,
+93824995486672,processStateG,1,0,xilinx_u50_gen3x16_xdma_201920_3-0,1135.9,2.76558,1:1:1,1:1:1,
+
+
+Top Memory Writes: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Writing Rate(MB/s),
+8192,1,0,448.892,N/A,3601.85,N/A,
+8192,1,0,1654.17,N/A,3601.85,N/A,
+0,1,0,1654.36,N/A,0.4,N/A,
+8192,1,0,2711.95,N/A,3601.85,N/A,
+0,1,0,1099.34,N/A,0.4,N/A,
+0,1,0,1115.21,N/A,0.4,N/A,
+0,1,0,1319.46,N/A,0.4,N/A,
+0,1,0,572.287,N/A,0.4,N/A,
+0,1,0,2370.2,N/A,0.4,N/A,
+0,1,0,1752.04,N/A,0.4,N/A,
+
+
+Top Memory Reads: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Reading Rate(MB/s),
+4096,1,0,449.065,N/A,0.6,N/A,
+4096,1,0,1654.82,N/A,0.6,N/A,
+4096,1,0,1039.92,N/A,0.6,N/A,
+4096,1,0,1535.46,N/A,0.6,N/A,
+4096,1,0,1552.61,N/A,0.6,N/A,
+4096,1,0,1706.49,N/A,0.6,N/A,
+4096,1,0,632.939,N/A,0.6,N/A,
+4096,1,0,519.306,N/A,0.6,N/A,
+4096,1,0,1115.43,N/A,0.6,N/A,
+4096,1,0,932.703,N/A,0.6,N/A,
+
+
+Guidance Parameters
+Parameter,Element,Value,
+DEVICE_EXEC_TIME,xilinx_u50_gen3x16_xdma_201920_3-0,2233.743147,
+CU_CALLS,xilinx_u50_gen3x16_xdma_201920_3-0|processStateG_1,3331,
+CU_CALLS,xilinx_u50_gen3x16_xdma_201920_3-0|processStateG_2,673,
+MIGRATE_MEM,host,4006,
+PLRAM_DEVICE,all,1,
+HBM_DEVICE,all,1,
+KDMA_DEVICE,all,0,
+P2P_DEVICE,all,0,
+P2P_HOST_TRANSFERS,host,0,
+PORT_BIT_WIDTH,processStateG_1/m_axi_gmem,128,
+PORT_BIT_WIDTH,processStateG_2/m_axi_gmem,128,
+KERNEL_COUNT,processStateG,2,
+OBJECTS_RELEASED,all,0,
+TRACE_MEMORY,all,NA,
+CU_CONTEXT_EN,all,0,
+MAX_PARALLEL_KERNEL_ENQUEUES,processStateG,1,
+COMMAND_QUEUE_OOO,93824995312928,1,
+KERNEL_BUFFER_INFO,processStateG|inputG||1,400,
+KERNEL_BUFFER_INFO,processStateG|outputG||1,600,
+KERNEL_BUFFER_INFO,processStateG|cells||1,3601852,
+KERNEL_BUFFER_INFO,processStateG|inputG||1,400,
+KERNEL_BUFFER_INFO,processStateG|outputG||1,600,
+KERNEL_BUFFER_INFO,processStateG|cells||1,3601852,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50_gen3x16_xdma_201920_3-0|DDR,512,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50_gen3x16_xdma_201920_3-0|HBM,256,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50_gen3x16_xdma_201920_3-0|PLRAM,512,
+XRT_INI_SETTING,continuous_trace,0,
+XRT_INI_SETTING,continuous_trace_interval_ms,10,
+XRT_INI_SETTING,data_transfer_trace,off,
+XRT_INI_SETTING,launch_waveform,batch,
+XRT_INI_SETTING,lop_trace,0,
+XRT_INI_SETTING,power_profile,0,
+XRT_INI_SETTING,profile,1,
+XRT_INI_SETTING,stall_trace,off,
+XRT_INI_SETTING,timeline_trace,1,
+XRT_INI_SETTING,trace_buffer_size,100M,
+XRT_INI_SETTING,verbosity,4,
+BUFFER_RD_ACTIVE_TIME_MS,all,369.364,
+BUFFER_WR_ACTIVE_TIME_MS,all,202.583,
+BUFFER_TX_ACTIVE_TIME_MS,all,2269.25,
+APPLICATION_RUN_TIME_MS,all,2719.06,
+TOTAL_KERNEL_RUN_TIME_MS,all,2233.74,
+
+

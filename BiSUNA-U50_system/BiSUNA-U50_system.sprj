@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="BiSUNA-U50_system" platform="/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm" platformUID="xilinx:u50:gen3x16_xdma:201920.3" sysConfig="config0_0" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Emulation-SW">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="BiSUNA-U50" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-SW"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="BiSUNA-U50" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-SW"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu" packageOptions="">
+      <applications name="BiSUNA-U50" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-HW"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu" packageOptions="">
+      <applications name="BiSUNA-U50" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-HW"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="BiSUNA-U50" domainName="x86" domainPrettyName="x86" appBuildConfig="Hardware"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="BiSUNA-U50" domainName="x86" domainPrettyName="x86" appBuildConfig="Hardware"/>
+    </lastBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

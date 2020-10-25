@@ -1,0 +1,11 @@
+Tue Oct 13 23:49:57 2020: Server was asked to start on port: '44889'
+Tue Oct 13 23:49:57 2020: Server is using token UUID: 'abcf939a-2325-449a-a768-941127dc2179'
+Tue Oct 13 23:49:57 2020: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Oct 13 23:49:57 2020: Attempting to start server on port '44889'
+Tue Oct 13 23:49:57 2020: XCD main fifo: created main fifo '/tmp/xcdmainabcf939a-2325-449a-a768-941127dc2179', fd read = 13
+Tue Oct 13 23:49:57 2020: Running Dispatch Server
+Tue Oct 13 23:49:57 2020: Version 2.0.0
+Tue Oct 13 23:50:06 2020: Dispatch Server: Accepted socket connection from client
+Tue Oct 13 23:50:06 2020: EXCHANGE_TOKEN received, server token: abcf939a-2325-449a-a768-941127dc2179, passed token: abcf939a-2325-449a-a768-941127dc2179
+Tue Oct 13 23:50:06 2020: SESSION_MGR: creating session with session uuid: 'e30c3312-6758-4691-a03a-9a6947661dca' and name 'v++_package_BiGlobal'
+Tue Oct 13 23:50:11 2020: SESSION_MGR: closing session for UUID 'e30c3312-6758-4691-a03a-9a6947661dca' with name 'v++_package_BiGlobal'

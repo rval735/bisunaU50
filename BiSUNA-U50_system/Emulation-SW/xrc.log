@@ -1,0 +1,10 @@
+Tue Oct 13 14:37:55 2020: Server was asked to start on port: '43781'
+Tue Oct 13 14:37:55 2020: Server is using token UUID: 'cf50501c-2ca7-458e-be49-f4bbb4791c2f'
+Tue Oct 13 14:37:55 2020: Attempting to start server on port '43781'
+Tue Oct 13 14:37:55 2020: XRC main fifo: created main fifo '/tmp/xrcmaincf50501c-2ca7-458e-be49-f4bbb4791c2f', fd read = 13
+Tue Oct 13 14:37:55 2020: Running Rule Check Server
+Tue Oct 13 14:37:55 2020: Version 1.6.1
+Tue Oct 13 14:37:55 2020: Rule Check Server: Accepted socket connection from client
+Tue Oct 13 14:37:55 2020: EXCHANGE_TOKEN received, server token: cf50501c-2ca7-458e-be49-f4bbb4791c2f, passed token: cf50501c-2ca7-458e-be49-f4bbb4791c2f
+Tue Oct 13 14:37:55 2020: SESSION_MGR: creating session with session uuid: 'cc5b644c-59b3-4a52-b05c-8685e2df0422' and name 'v++_package_BiGlobal'
+Tue Oct 13 14:37:59 2020: SESSION_MGR: closing session for UUID 'cc5b644c-59b3-4a52-b05c-8685e2df0422' with name 'v++_package_BiGlobal'

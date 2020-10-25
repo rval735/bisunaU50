@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.xilinx.accelerated.config.hw_emu.38635360/LIBRARY_PATH/delimiter=\:
+environment/project/com.xilinx.accelerated.config.hw_emu.38635360/LIBRARY_PATH/operation=append
+environment/project/com.xilinx.accelerated.config.hw_emu.38635360/LIBRARY_PATH/value=/usr/lib/x86_64-linux-gnu
+environment/project/com.xilinx.accelerated.config.hw_emu.38635360/append=true
+environment/project/com.xilinx.accelerated.config.hw_emu.38635360/appendContributed=true

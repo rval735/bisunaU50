@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ASCII"?>
+<openclProject:OpenCLProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:openclProject="http://www.xilinx.com/openclproject" name="BiSUNA-U50" location="workspace/BiSUNA-U50" platform="/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm" platformUID="xilinx:u50:gen3x16_xdma:201920.3" systemProject="BiSUNA-U50_system" sysConfig="config0_0" cpu="x86" cpuInstance="x86" os="Linux">
+  <configuration name="Emulation-SW" id="com.xilinx.accelerated.config.sw_emu.2042998382" dirty="true">
+    <configBuildOptions xsi:type="openclProject:OpenCLOptions" kernelDebug="true">
+      <binaryContainers name="BiGlobal">
+        <kernels name="processStateG" sourceFile="src/OCL/Kernels/ProcessStateGlobal.cl" numComputeUnits="4" memoryPortDataWidth="128">
+          <computeUnits name="processStateG_1" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_2" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_3" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_4" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <args name="inputG" master="true"/>
+          <args name="outputG" master="true"/>
+          <args name="cells" master="true"/>
+          <args name="start"/>
+          <args name="end"/>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="openclProject:OpenCLOptions" kernelDebug="true">
+      <binaryContainers name="BiGlobal">
+        <kernels name="processStateG" sourceFile="src/OCL/Kernels/ProcessStateGlobal.cl" numComputeUnits="2">
+          <computeUnits name="processStateG_1" slr="Auto">
+            <args name="input" master="true" memory="HBM[0]"/>
+            <args name="output" master="true" memory="HBM[0]"/>
+            <args name="cells" master="true" memory="HBM[0]"/>
+          </computeUnits>
+          <computeUnits name="processStateG_2" slr="Auto">
+            <args name="input" master="true" memory="HBM[1]"/>
+            <args name="output" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[1]"/>
+          </computeUnits>
+          <args name="input" master="true"/>
+          <args name="output" master="true"/>
+          <args name="cells" master="true"/>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.accelerated.config.hw_emu.38635360">
+    <configBuildOptions xsi:type="openclProject:OpenCLOptions" kernelDebug="true" target="hw_emu">
+      <binaryContainers name="BiGlobal">
+        <kernels name="processStateG" sourceFile="src/OCL/Kernels/ProcessStateGlobal.cl" numComputeUnits="4" memoryPortDataWidth="128">
+          <computeUnits name="processStateG_1" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_2" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_3" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_4" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <args name="inputG" master="true"/>
+          <args name="outputG" master="true"/>
+          <args name="cells" master="true"/>
+          <args name="start"/>
+          <args name="end"/>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="openclProject:OpenCLOptions" kernelDebug="true" target="hw_emu">
+      <binaryContainers name="BiGlobal">
+        <kernels name="processStateG" sourceFile="src/OCL/Kernels/ProcessStateGlobal.cl" numComputeUnits="4" memoryPortDataWidth="128">
+          <computeUnits name="processStateG_1" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_2" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_3" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_4" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <args name="inputG" master="true"/>
+          <args name="outputG" master="true"/>
+          <args name="cells" master="true"/>
+          <args name="start"/>
+          <args name="end"/>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.accelerated.config.hw.1976400162" dirty="true">
+    <configBuildOptions xsi:type="openclProject:OpenCLOptions" target="hw">
+      <binaryContainers name="BiGlobal">
+        <kernels name="processStateG" sourceFile="src/OCL/Kernels/ProcessStateGlobal.cl" numComputeUnits="4" memoryPortDataWidth="128">
+          <computeUnits name="processStateG_1" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_2" slr="Auto">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_3" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <computeUnits name="processStateG_4" slr="">
+            <args name="inputG" master="true" memory="HBM[0]"/>
+            <args name="outputG" master="true" memory="HBM[1]"/>
+            <args name="cells" master="true" memory="HBM[2]"/>
+            <args name="start" memory=""/>
+            <args name="end" memory=""/>
+          </computeUnits>
+          <args name="inputG" master="true"/>
+          <args name="outputG" master="true"/>
+          <args name="cells" master="true"/>
+          <args name="start"/>
+          <args name="end"/>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="openclProject:OpenCLOptions" target="hw">
+      <binaryContainers name="BiGlobal">
+        <kernels name="processStateG" sourceFile="src/OCL/Kernels/ProcessStateGlobal.cl" numComputeUnits="10" maxMemoryPorts="true">
+          <computeUnits name="processStateG_1" slr=""/>
+          <computeUnits name="processStateG_2" slr=""/>
+          <computeUnits name="processStateG_3" slr=""/>
+          <computeUnits name="processStateG_4" slr=""/>
+          <computeUnits name="processStateG_5" slr=""/>
+          <computeUnits name="processStateG_6" slr=""/>
+          <computeUnits name="processStateG_7" slr=""/>
+          <computeUnits name="processStateG_8" slr=""/>
+          <computeUnits name="processStateG_9" slr=""/>
+          <computeUnits name="processStateG_10" slr=""/>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</openclProject:OpenCLProject>

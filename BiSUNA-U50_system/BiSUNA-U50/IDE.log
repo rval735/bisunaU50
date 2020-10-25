@@ -1,0 +1,16 @@
+11:22:19 INFO  : Launching XSCT server: xsct -n  -interactive /media/lma792/d1a8fdae-1690-4226-8ad3-56174ca447f0/lma792/workspace/BiSUNA-U50/temp_xsdb_launch_script.tcl
+11:22:19 INFO  : Registering command handlers for Vitis TCF services
+11:22:21 INFO  : Platform repository initialization has completed.
+11:22:21 INFO  : XSCT server has started successfully.
+11:22:21 INFO  : plnx-install-location is set to ''
+11:22:21 INFO  : Successfully done setting XSCT server connection channel  
+11:22:21 INFO  : Successfully done query RDI_DATADIR 
+11:22:21 INFO  : Successfully done setting workspace for the tool. 
+11:23:34 INFO  : Launching XSCT server: xsct -n  -interactive /media/lma792/d1a8fdae-1690-4226-8ad3-56174ca447f0/lma792/workspace/BiSUNA-U50/temp_xsdb_launch_script.tcl
+11:23:35 INFO  : Registering command handlers for Vitis TCF services
+11:23:36 INFO  : Platform repository initialization has completed.
+11:23:37 INFO  : XSCT server has started successfully.
+11:23:37 INFO  : plnx-install-location is set to ''
+11:23:37 INFO  : Successfully done setting XSCT server connection channel  
+11:23:37 INFO  : Successfully done query RDI_DATADIR 
+11:23:37 INFO  : Successfully done setting workspace for the tool. 
