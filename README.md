@@ -40,8 +40,8 @@ By simply calling ```make``` will try to compile the full flow of binaries neces
 continuous neurons, along the bitstreams used by the FPGA platform "xilinx_u50_gen3x16_xdma_201920_3"
 
 It would be strongly recommended to just compile sections of it as neccessary:
-``` make bisuna BiGlobal-10.xclbin ```
-``` make suna CGlobal-10.xclbin ```
+- ``` make bisuna BiGlobal-10.xclbin ```
+- ``` make suna CGlobal-10.xclbin ```
 
 The first compiles binary neurons and the FPGA bitstream. The second does the same for continuous neurons.
 
