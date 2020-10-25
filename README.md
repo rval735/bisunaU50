@@ -9,10 +9,10 @@ Obtain non-linear Deep Neural Networks (DNN) that use binary values in weights, 
 operations and is completely gradient free; which brings us to the brief summary of the
 capabilities of shown with this implementation:
 
-• Weights and activations are represented with fixed length bitset (16 bits currently)
-• Only logic operations (AND, XOR, OR...) are used, no need of Arithmetic Logic Unit (ALU)
-• Neuroevolution is employed to drive the space search
-• BNN do not have a fixed network topology, which adapt and optimize for the problem at hand.
+- Weights and activations are represented with fixed length bitset (16 bits currently)
+- Only logic operations (AND, XOR, OR...) are used, no need of Arithmetic Logic Unit (ALU)
+- Neuroevolution is employed to drive the space search
+- BNN do not have a fixed network topology, which adapt and optimize for the problem at hand.
 
 ![BiSUNA overview](resources/images/0-CoverImage.png)
 
@@ -40,8 +40,8 @@ By simply calling ```make``` will try to compile the full flow of binaries neces
 continuous neurons, along the bitstreams used by the FPGA platform "xilinx_u50_gen3x16_xdma_201920_3"
 
 It would be strongly recommended to just compile sections of it as neccessary:
-```make bisuna BiGlobal-10.xclbin```
-```make suna CGlobal-10.xclbin```
+``` make bisuna BiGlobal-10.xclbin ```
+``` make suna CGlobal-10.xclbin ```
 
 The first compiles binary neurons and the FPGA bitstream. The second does the same for continuous neurons.
 
@@ -80,16 +80,16 @@ Below are shown three screenshots of the resource utilization when BiSUNA was co
 In case you are using this project and would like to contribute to its on-going development cost, please
 leave a tip in any of the following addresses:
 
-Bitcoin: 3J7iV6pRY9vWvymJCULdwV7gWabtAfhKhK
-Ethereum: 0x8E93f5DB847E2a70ba0dA9ca2B7D608D005DEfee
-Bitcoin Cash: qrnsrhhkvathh0vhrj838ywqyzrnvfc2g5f8x3n42k
-Litecoin: MM2WdSGTbqz33cqGEDKxJthGNMh9TYQzdj
-ZCash: t1QQe9Hr2bzCitpfjk9VSnmVLBCzTV62AKL
-Cardano: addr1qy82xnct5f34h7fquqmw8tufp7tdxvc976k8skpw9z68lzss4nxemes0a5s558ts55f5q072z8vgevpyvklcn7ma8v8s375jad
-Tezos: tz1fdL7bFirVBvijUXbnrTo666hQVYkigUC3
+- Bitcoin: 3J7iV6pRY9vWvymJCULdwV7gWabtAfhKhK
+- Ethereum: 0x8E93f5DB847E2a70ba0dA9ca2B7D608D005DEfee
+- Bitcoin Cash: qrnsrhhkvathh0vhrj838ywqyzrnvfc2g5f8x3n42k
+- Litecoin: MM2WdSGTbqz33cqGEDKxJthGNMh9TYQzdj
+- ZCash: t1QQe9Hr2bzCitpfjk9VSnmVLBCzTV62AKL
+- Cardano: addr1qy82xnct5f34h7fquqmw8tufp7tdxvc976k8skpw9z68lzss4nxemes0a5s558ts55f5q072z8vgevpyvklcn7ma8v8s375jad
+- Tezos: tz1fdL7bFirVBvijUXbnrTo666hQVYkigUC3
 
 If you would like to reference this work, you can use the following bibtex entries, which are also in the [papers](papers/) folder:
-```
+
 @inproceedings{8953134,
 	Abstract = {With the explosive interest in the utilization of Neural Networks, several approaches have taken place to make them faster, more accurate or power efficient; one technique used to simplify inference models is the utilization of binary representations for weights, activations, inputs and outputs. This paper presents a novel approach to train from scratch Binary Neural Networks using neuroevolution as its base technique (gradient descent free), to then apply such results to standard Reinforcement Learning environments tested in the OpenAI Gym. The results and code can be found in https://github.com/rval735/BiSUNA.},
 	Author = {R. {Valencia} and C. {Sham} and O. {Sinnen}},
