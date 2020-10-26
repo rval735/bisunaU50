@@ -24,7 +24,7 @@ OpenCL development libraries. If running in a Debian/Ubuntu distribution it is a
 as running
 
 ```
-	sudo apt install build-essential opencl-dev
+sudo apt install build-essential opencl-dev
 ```
 
 The second is the [Xilinx Runtime XRT](https://www.xilinx.com/products/boards-and-kits/alveo/u50.html#gettingStarted), which involves more steps necessary to install

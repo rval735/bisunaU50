@@ -1,0 +1,883 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 60.13      1.40     1.40 10956329     0.00     0.00  NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&)
+  7.33      1.57     0.17   836438     0.00     0.00  NNSFunction::processRemainingNeurons(NNetworkState*)
+  5.60      1.70     0.13  6552975     0.00     0.00  std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&)
+  5.17      1.82     0.12   871540     0.00     0.00  NNSFunction::processOutputNeurons(NNetworkState*)
+  3.88      1.91     0.09   887024     0.00     0.00  NNSFunction::processControlNeurons(NNetworkState*)
+  3.45      1.99     0.08   999288     0.00     0.00  NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*)
+  3.02      2.06     0.07   873969     0.00     0.00  NNSFunction::processCPrimerNeurons(NNetworkState*)
+  2.59      2.12     0.06  1465608     0.00     0.00  NNSFunction::runControlID(unsigned short, std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuronState, std::allocator<NNeuronState> >*)
+  1.72      2.16     0.04   872033     0.00     0.00  MountainCar::step(unsigned short*)
+  1.29      2.19     0.03   428679     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand()
+  1.29      2.22     0.03      100     0.30    22.28  std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run()
+  0.86      2.24     0.02  3889594     0.00     0.00  void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&)
+  0.86      2.26     0.02   913337     0.00     0.00  void std::vector<unsigned short, std::allocator<unsigned short> >::_M_realloc_insert<unsigned short const&>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&)
+  0.86      2.28     0.02   406849     0.00     0.00  std::pair<std::_Rb_tree_iterator<unsigned short>, bool> std::_Rb_tree<unsigned short, unsigned short, std::_Identity<unsigned short>, std::less<unsigned short>, std::allocator<unsigned short> >::_M_insert_unique<unsigned short const&>(unsigned short const&)
+  0.86      2.30     0.02   156287     0.00     0.00  PConfig::weightMutationProb()
+  0.43      2.31     0.01   178797     0.00     0.00  RandomUtils::randomPositive(unsigned short)
+  0.43      2.32     0.01    60000     0.00     0.00  PConfig::mutationProb()
+  0.22      2.32     0.01      100     0.05     0.05  NNetworkState::NNetworkState(NNetworkModule*)
+  0.00      2.32     0.00   851249     0.00     0.00  UNMFunctions::step(float, std::vector<unsigned short, std::allocator<unsigned short> >, UNMCell*)
+  0.00      2.32     0.00   263668     0.00     0.00  RandomUtils::changeRandomSeed(unsigned int)
+  0.00      2.32     0.00   247655     0.00     0.00  PConfig::globalProgramConfiguration(char const*)
+  0.00      2.32     0.00   247653     0.00     0.00  RandomUtils::randomPositiveFloat(float)
+  0.00      2.32     0.00   240000     0.00     0.00  INIReader::GetReal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double) const
+  0.00      2.32     0.00   175534     0.00     0.00  NNMFunction::weightMutation(NConnection*)
+  0.00      2.32     0.00    78815     0.00     0.00  RandomUtils::randomRangeUShort(unsigned short, unsigned short, bool)
+  0.00      2.32     0.00    60000     0.00     0.00  NNetworkModule::structuralMutation()
+  0.00      2.32     0.00    30801     0.00     0.00  NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >)
+  0.00      2.32     0.00    30801     0.00     0.00  PConfig::neuroModulationProb()
+  0.00      2.32     0.00    29671     0.00     0.00  NNMFunction::addConnection(std::vector<NNeuron, std::allocator<NNeuron> >, std::vector<NConnection, std::allocator<NConnection> >*)
+  0.00      2.32     0.00    11769     0.00     0.00  NNSFunction::resetState(NNetworkState*)
+  0.00      2.32     0.00    10006     0.00     0.00  void std::vector<NMStr, std::allocator<NMStr> >::_M_realloc_insert<NMStr>(__gnu_cxx::__normal_iterator<NMStr*, std::vector<NMStr, std::allocator<NMStr> > >, NMStr&&)
+  0.00      2.32     0.00    10000     0.00     0.00  NNExFunction::removeOrphans(UNMCell*)
+  0.00      2.32     0.00    10000     0.00     0.00  NNMapFunction::idxPosition(unsigned long, NNoveltyMap*)
+  0.00      2.32     0.00     8100     0.00     0.00  NNMFunction::updatePrimers(std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuron, std::allocator<NNeuron> >*)
+  0.00      2.32     0.00     8000     0.00     0.01  UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*)
+  0.00      2.32     0.00     3934     0.00     0.00  std::vector<NConnState, std::allocator<NConnState> >::_M_default_append(unsigned long)
+  0.00      2.32     0.00     3432     0.00     0.00  std::vector<NNeuronState, std::allocator<NNeuronState> >::_M_default_append(unsigned long)
+  0.00      2.32     0.00     1391     0.00     0.00  UNMFunctions::endCellEpisode(float, unsigned short, UNMCell*)
+  0.00      2.32     0.00     1304     0.00     0.00  MountainCar::restart()
+  0.00      2.32     0.00     1116     0.00     0.00  NNMFunction::deleteNeuron(unsigned short, std::vector<NNeuron, std::allocator<NNeuron> >&)
+  0.00      2.32     0.00     1116     0.00     0.00  NNMFunction::deleteNeuronConnections(unsigned short, std::vector<NConnection, std::allocator<NConnection> >&)
+  0.00      2.32     0.00      666     0.00     0.00  RandomUtils::randomFiringRate()
+  0.00      2.32     0.00      565     0.00     0.00  NNMFunction::addNeuron(NNetworkModule*)
+  0.00      2.32     0.00      565     0.00     0.00  PConfig::neuroControlProb()
+  0.00      2.32     0.00      446     0.00     0.00  RandomUtils::randomNeuronType()
+  0.00      2.32     0.00      382     0.00     0.00  void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<std::thread>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, std::thread&&)
+  0.00      2.32     0.00      126     0.00     0.00  INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const
+  0.00      2.32     0.00      124     0.00     0.00  void std::vector<NNeuron, std::allocator<NNeuron> >::_M_realloc_insert<NNeuron const&>(__gnu_cxx::__normal_iterator<NNeuron*, std::vector<NNeuron, std::allocator<NNeuron> > >, NNeuron const&)
+  0.00      2.32     0.00      108     0.00     0.00  std::pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, bool> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::_Identity<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_insert_unique<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      2.32     0.00      108     0.00     0.00  std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      2.32     0.00      101     0.00     0.00  MountainCar::set(int)
+  0.00      2.32     0.00      101     0.00     0.00  RandomUtils::randomUInt(unsigned int)
+  0.00      2.32     0.00      101     0.00     0.00  PConfig::saveToFile()
+  0.00      2.32     0.00      100     0.00     0.00  NNMFunction::interfaceNeurons(unsigned short, unsigned short)
+  0.00      2.32     0.00      100     0.00     0.00  UNMFunctions::checkSaveGen(PConfig*, UnifiedNeuralModel const*, char const*, bool)
+  0.00      2.32     0.00      100     0.00     0.00  UNMFunctions::noveltyMapParents(std::vector<UNMCell*, std::allocator<UNMCell*> > const&, NNoveltyMap*)
+  0.00      2.32     0.00      100     0.00     0.75  UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*)
+  0.00      2.32     0.00      100     0.00     0.55  UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*)
+  0.00      2.32     0.00      100     0.00     0.00  NNetworkState::~NNetworkState()
+  0.00      2.32     0.00      100     0.00     0.00  NNetworkModule::NNetworkModule(unsigned short, unsigned short, unsigned short)
+  0.00      2.32     0.00      100     0.00     0.00  NNetworkModule::~NNetworkModule()
+  0.00      2.32     0.00      100     0.00     0.17  UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short)
+  0.00      2.32     0.00      100     0.00     0.00  std::_Hashtable<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+  0.00      2.32     0.00       80     0.00     0.00  INIReader::ValueHandler(void*, char const*, char const*, char const*)
+  0.00      2.32     0.00       42     0.00     0.00  NNMapFunction::vectorMinDistance(std::vector<NMStr, std::allocator<NMStr> > const&)
+  0.00      2.32     0.00       32     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+  0.00      2.32     0.00       28     0.00     0.00  PConfig::oclFiles[abi:cxx11]()
+  0.00      2.32     0.00        9     0.00     0.00  std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      2.32     0.00        8     0.00     0.00  MountainCar::start(int&, int&)
+  0.00      2.32     0.00        8     0.00     0.00  MountainCar::MountainCar(unsigned short, char const*)
+  0.00      2.32     0.00        8     0.00     0.00  MountainCar::~MountainCar()
+  0.00      2.32     0.00        8     0.00     0.00  ReinforcementEnvironment::ReinforcementEnvironment(unsigned short, char const*)
+  0.00      2.32     0.00        8     0.00     0.00  ReinforcementEnvironment::~ReinforcementEnvironment()
+  0.00      2.32     0.00        8     0.00     0.00  void std::vector<UNMCell*, std::allocator<UNMCell*> >::_M_realloc_insert<UNMCell* const&>(__gnu_cxx::__normal_iterator<UNMCell**, std::vector<UNMCell*, std::allocator<UNMCell*> > >, UNMCell* const&)
+  0.00      2.32     0.00        4     0.00     0.00  void std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> >::_M_realloc_insert<ReinforcementEnvironment* const&>(__gnu_cxx::__normal_iterator<ReinforcementEnvironment**, std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> > >, ReinforcementEnvironment* const&)
+  0.00      2.32     0.00        3     0.00     0.00  std::_Hashtable<unsigned long, unsigned long, std::allocator<unsigned long>, std::__detail::_Identity, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true> >::_M_rehash(unsigned long, unsigned long const&)
+  0.00      2.32     0.00        2     0.00     0.00  NNoveltyMap::NNoveltyMap(std::vector<unsigned long, std::allocator<unsigned long> > const&)
+  0.00      2.32     0.00        2     0.00     0.00  NNoveltyMap::~NNoveltyMap()
+  0.00      2.32     0.00        2     0.00     0.00  PConfig::threadNumber()
+  0.00      2.32     0.00        2     0.00     0.00  PConfig::populationSize()
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z9printCellP6CLCellt
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN10NNFunction10mainBiSUNAEPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN10OCLRuntimeC2EmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIS5_SaIS5_EES5_b
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN10RandomWalkC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11ExtraEncDecC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11MountainCarC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11MultiplexerC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN11RandomUtils10deleteRandEv
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN12NNExFunction11checkRemoveEPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN12OCLContainerC2EP7PConfigP18UnifiedNeuralModelP10OCLRuntime
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN13NNetworkStateC2EP14NNetworkModule
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN14NNetworkModuleC2Ettt
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN14SingleCartPoleC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN19SymmetricEncryptionC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN21FunctionApproximationC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN22SymmetricEncryptionCPAC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN24ReinforcementEnvironmentC2EtPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN3AESC2Ei
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN7PConfigC2EPKc
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN7UNMCellC2Etttt
+  0.00      2.32     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN9OCLBridge6toFRNTERK11NFiringRateRK11NNeuronType
+  0.00      2.32     0.00        1     0.00     0.00  RLFunctions::environmentVector(unsigned short, PConfig*)
+  0.00      2.32     0.00        1     0.00    16.94  UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*)
+  0.00      2.32     0.00        1     0.00    16.94  UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig)
+  0.00      2.32     0.00        1     0.00     0.00  UnifiedNeuralModel::~UnifiedNeuralModel()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::generations()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::loadFromFile()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::stepMutations()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::noveltyMapSize()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::environmentConf[abi:cxx11]()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::environmentName()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::episodesPerAgent()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::initialMutations()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::discardConfiguration()
+  0.00      2.32     0.00        1     0.00     0.00  PConfig::exeType()
+  0.00      2.32     0.00        1     0.00     0.01  PConfig::PConfig(char const*)
+  0.00      2.32     0.00        1     0.00     0.00  frame_dummy
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.43% of 2.32 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    2.32                 NNFunction::mainThreadedNNetwork(PConfig*) [1]
+                0.03    2.20     100/100         std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+                0.00    0.08     100/100         UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*) [11]
+                0.00    0.02       1/1           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+                0.00    0.00     100/100         UNMFunctions::checkSaveGen(PConfig*, UnifiedNeuralModel const*, char const*, bool) [43]
+                0.00    0.00       1/1           RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+                0.00    0.00       1/2           PConfig::populationSize() [47]
+                0.00    0.00       1/1           PConfig::generations() [49]
+                0.00    0.00       1/2           PConfig::threadNumber() [46]
+                0.00    0.00       1/1           PConfig::episodesPerAgent() [55]
+                0.00    0.00       1/101         PConfig::saveToFile() [42]
+                0.00    0.00     101/101         RandomUtils::randomUInt(unsigned int) [60]
+                0.00    0.00     382/382         void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<std::thread>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, std::thread&&) [78]
+                0.00    0.00     101/101         MountainCar::set(int) [82]
+                0.00    0.00       8/8           MountainCar::~MountainCar() [95]
+                0.00    0.00       1/2           NNoveltyMap::~NNoveltyMap() [102]
+                0.00    0.00       1/1           UnifiedNeuralModel::~UnifiedNeuralModel() [124]
+-----------------------------------------------
+                0.03    2.20     100/100         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[2]     96.0    0.03    2.20     100         std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+                0.00    2.16  851249/851249      UNMFunctions::step(float, std::vector<unsigned short, std::allocator<unsigned short> >, UNMCell*) [4]
+                0.04    0.00  871851/872033      MountainCar::step(unsigned short*) [15]
+                0.00    0.00    1769/11769       NNSFunction::resetState(NNetworkState*) [68]
+                0.00    0.00    1391/1391        UNMFunctions::endCellEpisode(float, unsigned short, UNMCell*) [74]
+                0.00    0.00     798/1304        MountainCar::restart() [75]
+-----------------------------------------------
+                0.08    2.08  999288/999288      UNMFunctions::step(float, std::vector<unsigned short, std::allocator<unsigned short> >, UNMCell*) [4]
+[3]     93.0    0.08    2.08  999288         NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+                0.17    0.81  836438/836438      NNSFunction::processRemainingNeurons(NNetworkState*) [6]
+                0.12    0.25  871540/871540      NNSFunction::processOutputNeurons(NNetworkState*) [7]
+                0.25    0.02 1998614/10956329     NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+                0.07    0.19  873969/873969      NNSFunction::processCPrimerNeurons(NNetworkState*) [8]
+                0.09    0.07  887024/887024      NNSFunction::processControlNeurons(NNetworkState*) [9]
+                0.04    0.00 1837261/6552975     std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&) [10]
+-----------------------------------------------
+                0.00    2.16  851249/851249      std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+[4]     93.0    0.00    2.16  851249         UNMFunctions::step(float, std::vector<unsigned short, std::allocator<unsigned short> >, UNMCell*) [4]
+                0.08    2.08  999288/999288      NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+-----------------------------------------------
+                0.04    0.00  341644/10956329     NNSFunction::processControlNeurons(NNetworkState*) [9]
+                0.12    0.01  934083/10956329     NNSFunction::processCPrimerNeurons(NNetworkState*) [8]
+                0.23    0.02 1830777/10956329     NNSFunction::processOutputNeurons(NNetworkState*) [7]
+                0.25    0.02 1998614/10956329     NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+                0.75    0.05 5851211/10956329     NNSFunction::processRemainingNeurons(NNetworkState*) [6]
+[5]     64.3    1.40    0.10 10956329         NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+                0.09    0.00 4715214/6552975     std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&) [10]
+                0.00    0.00   48982/178797      RandomUtils::randomPositive(unsigned short) [29]
+-----------------------------------------------
+                0.17    0.81  836438/836438      NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+[6]     42.0    0.17    0.81  836438         NNSFunction::processRemainingNeurons(NNetworkState*) [6]
+                0.75    0.05 5851211/10956329     NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+                0.01    0.00 1709149/3889594     void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&) [22]
+-----------------------------------------------
+                0.12    0.25  871540/871540      NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+[7]     15.9    0.12    0.25  871540         NNSFunction::processOutputNeurons(NNetworkState*) [7]
+                0.23    0.02 1830777/10956329     NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+-----------------------------------------------
+                0.07    0.19  873969/873969      NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+[8]     11.3    0.07    0.19  873969         NNSFunction::processCPrimerNeurons(NNetworkState*) [8]
+                0.12    0.01  934083/10956329     NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+                0.04    0.00 1073544/1465608     NNSFunction::runControlID(unsigned short, std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuronState, std::allocator<NNeuronState> >*) [12]
+                0.02    0.00  912855/913337      void std::vector<unsigned short, std::allocator<unsigned short> >::_M_realloc_insert<unsigned short const&>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&) [23]
+-----------------------------------------------
+                0.09    0.07  887024/887024      NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+[9]      7.1    0.09    0.07  887024         NNSFunction::processControlNeurons(NNetworkState*) [9]
+                0.04    0.00  341644/10956329     NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+                0.02    0.00  392064/1465608     NNSFunction::runControlID(unsigned short, std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuronState, std::allocator<NNeuronState> >*) [12]
+                0.01    0.00 2179754/3889594     void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&) [22]
+-----------------------------------------------
+                0.00    0.00     500/6552975     NNetworkState::NNetworkState(NNetworkModule*) [32]
+                0.04    0.00 1837261/6552975     NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [3]
+                0.09    0.00 4715214/6552975     NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+[10]     5.6    0.13    0.00 6552975         std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&) [10]
+                0.00    0.00     100/100         std::_Hashtable<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&) [88]
+-----------------------------------------------
+                0.00    0.08     100/100         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[11]     3.2    0.00    0.08     100         UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*) [11]
+                0.00    0.06     100/100         UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*) [13]
+                0.00    0.02   10000/10000       NNExFunction::removeOrphans(UNMCell*) [21]
+                0.00    0.00     100/100         UNMFunctions::noveltyMapParents(std::vector<UNMCell*, std::allocator<UNMCell*> > const&, NNoveltyMap*) [84]
+-----------------------------------------------
+                0.02    0.00  392064/1465608     NNSFunction::processControlNeurons(NNetworkState*) [9]
+                0.04    0.00 1073544/1465608     NNSFunction::processCPrimerNeurons(NNetworkState*) [8]
+[12]     2.6    0.06    0.00 1465608         NNSFunction::runControlID(unsigned short, std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuronState, std::allocator<NNeuronState> >*) [12]
+-----------------------------------------------
+                0.00    0.06     100/100         UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*) [11]
+[13]     2.4    0.00    0.06     100         UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*) [13]
+                0.00    0.05    8000/8000        UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+                0.00    0.00    8282/178797      RandomUtils::randomPositive(unsigned short) [29]
+                0.00    0.00    2000/11769       NNSFunction::resetState(NNetworkState*) [68]
+-----------------------------------------------
+                0.00    0.05    8000/8000        UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*) [13]
+[14]     2.4    0.00    0.05    8000         UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+                0.00    0.03  175534/175534      NNMFunction::weightMutation(NConnection*) [17]
+                0.00    0.02   40000/60000       NNetworkModule::structuralMutation() [16]
+                0.00    0.00     396/565         NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.00    8000/8100        NNMFunction::updatePrimers(std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuron, std::allocator<NNeuron> >*) [71]
+                0.00    0.00    8000/11769       NNSFunction::resetState(NNetworkState*) [68]
+                0.00    0.00    3934/3934        std::vector<NConnState, std::allocator<NConnState> >::_M_default_append(unsigned long) [72]
+                0.00    0.00    3432/3432        std::vector<NNeuronState, std::allocator<NNeuronState> >::_M_default_append(unsigned long) [73]
+                0.00    0.00     410/1116        NNMFunction::deleteNeuronConnections(unsigned short, std::vector<NConnection, std::allocator<NConnection> >&) [77]
+-----------------------------------------------
+                0.00    0.00      56/872033      MountainCar::MountainCar(unsigned short, char const*) [45]
+                0.00    0.00     126/872033      INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const [41]
+                0.04    0.00  871851/872033      std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+[15]     1.7    0.04    0.00  872033         MountainCar::step(unsigned short*) [15]
+                0.00    0.00     498/1304        MountainCar::restart() [75]
+-----------------------------------------------
+                0.00    0.01   20000/60000       UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+                0.00    0.02   40000/60000       UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[16]     1.5    0.00    0.04   60000         NNetworkModule::structuralMutation() [16]
+                0.01    0.02   60000/60000       PConfig::mutationProb() [20]
+                0.00    0.01   29671/29671       NNMFunction::addConnection(std::vector<NNeuron, std::allocator<NNeuron> >, std::vector<NConnection, std::allocator<NConnection> >*) [31]
+                0.00    0.00   29130/178797      RandomUtils::randomPositive(unsigned short) [29]
+                0.00    0.00   60000/247653      RandomUtils::randomPositiveFloat(float) [37]
+                0.00    0.00   60000/247655      PConfig::globalProgramConfiguration(char const*) [39]
+                0.00    0.00     634/78815       RandomUtils::randomRangeUShort(unsigned short, unsigned short, bool) [38]
+                0.00    0.00     634/1116        NNMFunction::deleteNeuron(unsigned short, std::vector<NNeuron, std::allocator<NNeuron> >&) [76]
+-----------------------------------------------
+                0.00    0.03  175534/175534      UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[17]     1.3    0.00    0.03  175534         NNMFunction::weightMutation(NConnection*) [17]
+                0.02    0.01  156287/156287      PConfig::weightMutationProb() [18]
+                0.00    0.00  156287/247653      RandomUtils::randomPositiveFloat(float) [37]
+                0.00    0.00   78181/78815       RandomUtils::randomRangeUShort(unsigned short, unsigned short, bool) [38]
+                0.00    0.00  156287/247655      PConfig::globalProgramConfiguration(char const*) [39]
+-----------------------------------------------
+                0.02    0.01  156287/156287      NNMFunction::weightMutation(NConnection*) [17]
+[18]     1.3    0.02    0.01  156287         PConfig::weightMutationProb() [18]
+                0.01    0.00  156287/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                             1710660             std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+                0.00    0.00       1/428679      PConfig::exeType() [57]
+                0.00    0.00       1/428679      PConfig::initialMutations() [56]
+                0.00    0.00       1/428679      PConfig::episodesPerAgent() [55]
+                0.00    0.00       1/428679      PConfig::environmentName() [54]
+                0.00    0.00       1/428679      PConfig::environmentConf[abi:cxx11]() [53]
+                0.00    0.00       2/428679      PConfig::generations() [49]
+                0.00    0.00       2/428679      PConfig::stepMutations() [50]
+                0.00    0.00       2/428679      PConfig::noveltyMapSize() [51]
+                0.00    0.00       4/428679      PConfig::populationSize() [47]
+                0.00    0.00       4/428679      PConfig::threadNumber() [46]
+                0.00    0.00     112/428679      PConfig::PConfig(char const*) [40]
+                0.00    0.00     412/428679      RandomUtils::randomPositiveFloat(float) [37]
+                0.00    0.00     483/428679      RandomUtils::changeRandomSeed(unsigned int) [36]
+                0.00    0.00     565/428679      PConfig::neuroControlProb() [35]
+                0.00    0.00   30801/428679      PConfig::neuroModulationProb() [33]
+                0.01    0.00  156287/428679      PConfig::weightMutationProb() [18]
+                0.02    0.00  240000/428679      INIReader::GetReal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double) const [28]
+[19]     1.3    0.03    0.00  428679+1710660 std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+                             1710660             std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.01    0.02   60000/60000       NNetworkModule::structuralMutation() [16]
+[20]     1.2    0.01    0.02   60000         PConfig::mutationProb() [20]
+                0.00    0.02  240000/240000      INIReader::GetReal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double) const [28]
+-----------------------------------------------
+                0.00    0.02   10000/10000       UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*) [11]
+[21]     0.9    0.00    0.02   10000         NNExFunction::removeOrphans(UNMCell*) [21]
+                0.02    0.00  406849/406849      std::pair<std::_Rb_tree_iterator<unsigned short>, bool> std::_Rb_tree<unsigned short, unsigned short, std::_Identity<unsigned short>, std::less<unsigned short>, std::allocator<unsigned short> >::_M_insert_unique<unsigned short const&>(unsigned short const&) [24]
+                0.00    0.00     482/913337      void std::vector<unsigned short, std::allocator<unsigned short> >::_M_realloc_insert<unsigned short const&>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&) [23]
+                0.00    0.00   10000/10006       void std::vector<NMStr, std::allocator<NMStr> >::_M_realloc_insert<NMStr>(__gnu_cxx::__normal_iterator<NMStr*, std::vector<NMStr, std::allocator<NMStr> > >, NMStr&&) [69]
+                0.00    0.00     482/1116        NNMFunction::deleteNeuron(unsigned short, std::vector<NNeuron, std::allocator<NNeuron> >&) [76]
+                0.00    0.00     482/1116        NNMFunction::deleteNeuronConnections(unsigned short, std::vector<NConnection, std::allocator<NConnection> >&) [77]
+-----------------------------------------------
+                0.00    0.00      29/3889594     NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.00     662/3889594     NNMFunction::addConnection(std::vector<NNeuron, std::allocator<NNeuron> >, std::vector<NConnection, std::allocator<NConnection> >*) [31]
+                0.01    0.00 1709149/3889594     NNSFunction::processRemainingNeurons(NNetworkState*) [6]
+                0.01    0.00 2179754/3889594     NNSFunction::processControlNeurons(NNetworkState*) [9]
+[22]     0.9    0.02    0.00 3889594         void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&) [22]
+-----------------------------------------------
+                0.00    0.00     482/913337      NNExFunction::removeOrphans(UNMCell*) [21]
+                0.02    0.00  912855/913337      NNSFunction::processCPrimerNeurons(NNetworkState*) [8]
+[23]     0.9    0.02    0.00  913337         void std::vector<unsigned short, std::allocator<unsigned short> >::_M_realloc_insert<unsigned short const&>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&) [23]
+-----------------------------------------------
+                0.02    0.00  406849/406849      NNExFunction::removeOrphans(UNMCell*) [21]
+[24]     0.9    0.02    0.00  406849         std::pair<std::_Rb_tree_iterator<unsigned short>, bool> std::_Rb_tree<unsigned short, unsigned short, std::_Identity<unsigned short>, std::less<unsigned short>, std::allocator<unsigned short> >::_M_insert_unique<unsigned short const&>(unsigned short const&) [24]
+-----------------------------------------------
+                0.00    0.02       1/1           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[25]     0.7    0.00    0.02       1         UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+                0.00    0.02       1/1           UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+                0.00    0.00       1/2           PConfig::populationSize() [47]
+                0.00    0.00       1/1           PConfig::noveltyMapSize() [51]
+                0.00    0.00       1/1           PConfig::stepMutations() [50]
+                0.00    0.00       1/1           PConfig::initialMutations() [56]
+                0.00    0.00       1/1           PConfig::loadFromFile() [59]
+                0.00    0.00       1/247655      PConfig::globalProgramConfiguration(char const*) [39]
+-----------------------------------------------
+                0.00    0.02     100/100         UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+[26]     0.7    0.00    0.02     100         UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+                0.00    0.01   20000/60000       NNetworkModule::structuralMutation() [16]
+                0.01    0.00     100/100         NNetworkState::NNetworkState(NNetworkModule*) [32]
+                0.00    0.00     169/565         NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.00     224/1116        NNMFunction::deleteNeuronConnections(unsigned short, std::vector<NConnection, std::allocator<NConnection> >&) [77]
+                0.00    0.00     100/100         NNetworkModule::NNetworkModule(unsigned short, unsigned short, unsigned short) [86]
+                0.00    0.00     100/8100        NNMFunction::updatePrimers(std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuron, std::allocator<NNeuron> >*) [71]
+-----------------------------------------------
+                0.00    0.02       1/1           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+[27]     0.7    0.00    0.02       1         UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+                0.00    0.02     100/100         UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+                0.00    0.00       8/8           void std::vector<UNMCell*, std::allocator<UNMCell*> >::_M_realloc_insert<UNMCell* const&>(__gnu_cxx::__normal_iterator<UNMCell**, std::vector<UNMCell*, std::allocator<UNMCell*> > >, UNMCell* const&) [98]
+                0.00    0.00       3/3           std::_Hashtable<unsigned long, unsigned long, std::allocator<unsigned long>, std::__detail::_Identity, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true> >::_M_rehash(unsigned long, unsigned long const&) [100]
+                0.00    0.00       2/2           NNoveltyMap::NNoveltyMap(std::vector<unsigned long, std::allocator<unsigned long> > const&) [101]
+                0.00    0.00       1/1           frame_dummy [61]
+                0.00    0.00       1/2           NNoveltyMap::~NNoveltyMap() [102]
+-----------------------------------------------
+                0.00    0.02  240000/240000      PConfig::mutationProb() [20]
+[28]     0.7    0.00    0.02  240000         INIReader::GetReal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double) const [28]
+                0.02    0.00  240000/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00    8282/178797      UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*) [13]
+                0.00    0.00   29130/178797      NNetworkModule::structuralMutation() [16]
+                0.00    0.00   48982/178797      NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [5]
+                0.01    0.00   92403/178797      NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+[29]     0.4    0.01    0.00  178797         RandomUtils::randomPositive(unsigned short) [29]
+                0.00    0.00  183842/263668      RandomUtils::changeRandomSeed(unsigned int) [36]
+-----------------------------------------------
+                0.00    0.00    1130/30801       NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.01   29671/30801       NNMFunction::addConnection(std::vector<NNeuron, std::allocator<NNeuron> >, std::vector<NConnection, std::allocator<NConnection> >*) [31]
+[30]     0.3    0.00    0.01   30801         NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+                0.01    0.00   92403/178797      RandomUtils::randomPositive(unsigned short) [29]
+                0.00    0.00   30801/30801       PConfig::neuroModulationProb() [33]
+                0.00    0.00   30801/247653      RandomUtils::randomPositiveFloat(float) [37]
+                0.00    0.00   30801/247655      PConfig::globalProgramConfiguration(char const*) [39]
+-----------------------------------------------
+                0.00    0.01   29671/29671       NNetworkModule::structuralMutation() [16]
+[31]     0.3    0.00    0.01   29671         NNMFunction::addConnection(std::vector<NNeuron, std::allocator<NNeuron> >, std::vector<NConnection, std::allocator<NConnection> >*) [31]
+                0.00    0.01   29671/30801       NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+                0.00    0.00     662/3889594     void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&) [22]
+-----------------------------------------------
+                0.01    0.00     100/100         UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+[32]     0.2    0.01    0.00     100         NNetworkState::NNetworkState(NNetworkModule*) [32]
+                0.00    0.00     500/6552975     std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&) [10]
+-----------------------------------------------
+                0.00    0.00   30801/30801       NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+[33]     0.1    0.00    0.00   30801         PConfig::neuroModulationProb() [33]
+                0.00    0.00   30801/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00     169/565         UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+                0.00    0.00     396/565         UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[34]     0.0    0.00    0.00     565         NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.00    1130/30801       NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+                0.00    0.00     565/565         PConfig::neuroControlProb() [35]
+                0.00    0.00      29/3889594     void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&) [22]
+                0.00    0.00     565/247653      RandomUtils::randomPositiveFloat(float) [37]
+                0.00    0.00     565/666         RandomUtils::randomFiringRate() [52]
+                0.00    0.00     446/446         RandomUtils::randomNeuronType() [58]
+                0.00    0.00     565/247655      PConfig::globalProgramConfiguration(char const*) [39]
+                0.00    0.00     124/124         void std::vector<NNeuron, std::allocator<NNeuron> >::_M_realloc_insert<NNeuron const&>(__gnu_cxx::__normal_iterator<NNeuron*, std::vector<NNeuron, std::allocator<NNeuron> > >, NNeuron const&) [79]
+-----------------------------------------------
+                0.00    0.00     565/565         NNMFunction::addNeuron(NNetworkModule*) [34]
+[35]     0.0    0.00    0.00     565         PConfig::neuroControlProb() [35]
+                0.00    0.00     565/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00     446/263668      RandomUtils::randomNeuronType() [58]
+                0.00    0.00     565/263668      RandomUtils::randomFiringRate() [52]
+                0.00    0.00   78815/263668      RandomUtils::randomRangeUShort(unsigned short, unsigned short, bool) [38]
+                0.00    0.00  183842/263668      RandomUtils::randomPositive(unsigned short) [29]
+[36]     0.0    0.00    0.00  263668         RandomUtils::changeRandomSeed(unsigned int) [36]
+                0.00    0.00     483/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00     565/247653      NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.00   30801/247653      NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+                0.00    0.00   60000/247653      NNetworkModule::structuralMutation() [16]
+                0.00    0.00  156287/247653      NNMFunction::weightMutation(NConnection*) [17]
+[37]     0.0    0.00    0.00  247653         RandomUtils::randomPositiveFloat(float) [37]
+                0.00    0.00     412/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00     634/78815       NNetworkModule::structuralMutation() [16]
+                0.00    0.00   78181/78815       NNMFunction::weightMutation(NConnection*) [17]
+[38]     0.0    0.00    0.00   78815         RandomUtils::randomRangeUShort(unsigned short, unsigned short, bool) [38]
+                0.00    0.00   78815/263668      RandomUtils::changeRandomSeed(unsigned int) [36]
+-----------------------------------------------
+                0.00    0.00       1/247655      UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+                0.00    0.00       1/247655      NNFunction::mainBiSUNA(char const*) [48]
+                0.00    0.00     565/247655      NNMFunction::addNeuron(NNetworkModule*) [34]
+                0.00    0.00   30801/247655      NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [30]
+                0.00    0.00   60000/247655      NNetworkModule::structuralMutation() [16]
+                0.00    0.00  156287/247655      NNMFunction::weightMutation(NConnection*) [17]
+[39]     0.0    0.00    0.00  247655         PConfig::globalProgramConfiguration(char const*) [39]
+                0.00    0.00       1/1           PConfig::PConfig(char const*) [40]
+-----------------------------------------------
+                0.00    0.00       1/1           PConfig::globalProgramConfiguration(char const*) [39]
+[40]     0.0    0.00    0.00       1         PConfig::PConfig(char const*) [40]
+                0.00    0.00     112/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+                0.00    0.00      28/28          PConfig::oclFiles[abi:cxx11]() [92]
+                0.00    0.00      28/108         std::pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, bool> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::_Identity<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_insert_unique<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+-----------------------------------------------
+                0.00    0.00       1/126         PConfig::loadFromFile() [59]
+                0.00    0.00      24/126         MountainCar::MountainCar(unsigned short, char const*) [45]
+                0.00    0.00     101/126         PConfig::saveToFile() [42]
+[41]     0.0    0.00    0.00     126         INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const [41]
+                0.00    0.00     126/872033      MountainCar::step(unsigned short*) [15]
+-----------------------------------------------
+                0.00    0.00       1/101         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+                0.00    0.00     100/101         UNMFunctions::checkSaveGen(PConfig*, UnifiedNeuralModel const*, char const*, bool) [43]
+[42]     0.0    0.00    0.00     101         PConfig::saveToFile() [42]
+                0.00    0.00     101/126         INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const [41]
+-----------------------------------------------
+                0.00    0.00     100/100         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[43]     0.0    0.00    0.00     100         UNMFunctions::checkSaveGen(PConfig*, UnifiedNeuralModel const*, char const*, bool) [43]
+                0.00    0.00     100/101         PConfig::saveToFile() [42]
+-----------------------------------------------
+                0.00    0.00       1/1           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[44]     0.0    0.00    0.00       1         RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+                0.00    0.00       8/8           MountainCar::MountainCar(unsigned short, char const*) [45]
+                0.00    0.00       1/1           PConfig::environmentName() [54]
+                0.00    0.00       1/1           PConfig::environmentConf[abi:cxx11]() [53]
+                0.00    0.00       8/1304        MountainCar::restart() [75]
+                0.00    0.00       8/8           MountainCar::start(int&, int&) [94]
+                0.00    0.00       4/4           void std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> >::_M_realloc_insert<ReinforcementEnvironment* const&>(__gnu_cxx::__normal_iterator<ReinforcementEnvironment**, std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> > >, ReinforcementEnvironment* const&) [99]
+-----------------------------------------------
+                0.00    0.00       8/8           RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+[45]     0.0    0.00    0.00       8         MountainCar::MountainCar(unsigned short, char const*) [45]
+                0.00    0.00      56/872033      MountainCar::step(unsigned short*) [15]
+                0.00    0.00      24/126         INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const [41]
+                0.00    0.00       8/8           ReinforcementEnvironment::ReinforcementEnvironment(unsigned short, char const*) [96]
+-----------------------------------------------
+                0.00    0.00       1/2           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+                0.00    0.00       1/2           NNFunction::mainBiSUNA(char const*) [48]
+[46]     0.0    0.00    0.00       2         PConfig::threadNumber() [46]
+                0.00    0.00       4/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/2           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+                0.00    0.00       1/2           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[47]     0.0    0.00    0.00       2         PConfig::populationSize() [47]
+                0.00    0.00       4/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                                                 <spontaneous>
+[48]     0.0    0.00    0.00                 NNFunction::mainBiSUNA(char const*) [48]
+                0.00    0.00       1/2           PConfig::threadNumber() [46]
+                0.00    0.00       1/1           PConfig::exeType() [57]
+                0.00    0.00       1/247655      PConfig::globalProgramConfiguration(char const*) [39]
+                0.00    0.00       1/1           PConfig::discardConfiguration() [125]
+-----------------------------------------------
+                0.00    0.00       1/1           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[49]     0.0    0.00    0.00       1         PConfig::generations() [49]
+                0.00    0.00       2/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+[50]     0.0    0.00    0.00       1         PConfig::stepMutations() [50]
+                0.00    0.00       2/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+[51]     0.0    0.00    0.00       1         PConfig::noveltyMapSize() [51]
+                0.00    0.00       2/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00     101/666         RandomUtils::randomUInt(unsigned int) [60]
+                0.00    0.00     565/666         NNMFunction::addNeuron(NNetworkModule*) [34]
+[52]     0.0    0.00    0.00     666         RandomUtils::randomFiringRate() [52]
+                0.00    0.00     565/263668      RandomUtils::changeRandomSeed(unsigned int) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+[53]     0.0    0.00    0.00       1         PConfig::environmentConf[abi:cxx11]() [53]
+                0.00    0.00       1/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+[54]     0.0    0.00    0.00       1         PConfig::environmentName() [54]
+                0.00    0.00       1/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[55]     0.0    0.00    0.00       1         PConfig::episodesPerAgent() [55]
+                0.00    0.00       1/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+[56]     0.0    0.00    0.00       1         PConfig::initialMutations() [56]
+                0.00    0.00       1/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           NNFunction::mainBiSUNA(char const*) [48]
+[57]     0.0    0.00    0.00       1         PConfig::exeType() [57]
+                0.00    0.00       1/428679      std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand() [19]
+-----------------------------------------------
+                0.00    0.00     446/446         NNMFunction::addNeuron(NNetworkModule*) [34]
+[58]     0.0    0.00    0.00     446         RandomUtils::randomNeuronType() [58]
+                0.00    0.00     446/263668      RandomUtils::changeRandomSeed(unsigned int) [36]
+-----------------------------------------------
+                0.00    0.00       1/1           UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [25]
+[59]     0.0    0.00    0.00       1         PConfig::loadFromFile() [59]
+                0.00    0.00       1/126         INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const [41]
+-----------------------------------------------
+                0.00    0.00     101/101         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[60]     0.0    0.00    0.00     101         RandomUtils::randomUInt(unsigned int) [60]
+                0.00    0.00     101/666         RandomUtils::randomFiringRate() [52]
+-----------------------------------------------
+                0.00    0.00       1/1           UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+[61]     0.0    0.00    0.00       1         frame_dummy [61]
+-----------------------------------------------
+                0.00    0.00    1769/11769       std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+                0.00    0.00    2000/11769       UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*) [13]
+                0.00    0.00    8000/11769       UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[68]     0.0    0.00    0.00   11769         NNSFunction::resetState(NNetworkState*) [68]
+-----------------------------------------------
+                0.00    0.00       6/10006       NNoveltyMap::NNoveltyMap(std::vector<unsigned long, std::allocator<unsigned long> > const&) [101]
+                0.00    0.00   10000/10006       NNExFunction::removeOrphans(UNMCell*) [21]
+[69]     0.0    0.00    0.00   10006         void std::vector<NMStr, std::allocator<NMStr> >::_M_realloc_insert<NMStr>(__gnu_cxx::__normal_iterator<NMStr*, std::vector<NMStr, std::allocator<NMStr> > >, NMStr&&) [69]
+-----------------------------------------------
+                0.00    0.00   10000/10000       UNMFunctions::noveltyMapParents(std::vector<UNMCell*, std::allocator<UNMCell*> > const&, NNoveltyMap*) [84]
+[70]     0.0    0.00    0.00   10000         NNMapFunction::idxPosition(unsigned long, NNoveltyMap*) [70]
+                0.00    0.00      40/42          NNMapFunction::vectorMinDistance(std::vector<NMStr, std::allocator<NMStr> > const&) [90]
+-----------------------------------------------
+                0.00    0.00     100/8100        UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+                0.00    0.00    8000/8100        UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[71]     0.0    0.00    0.00    8100         NNMFunction::updatePrimers(std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuron, std::allocator<NNeuron> >*) [71]
+-----------------------------------------------
+                0.00    0.00    3934/3934        UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[72]     0.0    0.00    0.00    3934         std::vector<NConnState, std::allocator<NConnState> >::_M_default_append(unsigned long) [72]
+-----------------------------------------------
+                0.00    0.00    3432/3432        UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+[73]     0.0    0.00    0.00    3432         std::vector<NNeuronState, std::allocator<NNeuronState> >::_M_default_append(unsigned long) [73]
+-----------------------------------------------
+                0.00    0.00    1391/1391        std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+[74]     0.0    0.00    0.00    1391         UNMFunctions::endCellEpisode(float, unsigned short, UNMCell*) [74]
+-----------------------------------------------
+                0.00    0.00       8/1304        RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+                0.00    0.00     498/1304        MountainCar::step(unsigned short*) [15]
+                0.00    0.00     798/1304        std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run() [2]
+[75]     0.0    0.00    0.00    1304         MountainCar::restart() [75]
+-----------------------------------------------
+                0.00    0.00     482/1116        NNExFunction::removeOrphans(UNMCell*) [21]
+                0.00    0.00     634/1116        NNetworkModule::structuralMutation() [16]
+[76]     0.0    0.00    0.00    1116         NNMFunction::deleteNeuron(unsigned short, std::vector<NNeuron, std::allocator<NNeuron> >&) [76]
+-----------------------------------------------
+                0.00    0.00     224/1116        UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+                0.00    0.00     410/1116        UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [14]
+                0.00    0.00     482/1116        NNExFunction::removeOrphans(UNMCell*) [21]
+[77]     0.0    0.00    0.00    1116         NNMFunction::deleteNeuronConnections(unsigned short, std::vector<NConnection, std::allocator<NConnection> >&) [77]
+-----------------------------------------------
+                0.00    0.00     382/382         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[78]     0.0    0.00    0.00     382         void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<std::thread>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, std::thread&&) [78]
+-----------------------------------------------
+                0.00    0.00     124/124         NNMFunction::addNeuron(NNetworkModule*) [34]
+[79]     0.0    0.00    0.00     124         void std::vector<NNeuron, std::allocator<NNeuron> >::_M_realloc_insert<NNeuron const&>(__gnu_cxx::__normal_iterator<NNeuron*, std::vector<NNeuron, std::allocator<NNeuron> > >, NNeuron const&) [79]
+-----------------------------------------------
+                0.00    0.00      28/108         PConfig::PConfig(char const*) [40]
+                0.00    0.00      80/108         INIReader::ValueHandler(void*, char const*, char const*, char const*) [89]
+[80]     0.0    0.00    0.00     108         std::pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, bool> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::_Identity<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_insert_unique<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+-----------------------------------------------
+                                  80             std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [81]
+                0.00    0.00      28/108         PConfig::oclFiles[abi:cxx11]() [92]
+                0.00    0.00      80/108         INIReader::ValueHandler(void*, char const*, char const*, char const*) [89]
+[81]     0.0    0.00    0.00     108+80      std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [81]
+                0.00    0.00       8/9           std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [93]
+                                  80             std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [81]
+-----------------------------------------------
+                0.00    0.00     101/101         NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[82]     0.0    0.00    0.00     101         MountainCar::set(int) [82]
+-----------------------------------------------
+                0.00    0.00     100/100         NNetworkModule::NNetworkModule(unsigned short, unsigned short, unsigned short) [86]
+[83]     0.0    0.00    0.00     100         NNMFunction::interfaceNeurons(unsigned short, unsigned short) [83]
+-----------------------------------------------
+                0.00    0.00     100/100         UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*) [11]
+[84]     0.0    0.00    0.00     100         UNMFunctions::noveltyMapParents(std::vector<UNMCell*, std::allocator<UNMCell*> > const&, NNoveltyMap*) [84]
+                0.00    0.00   10000/10000       NNMapFunction::idxPosition(unsigned long, NNoveltyMap*) [70]
+-----------------------------------------------
+                0.00    0.00     100/100         UnifiedNeuralModel::~UnifiedNeuralModel() [124]
+[85]     0.0    0.00    0.00     100         NNetworkState::~NNetworkState() [85]
+-----------------------------------------------
+                0.00    0.00     100/100         UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short) [26]
+[86]     0.0    0.00    0.00     100         NNetworkModule::NNetworkModule(unsigned short, unsigned short, unsigned short) [86]
+                0.00    0.00     100/100         NNMFunction::interfaceNeurons(unsigned short, unsigned short) [83]
+-----------------------------------------------
+                0.00    0.00     100/100         UnifiedNeuralModel::~UnifiedNeuralModel() [124]
+[87]     0.0    0.00    0.00     100         NNetworkModule::~NNetworkModule() [87]
+-----------------------------------------------
+                0.00    0.00     100/100         std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&) [10]
+[88]     0.0    0.00    0.00     100         std::_Hashtable<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&) [88]
+-----------------------------------------------
+                0.00    0.00      80/80          ReinforcementEnvironment::ReinforcementEnvironment(unsigned short, char const*) [96]
+[89]     0.0    0.00    0.00      80         INIReader::ValueHandler(void*, char const*, char const*, char const*) [89]
+                0.00    0.00      80/108         std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [81]
+                0.00    0.00      80/108         std::pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, bool> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::_Identity<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_insert_unique<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+-----------------------------------------------
+                0.00    0.00       2/42          NNoveltyMap::NNoveltyMap(std::vector<unsigned long, std::allocator<unsigned long> > const&) [101]
+                0.00    0.00      40/42          NNMapFunction::idxPosition(unsigned long, NNoveltyMap*) [70]
+[90]     0.0    0.00    0.00      42         NNMapFunction::vectorMinDistance(std::vector<NMStr, std::allocator<NMStr> > const&) [90]
+-----------------------------------------------
+                0.00    0.00      32/32          ReinforcementEnvironment::~ReinforcementEnvironment() [97]
+[91]     0.0    0.00    0.00      32         std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [91]
+-----------------------------------------------
+                0.00    0.00      28/28          PConfig::PConfig(char const*) [40]
+[92]     0.0    0.00    0.00      28         PConfig::oclFiles[abi:cxx11]() [92]
+                0.00    0.00      28/108         std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [81]
+                0.00    0.00       1/9           std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [93]
+-----------------------------------------------
+                0.00    0.00       1/9           PConfig::oclFiles[abi:cxx11]() [92]
+                0.00    0.00       8/9           std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [81]
+[93]     0.0    0.00    0.00       9         std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [93]
+-----------------------------------------------
+                0.00    0.00       8/8           RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+[94]     0.0    0.00    0.00       8         MountainCar::start(int&, int&) [94]
+-----------------------------------------------
+                0.00    0.00       8/8           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[95]     0.0    0.00    0.00       8         MountainCar::~MountainCar() [95]
+                0.00    0.00       8/8           ReinforcementEnvironment::~ReinforcementEnvironment() [97]
+-----------------------------------------------
+                0.00    0.00       8/8           MountainCar::MountainCar(unsigned short, char const*) [45]
+[96]     0.0    0.00    0.00       8         ReinforcementEnvironment::ReinforcementEnvironment(unsigned short, char const*) [96]
+                0.00    0.00      80/80          INIReader::ValueHandler(void*, char const*, char const*, char const*) [89]
+-----------------------------------------------
+                0.00    0.00       8/8           MountainCar::~MountainCar() [95]
+[97]     0.0    0.00    0.00       8         ReinforcementEnvironment::~ReinforcementEnvironment() [97]
+                0.00    0.00      32/32          std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [91]
+-----------------------------------------------
+                0.00    0.00       8/8           UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+[98]     0.0    0.00    0.00       8         void std::vector<UNMCell*, std::allocator<UNMCell*> >::_M_realloc_insert<UNMCell* const&>(__gnu_cxx::__normal_iterator<UNMCell**, std::vector<UNMCell*, std::allocator<UNMCell*> > >, UNMCell* const&) [98]
+-----------------------------------------------
+                0.00    0.00       4/4           RLFunctions::environmentVector(unsigned short, PConfig*) [44]
+[99]     0.0    0.00    0.00       4         void std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> >::_M_realloc_insert<ReinforcementEnvironment* const&>(__gnu_cxx::__normal_iterator<ReinforcementEnvironment**, std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> > >, ReinforcementEnvironment* const&) [99]
+-----------------------------------------------
+                0.00    0.00       3/3           UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+[100]    0.0    0.00    0.00       3         std::_Hashtable<unsigned long, unsigned long, std::allocator<unsigned long>, std::__detail::_Identity, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true> >::_M_rehash(unsigned long, unsigned long const&) [100]
+-----------------------------------------------
+                0.00    0.00       2/2           UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+[101]    0.0    0.00    0.00       2         NNoveltyMap::NNoveltyMap(std::vector<unsigned long, std::allocator<unsigned long> > const&) [101]
+                0.00    0.00       6/10006       void std::vector<NMStr, std::allocator<NMStr> >::_M_realloc_insert<NMStr>(__gnu_cxx::__normal_iterator<NMStr*, std::vector<NMStr, std::allocator<NMStr> > >, NMStr&&) [69]
+                0.00    0.00       2/42          NNMapFunction::vectorMinDistance(std::vector<NMStr, std::allocator<NMStr> > const&) [90]
+-----------------------------------------------
+                0.00    0.00       1/2           UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [27]
+                0.00    0.00       1/2           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[102]    0.0    0.00    0.00       2         NNoveltyMap::~NNoveltyMap() [102]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[103]    0.0    0.00    0.00       1         _GLOBAL__sub_I__Z9printCellP6CLCellt [103]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[104]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN10NNFunction10mainBiSUNAEPKc [104]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[105]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN10OCLRuntimeC2EmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIS5_SaIS5_EES5_b [105]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[106]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN10RandomWalkC2EtPKc [106]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[107]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11ExtraEncDecC2EtPKc [107]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[108]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11MountainCarC2EtPKc [108]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[109]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11MultiplexerC2EtPKc [109]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[110]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN11RandomUtils10deleteRandEv [110]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[111]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN12NNExFunction11checkRemoveEPKc [111]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[112]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN12OCLContainerC2EP7PConfigP18UnifiedNeuralModelP10OCLRuntime [112]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[113]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN13NNetworkStateC2EP14NNetworkModule [113]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[114]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN14NNetworkModuleC2Ettt [114]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[115]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN14SingleCartPoleC2EtPKc [115]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[116]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN19SymmetricEncryptionC2EtPKc [116]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[117]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN21FunctionApproximationC2EtPKc [117]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[118]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN22SymmetricEncryptionCPAC2EtPKc [118]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[119]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN24ReinforcementEnvironmentC2EtPKc [119]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[120]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN3AESC2Ei [120]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[121]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN7PConfigC2EPKc [121]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[122]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN7UNMCellC2Etttt [122]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [432]
+[123]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN9OCLBridge6toFRNTERK11NFiringRateRK11NNeuronType [123]
+-----------------------------------------------
+                0.00    0.00       1/1           NNFunction::mainThreadedNNetwork(PConfig*) [1]
+[124]    0.0    0.00    0.00       1         UnifiedNeuralModel::~UnifiedNeuralModel() [124]
+                0.00    0.00     100/100         NNetworkState::~NNetworkState() [85]
+                0.00    0.00     100/100         NNetworkModule::~NNetworkModule() [87]
+-----------------------------------------------
+                0.00    0.00       1/1           NNFunction::mainBiSUNA(char const*) [48]
+[125]    0.0    0.00    0.00       1         PConfig::discardConfiguration() [125]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [103] _GLOBAL__sub_I__Z9printCellP6CLCellt [9] NNSFunction::processControlNeurons(NNetworkState*) [50] PConfig::stepMutations()
+ [104] _GLOBAL__sub_I__ZN10NNFunction10mainBiSUNAEPKc [6] NNSFunction::processRemainingNeurons(NNetworkState*) [51] PConfig::noveltyMapSize()
+ [105] _GLOBAL__sub_I__ZN10OCLRuntimeC2EmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt6vectorIS5_SaIS5_EES5_b [5] NNSFunction::execute(unsigned short const&, NNetworkState*, bool const&) [47] PConfig::populationSize()
+ [106] _GLOBAL__sub_I__ZN10RandomWalkC2EtPKc [3] NNSFunction::process(std::vector<unsigned short, std::allocator<unsigned short> > const&, NNetworkState*) [53] PConfig::environmentConf[abi:cxx11]()
+ [107] _GLOBAL__sub_I__ZN11ExtraEncDecC2EtPKc [101] NNoveltyMap::NNoveltyMap(std::vector<unsigned long, std::allocator<unsigned long> > const&) [54] PConfig::environmentName()
+ [108] _GLOBAL__sub_I__ZN11MountainCarC2EtPKc [102] NNoveltyMap::~NNoveltyMap() [55] PConfig::episodesPerAgent()
+ [109] _GLOBAL__sub_I__ZN11MultiplexerC2EtPKc [44] RLFunctions::environmentVector(unsigned short, PConfig*) [56] PConfig::initialMutations()
+ [110] _GLOBAL__sub_I__ZN11RandomUtils10deleteRandEv [60] RandomUtils::randomUInt(unsigned int) [35] PConfig::neuroControlProb()
+ [111] _GLOBAL__sub_I__ZN12NNExFunction11checkRemoveEPKc [29] RandomUtils::randomPositive(unsigned short) [18] PConfig::weightMutationProb()
+ [112] _GLOBAL__sub_I__ZN12OCLContainerC2EP7PConfigP18UnifiedNeuralModelP10OCLRuntime [36] RandomUtils::changeRandomSeed(unsigned int) [33] PConfig::neuroModulationProb()
+ [113] _GLOBAL__sub_I__ZN13NNetworkStateC2EP14NNetworkModule [52] RandomUtils::randomFiringRate() [125] PConfig::discardConfiguration()
+ [114] _GLOBAL__sub_I__ZN14NNetworkModuleC2Ettt [58] RandomUtils::randomNeuronType() [39] PConfig::globalProgramConfiguration(char const*)
+ [115] _GLOBAL__sub_I__ZN14SingleCartPoleC2EtPKc [38] RandomUtils::randomRangeUShort(unsigned short, unsigned short, bool) [57] PConfig::exeType()
+ [116] _GLOBAL__sub_I__ZN19SymmetricEncryptionC2EtPKc [37] RandomUtils::randomPositiveFloat(float) [92] PConfig::oclFiles[abi:cxx11]()
+ [117] _GLOBAL__sub_I__ZN21FunctionApproximationC2EtPKc [21] NNExFunction::removeOrphans(UNMCell*) [40] PConfig::PConfig(char const*)
+ [118] _GLOBAL__sub_I__ZN22SymmetricEncryptionCPAC2EtPKc [43] UNMFunctions::checkSaveGen(PConfig*, UnifiedNeuralModel const*, char const*, bool) [26] UNMCell::UNMCell(unsigned short, unsigned short, unsigned short, unsigned short)
+ [119] _GLOBAL__sub_I__ZN24ReinforcementEnvironmentC2EtPKc [25] UNMFunctions::configureModel(unsigned short, unsigned short, PConfig*, char const*) [89] INIReader::ValueHandler(void*, char const*, char const*, char const*)
+ [120] _GLOBAL__sub_I__ZN3AESC2Ei [74] UNMFunctions::endCellEpisode(float, unsigned short, UNMCell*) [41] INIReader::GetBoolean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool) const
+ [121] _GLOBAL__sub_I__ZN7PConfigC2EPKc [14] UNMFunctions::modifyCellModule(unsigned short, unsigned short, NNetworkModule const*, UNMCell*) [28] INIReader::GetReal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double) const
+ [122] _GLOBAL__sub_I__ZN7UNMCellC2Etttt [84] UNMFunctions::noveltyMapParents(std::vector<UNMCell*, std::allocator<UNMCell*> > const&, NNoveltyMap*) [100] std::_Hashtable<unsigned long, unsigned long, std::allocator<unsigned long>, std::__detail::_Identity, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, true, true> >::_M_rehash(unsigned long, unsigned long const&)
+ [123] _GLOBAL__sub_I__ZN9OCLBridge6toFRNTERK11NFiringRateRK11NNeuronType [11] UNMFunctions::spectrumDiversityEvolve(UnifiedNeuralModel*, std::vector<unsigned short, std::allocator<unsigned short> >*) [88] std::_Hashtable<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+  [82] MountainCar::set(int)  [13] UNMFunctions::noveltyPopulationModification(unsigned short, NNoveltyMap const&, std::vector<UNMCell*, std::allocator<UNMCell*> >&, std::vector<unsigned short, std::allocator<unsigned short> >*) [91] std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+  [15] MountainCar::step(unsigned short*) [4] UNMFunctions::step(float, std::vector<unsigned short, std::allocator<unsigned short> >, UNMCell*) [19] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::_M_gen_rand()
+  [94] MountainCar::start(int&, int&) [70] NNMapFunction::idxPosition(unsigned long, NNoveltyMap*) [2] std::thread::_State_impl<std::thread::_Invoker<std::tuple<NNFunction::mainThreadedNNetwork(PConfig*)::{lambda(unsigned short, unsigned short, unsigned short, float*)#2}, int, int, int, float*> > >::_M_run()
+  [75] MountainCar::restart() [90] NNMapFunction::vectorMinDistance(std::vector<NMStr, std::allocator<NMStr> > const&) [72] std::vector<NConnState, std::allocator<NConnState> >::_M_default_append(unsigned long)
+  [45] MountainCar::MountainCar(unsigned short, char const*) [32] NNetworkState::NNetworkState(NNetworkModule*) [22] void std::vector<NConnection, std::allocator<NConnection> >::_M_realloc_insert<NConnection const&>(__gnu_cxx::__normal_iterator<NConnection*, std::vector<NConnection, std::allocator<NConnection> > >, NConnection const&)
+  [95] MountainCar::~MountainCar() [85] NNetworkState::~NNetworkState() [73] std::vector<NNeuronState, std::allocator<NNeuronState> >::_M_default_append(unsigned long)
+  [76] NNMFunction::deleteNeuron(unsigned short, std::vector<NNeuron, std::allocator<NNeuron> >&) [16] NNetworkModule::structuralMutation() [69] void std::vector<NMStr, std::allocator<NMStr> >::_M_realloc_insert<NMStr>(__gnu_cxx::__normal_iterator<NMStr*, std::vector<NMStr, std::allocator<NMStr> > >, NMStr&&)
+  [31] NNMFunction::addConnection(std::vector<NNeuron, std::allocator<NNeuron> >, std::vector<NConnection, std::allocator<NConnection> >*) [86] NNetworkModule::NNetworkModule(unsigned short, unsigned short, unsigned short) [79] void std::vector<NNeuron, std::allocator<NNeuron> >::_M_realloc_insert<NNeuron const&>(__gnu_cxx::__normal_iterator<NNeuron*, std::vector<NNeuron, std::allocator<NNeuron> > >, NNeuron const&)
+  [71] NNMFunction::updatePrimers(std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuron, std::allocator<NNeuron> >*) [87] NNetworkModule::~NNetworkModule() [99] void std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> >::_M_realloc_insert<ReinforcementEnvironment* const&>(__gnu_cxx::__normal_iterator<ReinforcementEnvironment**, std::vector<ReinforcementEnvironment*, std::allocator<ReinforcementEnvironment*> > >, ReinforcementEnvironment* const&)
+  [17] NNMFunction::weightMutation(NConnection*) [27] UnifiedNeuralModel::UnifiedNeuralModel(unsigned short, UNMConfig) [98] void std::vector<UNMCell*, std::allocator<UNMCell*> >::_M_realloc_insert<UNMCell* const&>(__gnu_cxx::__normal_iterator<UNMCell**, std::vector<UNMCell*, std::allocator<UNMCell*> > >, UNMCell* const&)
+  [83] NNMFunction::interfaceNeurons(unsigned short, unsigned short) [124] UnifiedNeuralModel::~UnifiedNeuralModel() [78] void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<std::thread>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, std::thread&&)
+  [30] NNMFunction::randomConnection(std::vector<NNeuron, std::allocator<NNeuron> >) [96] ReinforcementEnvironment::ReinforcementEnvironment(unsigned short, char const*) [23] void std::vector<unsigned short, std::allocator<unsigned short> >::_M_realloc_insert<unsigned short const&>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&)
+  [77] NNMFunction::deleteNeuronConnections(unsigned short, std::vector<NConnection, std::allocator<NConnection> >&) [97] ReinforcementEnvironment::~ReinforcementEnvironment() [80] std::pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, bool> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::_Identity<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_insert_unique<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  [34] NNMFunction::addNeuron(NNetworkModule*) [42] PConfig::saveToFile() [93] std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [68] NNSFunction::resetState(NNetworkState*) [49] PConfig::generations() [81] std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [12] NNSFunction::runControlID(unsigned short, std::vector<NConnection, std::allocator<NConnection> > const&, std::vector<NNeuronState, std::allocator<NNeuronState> >*) [59] PConfig::loadFromFile() [24] std::pair<std::_Rb_tree_iterator<unsigned short>, bool> std::_Rb_tree<unsigned short, unsigned short, std::_Identity<unsigned short>, std::less<unsigned short>, std::allocator<unsigned short> >::_M_insert_unique<unsigned short const&>(unsigned short const&)
+   [7] NNSFunction::processOutputNeurons(NNetworkState*) [20] PConfig::mutationProb() [10] std::__detail::_Map_base<unsigned short, std::pair<unsigned short const, unsigned short>, std::allocator<std::pair<unsigned short const, unsigned short> >, std::__detail::_Select1st, std::equal_to<unsigned short>, std::hash<unsigned short>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](unsigned short const&)
+   [8] NNSFunction::processCPrimerNeurons(NNetworkState*) [46] PConfig::threadNumber() [61] frame_dummy
