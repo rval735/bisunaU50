@@ -134,7 +134,7 @@ suna:
 #
 # FPGA BiGlobal.xclbin
 #
-BiGlobal.build/processStateG-1.xo: $(KERNEL) $(COMPCFG) ${COMPFLD}/${COMPFLD}/Con1.cfg
+BiGlobal.build/processStateG-1.xo: $(KERNEL) $(COMPCFG) ${COMPFLD}/Con1.cfg
 	-@$(RMDIR) $(BUILDVIVADO)
 	-@mkdir -p $(@D)
 	-@$(RM) $@
@@ -170,14 +170,14 @@ BiGlobal.build/processStateG-8.xo: $(KERNEL) $(COMPCFG) ${COMPFLD}/Con8.cfg
 BiGlobal-8.xclbin: BiGlobal.build/processStateG-8.xo $(COMPCFG) ${COMPFLD}/Con8.cfg
 	$(VPP) $(VPP_OPTS) --link --config $(COMPCFG) --config ${COMPFLD}/Con8.cfg  -o"$@" BiGlobal.build/processStateG-8.xo
 
-BiGlobal.build/processStateG-10.xo: $(KERNEL) $(COMPCFG) Con10.cfg
+BiGlobal.build/processStateG-10.xo: $(KERNEL) $(COMPCFG) ${COMPFLD}/Con10.cfg
 	-@$(RMDIR) $(BUILDVIVADO)
 	-@mkdir -p $(@D)
 	-@$(RM) $@
-	$(VPP) $(VPP_OPTS) --compile -I"$(<D)" --config $(COMPCFG) --config Con10.cfg  -o"$@" "$<"
+	$(VPP) $(VPP_OPTS) --compile -I"$(<D)" --config $(COMPCFG) --config ${COMPFLD}/Con10.cfg  -o"$@" "$<"
 
-BiGlobal-10.xclbin: BiGlobal.build/processStateG-10.xo $(COMPCFG) Con10.cfg
-	$(VPP) $(VPP_OPTS) --link --config $(COMPCFG) --config Con10.cfg  -o"$@" BiGlobal.build/processStateG-10.xo
+BiGlobal-10.xclbin: BiGlobal.build/processStateG-10.xo $(COMPCFG) ${COMPFLD}/Con10.cfg
+	$(VPP) $(VPP_OPTS) --link --config $(COMPCFG) --config ${COMPFLD}/Con10.cfg  -o"$@" BiGlobal.build/processStateG-10.xo
 
 ####
 #### Continous
@@ -219,11 +219,11 @@ BiGlobal.build/processStateGC-8.xo: $(KERNEL) $(COMPCFG) ${COMPFLD}/Con8.cfg
 CGlobal-8.xclbin: BiGlobal.build/processStateGC-8.xo $(COMPCFG) ${COMPFLD}/Con8.cfg
 	$(VPP) $(VPP_OPTS) $(DCONT) --link --config $(COMPCFG) --config ${COMPFLD}/Con8.cfg  -o"$@" BiGlobal.build/processStateGC-8.xo
 
-BiGlobal.build/processStateGC-10.xo: $(KERNEL) $(COMPCFG) Con10.cfg
+BiGlobal.build/processStateGC-10.xo: $(KERNEL) $(COMPCFG) ${COMPFLD}/Con10.cfg
 	-@$(RMDIR) $(BUILDVIVADO)
 	-@mkdir -p $(@D)
 	-@$(RM) $@
-	$(VPP) $(VPP_OPTS) --compile -I"$(<D)" $(DCONT) --config $(COMPCFG) --config Con10.cfg  -o"$@" "$<"
+	$(VPP) $(VPP_OPTS) --compile -I"$(<D)" $(DCONT) --config $(COMPCFG) --config ${COMPFLD}/Con10.cfg  -o"$@" "$<"
 
-CGlobal-10.xclbin: BiGlobal.build/processStateGC-10.xo $(COMPCFG) Con10.cfg
-	$(VPP) $(VPP_OPTS) $(DCONT) --link --config $(COMPCFG) --config Con10.cfg  -o"$@" BiGlobal.build/processStateGC-10.xo
+CGlobal-10.xclbin: BiGlobal.build/processStateGC-10.xo $(COMPCFG) ${COMPFLD}/Con10.cfg
+	$(VPP) $(VPP_OPTS) $(DCONT) --link --config $(COMPCFG) --config ${COMPFLD}/Con10.cfg  -o"$@" BiGlobal.build/processStateGC-10.xo
