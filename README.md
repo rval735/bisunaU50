@@ -140,3 +140,6 @@ If you would like to reference this work, you can use the following bibtex entri
 	series = {GECCO ’20}
 	}
 ```
+
+## Acknowledments
+Gratitude to Lindsey from [Xilinx](https://www.xilinx.com/products/boards-and-kits/alveo/u50.html) for providing the U50 board used for the tests in this repository as part of the [Adaptive Computing Developer Contest](https://www.hackster.io/contests/xilinxadaptivecomputing)
