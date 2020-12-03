@@ -1,0 +1,3105 @@
+Config file: ConfBin/10BCU.ini 
+Using binary neurons
+OpenCL mode, device: 8
+Environment 0: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket0
+Environment 1: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket1
+Environment 2: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket2
+Environment 3: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket3
+Environment 4: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket4
+Environment 5: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket5
+Environment 6: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket6
+Environment 7: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket7
+Environment 8: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket8
+Environment 9: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket9
+Environment 10: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket10
+Environment 11: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket11
+Environment 12: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket12
+Environment 13: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket13
+Environment 14: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket14
+Environment 15: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket15
+Environment 16: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket16
+Environment 17: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket17
+Environment 18: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket18
+Environment 19: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket19
+Environment 20: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket20
+Environment 21: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket21
+Environment 22: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket22
+Environment 23: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket23
+Environment 24: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket24
+Environment 25: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket25
+Environment 26: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket26
+Environment 27: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket27
+Environment 28: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket28
+Environment 29: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket29
+Environment 30: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket30
+Environment 31: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket31
+Environment 32: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket32
+Environment 33: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket33
+Environment 34: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket34
+Environment 35: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket35
+Environment 36: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket36
+Environment 37: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket37
+Environment 38: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket38
+Environment 39: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket39
+Environment 40: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket40
+Environment 41: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket41
+Environment 42: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket42
+Environment 43: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket43
+Environment 44: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket44
+Environment 45: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket45
+Environment 46: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket46
+Environment 47: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket47
+Environment 48: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket48
+Environment 49: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket49
+Environment 50: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket50
+Environment 51: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket51
+Environment 52: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket52
+Environment 53: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket53
+Environment 54: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket54
+Environment 55: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket55
+Environment 56: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket56
+Environment 57: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket57
+Environment 58: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket58
+Environment 59: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket59
+Environment 60: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket60
+Environment 61: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket61
+Environment 62: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket62
+Environment 63: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket63
+Environment 64: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket64
+Environment 65: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket65
+Environment 66: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket66
+Environment 67: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket67
+Environment 68: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket68
+Environment 69: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket69
+Environment 70: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket70
+Environment 71: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket71
+Environment 72: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket72
+Environment 73: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket73
+Environment 74: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket74
+Environment 75: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket75
+Environment 76: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket76
+Environment 77: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket77
+Environment 78: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket78
+Environment 79: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket79
+Environment 80: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket80
+Environment 81: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket81
+Environment 82: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket82
+Environment 83: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket83
+Environment 84: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket84
+Environment 85: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket85
+Environment 86: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket86
+Environment 87: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket87
+Environment 88: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket88
+Environment 89: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket89
+Environment 90: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket90
+Environment 91: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket91
+Environment 92: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket92
+Environment 93: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket93
+Environment 94: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket94
+Environment 95: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket95
+Environment 96: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket96
+Environment 97: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket97
+Environment 98: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket98
+Environment 99: SpaceInvaders-ram-v0 @ unix:///tmp/gym-uds-socket99
+Generation: 0
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 1
+Best Fitness: 290.000000
+----------------------------------------
+Generation: 2
+Best Fitness: 290.000000
+----------------------------------------
+Generation: 3
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 4
+Best Fitness: 295.000000
+----------------------------------------
+Generation: 5
+Best Fitness: 290.000000
+----------------------------------------
+Generation: 6
+Best Fitness: 380.000000
+----------------------------------------
+Generation: 7
+Best Fitness: 410.000000
+----------------------------------------
+Generation: 8
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 9
+Best Fitness: 335.000000
+----------------------------------------
+Generation: 10
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 11
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 12
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 13
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 14
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 15
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 16
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 17
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 18
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 19
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 20
+Best Fitness: 310.000000
+----------------------------------------
+Generation: 21
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 22
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 23
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 24
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 25
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 26
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 27
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 28
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 29
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 30
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 31
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 32
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 33
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 34
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 35
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 36
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 37
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 38
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 39
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 40
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 41
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 42
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 43
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 44
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 45
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 46
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 47
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 48
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 49
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 50
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 51
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 52
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 53
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 54
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 55
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 56
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 57
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 58
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 59
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 60
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 61
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 62
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 63
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 64
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 65
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 66
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 67
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 68
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 69
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 70
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 71
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 72
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 73
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 74
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 75
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 76
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 77
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 78
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 79
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 80
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 81
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 82
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 83
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 84
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 85
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 86
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 87
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 88
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 89
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 90
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 91
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 92
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 93
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 94
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 95
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 96
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 97
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 98
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 99
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 100
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 101
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 102
+Best Fitness: 285.000000
+----------------------------------------
+Generation: 103
+Best Fitness: 460.000000
+----------------------------------------
+Generation: 104
+Best Fitness: 460.000000
+----------------------------------------
+Generation: 105
+Best Fitness: 510.000000
+----------------------------------------
+Generation: 106
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 107
+Best Fitness: 735.000000
+----------------------------------------
+Generation: 108
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 109
+Best Fitness: 460.000000
+----------------------------------------
+Generation: 110
+Best Fitness: 465.000000
+----------------------------------------
+Generation: 111
+Best Fitness: 465.000000
+----------------------------------------
+Generation: 112
+Best Fitness: 485.000000
+----------------------------------------
+Generation: 113
+Best Fitness: 470.000000
+----------------------------------------
+Generation: 114
+Best Fitness: 490.000000
+----------------------------------------
+Generation: 115
+Best Fitness: 510.000000
+----------------------------------------
+Generation: 116
+Best Fitness: 485.000000
+----------------------------------------
+Generation: 117
+Best Fitness: 465.000000
+----------------------------------------
+Generation: 118
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 119
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 120
+Best Fitness: 460.000000
+----------------------------------------
+Generation: 121
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 122
+Best Fitness: 500.000000
+----------------------------------------
+Generation: 123
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 124
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 125
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 126
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 127
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 128
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 129
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 130
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 131
+Best Fitness: 510.000000
+----------------------------------------
+Generation: 132
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 133
+Best Fitness: 495.000000
+----------------------------------------
+Generation: 134
+Best Fitness: 510.000000
+----------------------------------------
+Generation: 135
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 136
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 137
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 138
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 139
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 140
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 141
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 142
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 143
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 144
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 145
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 146
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 147
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 148
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 149
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 150
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 151
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 152
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 153
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 154
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 155
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 156
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 157
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 158
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 159
+Best Fitness: 555.000000
+----------------------------------------
+Generation: 160
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 161
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 162
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 163
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 164
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 165
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 166
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 167
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 168
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 169
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 170
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 171
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 172
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 173
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 174
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 175
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 176
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 177
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 178
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 179
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 180
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 181
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 182
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 183
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 184
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 185
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 186
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 187
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 188
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 189
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 190
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 191
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 192
+Best Fitness: 530.000000
+----------------------------------------
+Generation: 193
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 194
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 195
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 196
+Best Fitness: 780.000000
+----------------------------------------
+Generation: 197
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 198
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 199
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 200
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 201
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 202
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 203
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 204
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 205
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 206
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 207
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 208
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 209
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 210
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 211
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 212
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 213
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 214
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 215
+Best Fitness: 510.000000
+----------------------------------------
+Generation: 216
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 217
+Best Fitness: 780.000000
+----------------------------------------
+Generation: 218
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 219
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 220
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 221
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 222
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 223
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 224
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 225
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 226
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 227
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 228
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 229
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 230
+Best Fitness: 595.000000
+----------------------------------------
+Generation: 231
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 232
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 233
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 234
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 235
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 236
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 237
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 238
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 239
+Best Fitness: 620.000000
+----------------------------------------
+Generation: 240
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 241
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 242
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 243
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 244
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 245
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 246
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 247
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 248
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 249
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 250
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 251
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 252
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 253
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 254
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 255
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 256
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 257
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 258
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 259
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 260
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 261
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 262
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 263
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 264
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 265
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 266
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 267
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 268
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 269
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 270
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 271
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 272
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 273
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 274
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 275
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 276
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 277
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 278
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 279
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 280
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 281
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 282
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 283
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 284
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 285
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 286
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 287
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 288
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 289
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 290
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 291
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 292
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 293
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 294
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 295
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 296
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 297
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 298
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 299
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 300
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 301
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 302
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 303
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 304
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 305
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 306
+Best Fitness: 540.000000
+----------------------------------------
+Generation: 307
+Best Fitness: 835.000000
+----------------------------------------
+Generation: 308
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 309
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 310
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 311
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 312
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 313
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 314
+Best Fitness: 540.000000
+----------------------------------------
+Generation: 315
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 316
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 317
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 318
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 319
+Best Fitness: 835.000000
+----------------------------------------
+Generation: 320
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 321
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 322
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 323
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 324
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 325
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 326
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 327
+Best Fitness: 595.000000
+----------------------------------------
+Generation: 328
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 329
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 330
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 331
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 332
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 333
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 334
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 335
+Best Fitness: 645.000000
+----------------------------------------
+Generation: 336
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 337
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 338
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 339
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 340
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 341
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 342
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 343
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 344
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 345
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 346
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 347
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 348
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 349
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 350
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 351
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 352
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 353
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 354
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 355
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 356
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 357
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 358
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 359
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 360
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 361
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 362
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 363
+Best Fitness: 735.000000
+----------------------------------------
+Generation: 364
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 365
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 366
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 367
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 368
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 369
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 370
+Best Fitness: 1005.000000
+----------------------------------------
+Generation: 371
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 372
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 373
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 374
+Best Fitness: 555.000000
+----------------------------------------
+Generation: 375
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 376
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 377
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 378
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 379
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 380
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 381
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 382
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 383
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 384
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 385
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 386
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 387
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 388
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 389
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 390
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 391
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 392
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 393
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 394
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 395
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 396
+Best Fitness: 555.000000
+----------------------------------------
+Generation: 397
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 398
+Best Fitness: 645.000000
+----------------------------------------
+Generation: 399
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 400
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 401
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 402
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 403
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 404
+Best Fitness: 595.000000
+----------------------------------------
+Generation: 405
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 406
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 407
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 408
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 409
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 410
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 411
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 412
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 413
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 414
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 415
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 416
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 417
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 418
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 419
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 420
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 421
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 422
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 423
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 424
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 425
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 426
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 427
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 428
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 429
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 430
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 431
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 432
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 433
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 434
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 435
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 436
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 437
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 438
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 439
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 440
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 441
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 442
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 443
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 444
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 445
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 446
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 447
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 448
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 449
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 450
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 451
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 452
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 453
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 454
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 455
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 456
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 457
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 458
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 459
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 460
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 461
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 462
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 463
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 464
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 465
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 466
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 467
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 468
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 469
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 470
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 471
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 472
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 473
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 474
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 475
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 476
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 477
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 478
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 479
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 480
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 481
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 482
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 483
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 484
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 485
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 486
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 487
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 488
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 489
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 490
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 491
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 492
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 493
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 494
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 495
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 496
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 497
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 498
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 499
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 500
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 501
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 502
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 503
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 504
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 505
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 506
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 507
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 508
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 509
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 510
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 511
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 512
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 513
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 514
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 515
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 516
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 517
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 518
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 519
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 520
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 521
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 522
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 523
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 524
+Best Fitness: 780.000000
+----------------------------------------
+Generation: 525
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 526
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 527
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 528
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 529
+Best Fitness: 570.000000
+----------------------------------------
+Generation: 530
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 531
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 532
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 533
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 534
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 535
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 536
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 537
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 538
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 539
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 540
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 541
+Best Fitness: 780.000000
+----------------------------------------
+Generation: 542
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 543
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 544
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 545
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 546
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 547
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 548
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 549
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 550
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 551
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 552
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 553
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 554
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 555
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 556
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 557
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 558
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 559
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 560
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 561
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 562
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 563
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 564
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 565
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 566
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 567
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 568
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 569
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 570
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 571
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 572
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 573
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 574
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 575
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 576
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 577
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 578
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 579
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 580
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 581
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 582
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 583
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 584
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 585
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 586
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 587
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 588
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 589
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 590
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 591
+Best Fitness: 570.000000
+----------------------------------------
+Generation: 592
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 593
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 594
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 595
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 596
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 597
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 598
+Best Fitness: 750.000000
+----------------------------------------
+Generation: 599
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 600
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 601
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 602
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 603
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 604
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 605
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 606
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 607
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 608
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 609
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 610
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 611
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 612
+Best Fitness: 990.000000
+----------------------------------------
+Generation: 613
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 614
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 615
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 616
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 617
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 618
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 619
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 620
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 621
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 622
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 623
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 624
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 625
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 626
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 627
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 628
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 629
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 630
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 631
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 632
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 633
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 634
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 635
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 636
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 637
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 638
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 639
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 640
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 641
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 642
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 643
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 644
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 645
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 646
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 647
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 648
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 649
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 650
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 651
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 652
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 653
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 654
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 655
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 656
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 657
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 658
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 659
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 660
+Best Fitness: 595.000000
+----------------------------------------
+Generation: 661
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 662
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 663
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 664
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 665
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 666
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 667
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 668
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 669
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 670
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 671
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 672
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 673
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 674
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 675
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 676
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 677
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 678
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 679
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 680
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 681
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 682
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 683
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 684
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 685
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 686
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 687
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 688
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 689
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 690
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 691
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 692
+Best Fitness: 780.000000
+----------------------------------------
+Generation: 693
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 694
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 695
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 696
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 697
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 698
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 699
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 700
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 701
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 702
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 703
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 704
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 705
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 706
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 707
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 708
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 709
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 710
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 711
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 712
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 713
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 714
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 715
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 716
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 717
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 718
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 719
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 720
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 721
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 722
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 723
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 724
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 725
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 726
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 727
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 728
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 729
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 730
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 731
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 732
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 733
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 734
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 735
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 736
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 737
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 738
+Best Fitness: 535.000000
+----------------------------------------
+Generation: 739
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 740
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 741
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 742
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 743
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 744
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 745
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 746
+Best Fitness: 835.000000
+----------------------------------------
+Generation: 747
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 748
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 749
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 750
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 751
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 752
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 753
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 754
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 755
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 756
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 757
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 758
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 759
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 760
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 761
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 762
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 763
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 764
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 765
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 766
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 767
+Best Fitness: 715.000000
+----------------------------------------
+Generation: 768
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 769
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 770
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 771
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 772
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 773
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 774
+Best Fitness: 545.000000
+----------------------------------------
+Generation: 775
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 776
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 777
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 778
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 779
+Best Fitness: 565.000000
+----------------------------------------
+Generation: 780
+Best Fitness: 610.000000
+----------------------------------------
+Generation: 781
+Best Fitness: 620.000000
+----------------------------------------
+Generation: 782
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 783
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 784
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 785
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 786
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 787
+Best Fitness: 545.000000
+----------------------------------------
+Generation: 788
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 789
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 790
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 791
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 792
+Best Fitness: 555.000000
+----------------------------------------
+Generation: 793
+Best Fitness: 595.000000
+----------------------------------------
+Generation: 794
+Best Fitness: 835.000000
+----------------------------------------
+Generation: 795
+Best Fitness: 620.000000
+----------------------------------------
+Generation: 796
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 797
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 798
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 799
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 800
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 801
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 802
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 803
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 804
+Best Fitness: 540.000000
+----------------------------------------
+Generation: 805
+Best Fitness: 540.000000
+----------------------------------------
+Generation: 806
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 807
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 808
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 809
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 810
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 811
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 812
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 813
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 814
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 815
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 816
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 817
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 818
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 819
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 820
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 821
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 822
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 823
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 824
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 825
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 826
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 827
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 828
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 829
+Best Fitness: 840.000000
+----------------------------------------
+Generation: 830
+Best Fitness: 600.000000
+----------------------------------------
+Generation: 831
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 832
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 833
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 834
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 835
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 836
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 837
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 838
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 839
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 840
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 841
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 842
+Best Fitness: 835.000000
+----------------------------------------
+Generation: 843
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 844
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 845
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 846
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 847
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 848
+Best Fitness: 835.000000
+----------------------------------------
+Generation: 849
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 850
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 851
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 852
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 853
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 854
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 855
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 856
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 857
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 858
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 859
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 860
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 861
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 862
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 863
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 864
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 865
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 866
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 867
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 868
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 869
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 870
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 871
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 872
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 873
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 874
+Best Fitness: 740.000000
+----------------------------------------
+Generation: 875
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 876
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 877
+Best Fitness: 795.000000
+----------------------------------------
+Generation: 878
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 879
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 880
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 881
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 882
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 883
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 884
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 885
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 886
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 887
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 888
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 889
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 890
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 891
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 892
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 893
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 894
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 895
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 896
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 897
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 898
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 899
+Best Fitness: 650.000000
+----------------------------------------
+Generation: 900
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 901
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 902
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 903
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 904
+Best Fitness: 530.000000
+----------------------------------------
+Generation: 905
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 906
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 907
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 908
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 909
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 910
+Best Fitness: 1040.000000
+----------------------------------------
+Generation: 911
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 912
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 913
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 914
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 915
+Best Fitness: 945.000000
+----------------------------------------
+Generation: 916
+Best Fitness: 1035.000000
+----------------------------------------
+Generation: 917
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 918
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 919
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 920
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 921
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 922
+Best Fitness: 775.000000
+----------------------------------------
+Generation: 923
+Best Fitness: 610.000000
+----------------------------------------
+Generation: 924
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 925
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 926
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 927
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 928
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 929
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 930
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 931
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 932
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 933
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 934
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 935
+Best Fitness: 635.000000
+----------------------------------------
+Generation: 936
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 937
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 938
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 939
+Best Fitness: 1040.000000
+----------------------------------------
+Generation: 940
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 941
+Best Fitness: 545.000000
+----------------------------------------
+Generation: 942
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 943
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 944
+Best Fitness: 645.000000
+----------------------------------------
+Generation: 945
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 946
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 947
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 948
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 949
+Best Fitness: 850.000000
+----------------------------------------
+Generation: 950
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 951
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 952
+Best Fitness: 1045.000000
+----------------------------------------
+Generation: 953
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 954
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 955
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 956
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 957
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 958
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 959
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 960
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 961
+Best Fitness: 590.000000
+----------------------------------------
+Generation: 962
+Best Fitness: 820.000000
+----------------------------------------
+Generation: 963
+Best Fitness: 770.000000
+----------------------------------------
+Generation: 964
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 965
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 966
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 967
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 968
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 969
+Best Fitness: 640.000000
+----------------------------------------
+Generation: 970
+Best Fitness: 810.000000
+----------------------------------------
+Generation: 971
+Best Fitness: 730.000000
+----------------------------------------
+Generation: 972
+Best Fitness: 510.000000
+----------------------------------------
+Generation: 973
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 974
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 975
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 976
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 977
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 978
+Best Fitness: 645.000000
+----------------------------------------
+Generation: 979
+Best Fitness: 520.000000
+----------------------------------------
+Generation: 980
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 981
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 982
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 983
+Best Fitness: 805.000000
+----------------------------------------
+Generation: 984
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 985
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 986
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 987
+Best Fitness: 720.000000
+----------------------------------------
+Generation: 988
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 989
+Best Fitness: 735.000000
+----------------------------------------
+Generation: 990
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 991
+Best Fitness: 800.000000
+----------------------------------------
+Generation: 992
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 993
+Best Fitness: 845.000000
+----------------------------------------
+Generation: 994
+Best Fitness: 790.000000
+----------------------------------------
+Generation: 995
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 996
+Best Fitness: 745.000000
+----------------------------------------
+Generation: 997
+Best Fitness: 765.000000
+----------------------------------------
+Generation: 998
+Best Fitness: 815.000000
+----------------------------------------
+Generation: 999
+Best Fitness: 945.000000
+----------------------------------------
+TimeDiff: 273065 secs
+Last best score: 945.000000
